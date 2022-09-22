@@ -10,6 +10,7 @@ import Youtube from "./assets/YouTube.svg";
 import LinkedIn from "./assets/LinkedIn.svg";
 import Instagram from "./assets/Instagram.svg";
 import Twiter from "./assets/Twiter.svg";
+import "./tailwind.css";
 
 import React from "react";
 import {
