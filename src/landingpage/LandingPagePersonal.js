@@ -62,25 +62,31 @@ function ParallaxCardsMobile() {
                     "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
                   }
                   className="w-24 h-32 rounded-lg"
+                  alt=""
                 />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
                   className="w-24 h-32 rounded-lg"
+                  alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Itunes} className="w-24 h-32 rounded-lg " />
-                <img src={LeageofLegends} className="w-24 h-32 rounded-lg " />
+                <img src={Itunes} className="w-24 h-32 rounded-lg " alt="" />
+                <img
+                  src={LeageofLegends}
+                  className="w-24 h-32 rounded-lg "
+                  alt=""
+                />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Fornite} className="w-24 h-32 rounded-lg " />
-                <img src={xbox} className="w-24 h-32 rounded-lg " />
+                <img src={Fornite} className="w-24 h-32 rounded-lg " alt="" />
+                <img src={xbox} className="w-24 h-32 rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
@@ -93,7 +99,12 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={12}
           >
-            <img src={CLARKSC} className="w-36 h-48 rounded-lg" id="bigLeft" />
+            <img
+              src={CLARKSC}
+              className="w-36 h-48 rounded-lg"
+              id="bigLeft"
+              alt=""
+            />
           </Parallax>
           <Parallax
             translateY={[-20, -800]}
@@ -101,7 +112,7 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={12}
           >
-            <img src={CASIOC} className="w-36 h-48 rounded-lg " />
+            <img src={CASIOC} className="w-36 h-48 rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -112,7 +123,11 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={10}
           >
-            <img src={EDENPARKC} className="flex w-32 h-40 rounded-lg " />
+            <img
+              src={EDENPARKC}
+              className="flex w-32 h-40 rounded-lg "
+              alt=""
+            />
           </Parallax>
           <Parallax
             translateY={[-15, -800]}
@@ -120,7 +135,7 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-32 h-40 rounded-lg  " />
+            <img src={WATCHCENTERC} className="w-32 h-40 rounded-lg  " alt="" />
           </Parallax>
         </div>
 
@@ -131,7 +146,7 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={5}
           >
-            <img src={DOJUC} className="flex w-24 h-32 rounded-lg b" />
+            <img src={DOJUC} className="flex w-24 h-32 rounded-lg b" alt="" />
           </Parallax>
           <Parallax
             translateY={[-10, -850]}
@@ -139,7 +154,7 @@ function ParallaxCardsMobile() {
             scale={[1.1, 2]}
             speed={5}
           >
-            <img src={sneaksaC} className="w-24 h-32 rounded-lg b " />
+            <img src={sneaksaC} className="w-24 h-32 rounded-lg b " alt="" />
           </Parallax>
         </div>
       </div>
@@ -160,25 +175,31 @@ function ParallaxCardsMd() {
                     "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
                   }
                   className="w-28  rounded-lg"
+                  alt=""
                 />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
                   className="w-28  rounded-lg"
+                  alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Itunes} className="w-28  rounded-lg " />
-                <img src={LeageofLegends} className="w-28  rounded-lg " />
+                <img src={Itunes} className="w-28  rounded-lg " alt="" />
+                <img
+                  src={LeageofLegends}
+                  className="w-28  rounded-lg "
+                  alt=""
+                />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Fornite} className="w-28  rounded-lg " />
-                <img src={xbox} className="w-28  rounded-lg " />
+                <img src={Fornite} className="w-28  rounded-lg " alt="" />
+                <img src={xbox} className="w-28  rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
@@ -191,7 +212,7 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={12}
           >
-            <img src={CLARKSC} className="w-[185px] rounded-lg " />
+            <img src={CLARKSC} className="w-[185px] rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -800]}
@@ -199,7 +220,7 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={12}
           >
-            <img src={CASIOC} className="w-[185px] rounded-lg " />
+            <img src={CASIOC} className="w-[185px] rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -210,7 +231,11 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={10}
           >
-            <img src={EDENPARKC} className="flex w-40 h-48 rounded-lg " />
+            <img
+              src={EDENPARKC}
+              className="flex w-40 h-48 rounded-lg "
+              alt=""
+            />
           </Parallax>
           <Parallax
             translateY={[300, -600]}
@@ -218,7 +243,7 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-40 h-48 rounded-lg " />
+            <img src={WATCHCENTERC} className="w-40 h-48 rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -229,7 +254,7 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={5}
           >
-            <img src={DOJUC} className="flex w-32 h-40 rounded-lg " />
+            <img src={DOJUC} className="flex w-32 h-40 rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -400]}
@@ -237,7 +262,7 @@ function ParallaxCardsMd() {
             scale={[1, 2]}
             speed={5}
           >
-            <img src={sneaksaC} className="w-32 h-40 rounded-lg  " />
+            <img src={sneaksaC} className="w-32 h-40 rounded-lg  " alt="" />
           </Parallax>
         </div>
       </div>
@@ -258,25 +283,31 @@ function ParallaxCardsLg() {
                     "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
                   }
                   className="w-[135px]  rounded-lg"
+                  alt=""
                 />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
                   className="w-[135px]  rounded-lg "
+                  alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="flex gap-4">
-                <img src={Itunes} className="w-[135px]  rounded-lg " />
-                <img src={LeageofLegends} className="w-[135px]  rounded-lg " />
+                <img src={Itunes} className="w-[135px]  rounded-lg " alt="" />
+                <img
+                  src={LeageofLegends}
+                  className="w-[135px]  rounded-lg "
+                  alt=""
+                />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="flex gap-4">
-                <img src={Fornite} className="w-[135px]  rounded-lg " />
-                <img src={xbox} className="w-[135px]  rounded-lg " />
+                <img src={Fornite} className="w-[135px]  rounded-lg " alt="" />
+                <img src={xbox} className="w-[135px]  rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
@@ -289,7 +320,12 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={12}
           >
-            <img src={CLARKSC} className="w-52  rounded-lg " id="bigLeft" />
+            <img
+              src={CLARKSC}
+              className="w-52  rounded-lg "
+              id="bigLeft"
+              alt=""
+            />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
@@ -297,7 +333,7 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={12}
           >
-            <img src={CASIOC} className="w-52  rounded-lg " />
+            <img src={CASIOC} className="w-52  rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -308,7 +344,7 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={10}
           >
-            <img src={EDENPARKC} className="flex w-40  rounded-lg " />
+            <img src={EDENPARKC} className="flex w-40  rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
@@ -316,7 +352,7 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-40  rounded-lg  " />
+            <img src={WATCHCENTERC} className="w-40  rounded-lg  " alt="" />
           </Parallax>
         </div>
 
@@ -327,7 +363,7 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={5}
           >
-            <img src={DOJUC} className="flex w-32  rounded-lg " />
+            <img src={DOJUC} className="flex w-32  rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -600]}
@@ -335,7 +371,7 @@ function ParallaxCardsLg() {
             scale={[1, 2]}
             speed={5}
           >
-            <img src={sneaksaC} className="w-32  rounded-lg " />
+            <img src={sneaksaC} className="w-32  rounded-lg " alt="" />
           </Parallax>
         </div>
       </div>
@@ -355,25 +391,31 @@ function ParallaxCards() {
                     "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
                   }
                   className="w-[185px] rounded-lg"
+                  alt=""
                 />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
                   className="w-[185px] rounded-lg "
+                  alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="flex gap-4">
-                <img src={Itunes} className="w-[185px] rounded-lg" />
-                <img src={LeageofLegends} className="w-[185px] rounded-lg" />
+                <img src={Itunes} className="w-[185px] rounded-lg" alt="" />
+                <img
+                  src={LeageofLegends}
+                  className="w-[185px] rounded-lg"
+                  alt=""
+                />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="flex gap-4">
-                <img src={Fornite} className="w-[185px] rounded-lg " />
-                <img src={xbox} className="w-[185px] rounded-lg " />
+                <img src={Fornite} className="w-[185px] rounded-lg " alt="" />
+                <img src={xbox} className="w-[185px] rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
@@ -386,7 +428,12 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={12}
           >
-            <img src={CLARKSC} className="w-72 h-96 rounded-lg" id="bigLeft" />
+            <img
+              src={CLARKSC}
+              className="w-72 h-96 rounded-lg"
+              id="bigLeft"
+              alt=""
+            />
           </Parallax>
           <Parallax
             translateY={[50, -600]}
@@ -394,7 +441,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={12}
           >
-            <img src={CASIOC} className="w-72 h-96 rounded-lg " />
+            <img src={CASIOC} className="w-72 h-96 rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -405,7 +452,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={EDENPARKC} className="flex w-64 h-80 rounded-lg" />
+            <img src={EDENPARKC} className="flex w-64 h-80 rounded-lg" alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -400]}
@@ -413,7 +460,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-64 h-80 rounded-lg " />
+            <img src={WATCHCENTERC} className="w-64 h-80 rounded-lg " alt="" />
           </Parallax>
         </div>
 
@@ -424,7 +471,7 @@ function ParallaxCards() {
             scale={[1, 2]}
             speed={8}
           >
-            <img src={DOJUC} className="flex w-52 h-64 rounded-lg " />
+            <img src={DOJUC} className="flex w-52 h-64 rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -200]}
@@ -432,7 +479,7 @@ function ParallaxCards() {
             scale={[1, 2]}
             speed={8}
           >
-            <img src={sneaksaC} className="w-52 h-64 rounded-lg " />
+            <img src={sneaksaC} className="w-52 h-64 rounded-lg " alt="" />
           </Parallax>
         </div>
       </div>
@@ -458,7 +505,7 @@ function DownloadButtons() {
           className="flex justify-center
                   items-center text-left px-2 "
         >
-          <img src={HUAWEI}></img>
+          <img src={HUAWEI} alt=""></img>
         </a>
       ) : navigator.userAgent.indexOf("like Mac") != -1 ? (
         <a
@@ -466,14 +513,14 @@ function DownloadButtons() {
           className="flex justify-center
               items-center  "
         >
-          <img src={ios}></img>
+          <img src={ios} alt=""></img>
         </a>
       ) : navigator.userAgent.indexOf("Android") != -1 ? (
         <a
           href="https://goubba.app.link/Goubba_App"
           className="flex justify-center"
         >
-          <img src={googlePlay}></img>
+          <img src={googlePlay} alt=""></img>
         </a>
       ) : (
         <div className="flex gap-4 justify-center items-center">
@@ -481,21 +528,21 @@ function DownloadButtons() {
             href="https://goubba.app.link/Goubba_App"
             className="flex justify-center"
           >
-            <img src={googlePlay}></img>
+            <img src={googlePlay} alt=""></img>
           </a>
           <a
             href="https://apps.apple.com/us/app/goubba-cashback-codes-promo/id1519941116"
             className="flex justify-center
                 items-center  "
           >
-            <img src={ios}></img>
+            <img src={ios} alt=""></img>
           </a>
           <a
             href="https://appgallery.huawei.com/app/C105229305"
             className="flex justify-center
                 items-center text-left px-2 "
           >
-            <img src={HUAWEI}></img>
+            <img src={HUAWEI} alt=""></img>
           </a>
         </div>
       )}
@@ -588,20 +635,20 @@ function App() {
             Our Partners
           </h2>
           <div className="hidden xl:flex items-center justify-center my-12 gap-2 ">
-            <img src={technoC} className="w-52 rounded-lg"></img>
-            <img src={scechersC} className="w-52 rounded-lg"></img>
-            <img src={cazanimoC} className="w-52 rounded-lg"></img>
-            <img src={footlandC} className="w-52 rounded-lg"></img>
-            <img src={profootC} className="w-52 rounded-lg"></img>
-            <img src={camperC} className="w-52  rounded-lg"></img>
+            <img src={technoC} className="w-52 rounded-lg" alt=""></img>
+            <img src={scechersC} className="w-52 rounded-lg" alt=""></img>
+            <img src={cazanimoC} className="w-52 rounded-lg" alt=""></img>
+            <img src={footlandC} className="w-52 rounded-lg" alt=""></img>
+            <img src={profootC} className="w-52 rounded-lg" alt=""></img>
+            <img src={camperC} className="w-52  rounded-lg" alt=""></img>
           </div>
           <div className="flex xl:hidden items-center  my-12 gap-2 overflow-x-auto no-scrollbar">
-            <img src={technoC} className="w-52 rounded-lg"></img>
-            <img src={scechersC} className="w-52 rounded-lg"></img>
-            <img src={cazanimoC} className="w-52 rounded-lg"></img>
-            <img src={footlandC} className="w-52 rounded-lg"></img>
-            <img src={profootC} className="w-52 rounded-lg"></img>
-            <img src={camperC} className="w-52  rounded-lg"></img>
+            <img src={technoC} className="w-52 rounded-lg" alt=""></img>
+            <img src={scechersC} className="w-52 rounded-lg" alt=""></img>
+            <img src={cazanimoC} className="w-52 rounded-lg" alt=""></img>
+            <img src={footlandC} className="w-52 rounded-lg" alt=""></img>
+            <img src={profootC} className="w-52 rounded-lg" alt=""></img>
+            <img src={camperC} className="w-52  rounded-lg" alt=""></img>
           </div>
           <div className="flex justify-center ">
             <a
@@ -645,6 +692,7 @@ function App() {
                           src={
                             "https://adminv2.goubba.com/image?path=react-web/assets/redArrow.png"
                           }
+                          alt=""
                         ></img>
                       </div>
                     </Parallax>
@@ -654,6 +702,7 @@ function App() {
                       src={
                         "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQr.png"
                       }
+                      alt=""
                     ></img>
                   </div>
                   <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
@@ -663,6 +712,7 @@ function App() {
                           src={
                             "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlide.png"
                           }
+                          alt=""
                         ></img>
                       </div>
                     </Parallax>
@@ -754,6 +804,7 @@ function App() {
                     src={
                       "https://adminv2.goubba.com/image?path=react-web/assets/zolizola.png"
                     }
+                    alt=""
                   ></img>
                 </div>
               </div>
@@ -772,6 +823,7 @@ function App() {
                           src={
                             "https://adminv2.goubba.com/image?path=react-web/assets/arrows.png"
                           }
+                          alt=""
                         ></img>
                       </div>
                     </Parallax>
@@ -781,6 +833,7 @@ function App() {
                       src={
                         "https://adminv2.goubba.com/image?path=react-web/assets/phoneList.png"
                       }
+                      alt=""
                     ></img>
                   </div>
                   <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
@@ -790,6 +843,7 @@ function App() {
                           src={
                             "https://adminv2.goubba.com/image?path=react-web/assets/promo.png"
                           }
+                          alt=""
                         ></img>
                       </div>
                     </Parallax>
@@ -834,7 +888,7 @@ function App() {
                 </div>
                 <div className="py-12">
                   <p className="text-sm text-gray-500">We accept:</p>
-                  <img src={pay}></img>
+                  <img src={pay} alt=""></img>
                 </div>
               </div>
             </div>

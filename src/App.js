@@ -330,7 +330,7 @@ function App({ history = defaultHistory }) {
                   cashback, and promo codes are here!
                 </p>
               </div>
-              <img src={startup}></img>
+              <img src={startup} alt=""></img>
             </div>
             <div className="flex justify-end items-start">
               <button
@@ -395,17 +395,26 @@ function App({ history = defaultHistory }) {
               <h3 className="font-bold text-[#cccccc]">SHOP</h3>
               <ul>
                 <li>
-                  <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                  <a
+                    href="/"
+                    className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                  >
                     Gift cards
                   </a>
                 </li>
                 <li>
-                  <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                  <a
+                    href="/promo"
+                    className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                  >
                     Promo codes & deals
                   </a>
                 </li>
                 <li>
-                  <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                  <a
+                    href="/cashback"
+                    className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                  >
                     Cashbacks
                   </a>
                 </li>
@@ -473,7 +482,7 @@ function App({ history = defaultHistory }) {
             <div className="flex justify-end">
               <div className="">
                 <h3 className="font-bold text-[#cccccc]">Get the app</h3>
-                <img className="w-32" src={QRCode} />
+                <img className="w-32" src={QRCode} alt="" />
               </div>
             </div>
             <div></div>
@@ -789,7 +798,7 @@ function App({ history = defaultHistory }) {
           </div>
           <div className="">
             <h3 className="font-bold text-[#cccccc]">Get the app</h3>
-            <img className="w-32" src={QRCode} />
+            <img className="w-32" src={QRCode} alt="" />
           </div>
         </div>
         <div className="bg-white lg:flex justify-between items-center p-4 px-12">
@@ -799,22 +808,22 @@ function App({ history = defaultHistory }) {
               Follow us:
             </p>
             <a href="https://web.facebook.com/goubbaapp/?_rdc=1&_rdr">
-              <img src={Facebook}></img>
+              <img src={Facebook} alt=""></img>
             </a>
             <a href="https://www.tiktok.com/@goubba">
-              <img src={TikTok}></img>
+              <img src={TikTok} alt=""></img>
             </a>
             <a href="https://www.youtube.com/channel/UCxn_i88UA3_9BmW_cX0czyg">
-              <img src={Youtube}></img>
+              <img src={Youtube} alt=""></img>
             </a>
             <a href="https://www.linkedin.com/company/goubba">
-              <img src={LinkedIn}></img>
+              <img src={LinkedIn} alt=""></img>
             </a>
             <a href="https://www.instagram.com/goubba_app/?hl=en">
-              <img src={Instagram}></img>
+              <img src={Instagram} alt=""></img>
             </a>
             <a href="https://twitter.com/goubba_app?lang=en">
-              <img src={Twiter}></img>
+              <img src={Twiter} alt=""></img>
             </a>
           </div>
         </div>

@@ -3029,18 +3029,18 @@ function App() {
             Brands that trust Goubba
           </h2>
           <div className="flex lg:hidden w-full lg:w-11/12 mx-auto overflow-auto no-scrollbar">
-            <img className="w-52 " src={cazanimo}></img>
-            <img className="w-52" src={techno}></img>
-            <img className="w-52" src={footland}></img>
-            <img className="w-52" src={sketchers}></img>
-            <img className="w-52" src={camper}></img>
+            <img className="w-52 " src={cazanimo} atl=""></img>
+            <img className="w-52" src={techno} atl=""></img>
+            <img className="w-52" src={footland} atl=""></img>
+            <img className="w-52" src={sketchers} atl=""></img>
+            <img className="w-52" src={camper} atl=""></img>
           </div>
           <div className="hidden lg:flex justify-center">
-            <img className="w-52 " src={cazanimo}></img>
-            <img className="w-52" src={techno}></img>
-            <img className="w-52" src={footland}></img>
-            <img className="w-52" src={sketchers}></img>
-            <img className="w-52" src={camper}></img>
+            <img className="w-52 " src={cazanimo} atl=""></img>
+            <img className="w-52" src={techno} atl=""></img>
+            <img className="w-52" src={footland} atl=""></img>
+            <img className="w-52" src={sketchers} atl=""></img>
+            <img className="w-52" src={camper} atl=""></img>
           </div>
         </div>
         <div className="bg-[#FFEBDD] rounded-b-xl pt-16 pb-4 lg:pb-12">
@@ -3104,7 +3104,7 @@ function App() {
           </p>
         </div>
         <div className="flex justify-center md:col-span-2">
-          <img src={newCardB}></img>
+          <img src={newCardB} atl=""></img>
         </div>
       </div>
       <div className="grid grid-flow-row md:grid-cols-3 mt-16 md:mt-0 px-6 mb-12">
@@ -3114,7 +3114,7 @@ function App() {
           </p>
         </div>
         <div className="flex justify-center md:col-span-2 order-2">
-          <img src={publishB}></img>
+          <img src={publishB} atl=""></img>
         </div>
       </div>
       <div className="grid grid-flow-row md:grid-cols-3 mt-16 md:mt-0 px-6 mb-12">
@@ -3124,7 +3124,7 @@ function App() {
           </p>
         </div>
         <div className="flex justify-center md:col-span-2">
-          <img src={checkB}></img>
+          <img src={checkB} atl=""></img>
         </div>
       </div>
       <div className="retropurple-background  flex justify-center lg:my-16 py-24 md:py-44 mx-auto lg:rounded-xl ">
