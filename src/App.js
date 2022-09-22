@@ -583,17 +583,26 @@ function App({ history = defaultHistory }) {
               <div className="accordion-body py-4 px-5">
                 <ul className="space-y-3">
                   <li>
-                    <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                    <a
+                      href="/"
+                      className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                    >
                       Gift cards
                     </a>
                   </li>
                   <li>
-                    <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                    <a
+                      href="/promo"
+                      className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                    >
                       Promo codes & deals
                     </a>
                   </li>
                   <li>
-                    <a className="text-sm text-[#b3b3b3] hover:text-gray-100">
+                    <a
+                      href="/cashback"
+                      className="text-sm text-[#b3b3b3] hover:text-gray-100"
+                    >
                       Cashbacks
                     </a>
                   </li>

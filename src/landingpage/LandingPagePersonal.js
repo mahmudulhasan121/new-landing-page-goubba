@@ -488,18 +488,18 @@ function ParallaxCards() {
 }
 
 function DownloadButtons() {
-  var el_up = document.getElementById("GFG_UP");
-  var el_down = document.getElementById("GFG_DOWN");
-  var Name = "Unknown OS";
-  if (navigator.userAgent.indexOf("Win") != -1) Name = "Windows OS";
-  if (navigator.userAgent.indexOf("HUAWEI") != -1) Name = "HUAWEI";
-  if (navigator.userAgent.indexOf("Mac") != -1) Name = "Macintosh";
-  if (navigator.userAgent.indexOf("Linux") != -1) Name = "Linux OS";
-  if (navigator.userAgent.indexOf("Android") != -1) Name = "Android OS";
-  if (navigator.userAgent.indexOf("like Mac") != -1) Name = "iOS";
+  // var el_up = document.getElementById("GFG_UP");
+  // var el_down = document.getElementById("GFG_DOWN");
+  // var Name = "Unknown OS";
+  // if (navigator.userAgent.indexOf("Win") !== -1) Name = "Windows OS";
+  // if (navigator.userAgent.indexOf("HUAWEI") !== -1) Name = "HUAWEI";
+  // if (navigator.userAgent.indexOf("Mac") !== -1) Name = "Macintosh";
+  // if (navigator.userAgent.indexOf("Linux") !== -1) Name = "Linux OS";
+  // if (navigator.userAgent.indexOf("Android") !== -1) Name = "Android OS";
+  // if (navigator.userAgent.indexOf("like Mac") !== -1) Name = "iOS";
   return (
     <div className="flex gap-4 justify-center items-center my-4">
-      {navigator.userAgent.indexOf("HUAWEI") != -1 ? (
+      {navigator.userAgent.indexOf("HUAWEI") !== -1 ? (
         <a
           href="https://appgallery.huawei.com/app/C105229305"
           className="flex justify-center
@@ -507,7 +507,7 @@ function DownloadButtons() {
         >
           <img src={HUAWEI} alt=""></img>
         </a>
-      ) : navigator.userAgent.indexOf("like Mac") != -1 ? (
+      ) : navigator.userAgent.indexOf("like Mac") !== -1 ? (
         <a
           href="https://apps.apple.com/us/app/goubba-cashback-codes-promo/id1519941116"
           className="flex justify-center
@@ -515,7 +515,7 @@ function DownloadButtons() {
         >
           <img src={ios} alt=""></img>
         </a>
-      ) : navigator.userAgent.indexOf("Android") != -1 ? (
+      ) : navigator.userAgent.indexOf("Android") !== -1 ? (
         <a
           href="https://goubba.app.link/Goubba_App"
           className="flex justify-center"
