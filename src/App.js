@@ -1,17 +1,5 @@
 import LandingPagePersonal from "./landingpage/LandingPagePersonal";
 import LandingPageBusiness from "./landingpage/LandingPageBusiness";
-
-import startup from "./assets/startup.png";
-import QRCode from "./assets/QRCode.jpeg";
-
-import Facebook from "./assets/Facebook.svg";
-import TikTok from "./assets/TikTok.svg";
-import Youtube from "./assets/YouTube.svg";
-import LinkedIn from "./assets/LinkedIn.svg";
-import Instagram from "./assets/Instagram.svg";
-import Twiter from "./assets/Twiter.svg";
-import "./tailwind.css";
-
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -19,14 +7,29 @@ import {
   Routes,
   NavLink,
 } from "react-router-dom";
-
 // import component 👇
 import Drawer from "react-modern-drawer";
-
 //import styles 👇
 import "react-modern-drawer/dist/index.css";
-
 import { createBrowserHistory } from "history";
+
+const startup =
+  "https://adminv2.goubba.com/image?path=react-web/assets/startup.png";
+const QRCode =
+  "https://adminv2.goubba.com/image?path=react-web/assets/QRCode.jpeg";
+
+const Facebook =
+  "https://adminv2.goubba.com/image?path=react-web/assets/Facebook.svg";
+const TikTok =
+  "https://adminv2.goubba.com/image?path=react-web/assets/TikTok.svg";
+const Youtube =
+  "https://adminv2.goubba.com/image?path=react-web/assets/YouTube.svg";
+const LinkedIn =
+  "https://adminv2.goubba.com/image?path=react-web/assets/LinkedIn.svg";
+const Instagram =
+  "https://adminv2.goubba.com/image?path=react-web/assets/Instagram.svg";
+const Twiter =
+  "https://adminv2.goubba.com/image?path=react-web/assets/Twiter.svg";
 
 const defaultHistory = createBrowserHistory();
 
@@ -86,7 +89,7 @@ function App({ history = defaultHistory }) {
                 className="font-semibold hidden md:flex px-4 py-2 hover:bg-gray-50 rounded-lg"
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
-                  background: isActive ? "#7600dc" : "#f0f0f0",
+                  background: isActive ? "#BA1986" : "#f0f0f0",
                 })}
                 end
               >
@@ -97,7 +100,7 @@ function App({ history = defaultHistory }) {
                 className="font-semibold hidden md:flex px-4 py-2 hover:bg-gray-50 rounded-lg"
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
-                  background: isActive ? "#7600dc" : "#f0f0f0",
+                  background: isActive ? "#BA1986" : "#f0f0f0",
                 })}
               >
                 Business
@@ -140,7 +143,10 @@ function App({ history = defaultHistory }) {
                   />
                 </svg>
               </a>
-              <a className="group bg-[#BA1986] flex justify-between items-center text-left gap-4 text-white rounded-lg px-4 py-1">
+              <a
+                href="/login"
+                className="group bg-[#BA1986] flex justify-between items-center text-left gap-4 text-white rounded-lg px-4 py-1"
+              >
                 <div>
                   <p className="font-semibold text-sm">Join Now!</p>
                   <p className="opacity-80 text-xs">0.00 DA</p>
@@ -199,10 +205,11 @@ function App({ history = defaultHistory }) {
                   fill="#E6E6E6"
                 />
               </svg>
-              <select className="pl-5 absolute inset-0 rounded-lg bg-transparent">
-                <option selected className="text-black">
-                  En
-                </option>
+              <select
+                className="pl-5 absolute inset-0 rounded-lg bg-transparent"
+                defaultValue="En"
+              >
+                <option className="text-black">En</option>
                 <option className="text-black">Fr</option>
               </select>
             </div>
@@ -243,7 +250,10 @@ function App({ history = defaultHistory }) {
           </div>
 
           <div className="gap-4 hidden md:flex">
-            <a className="group bg-[#BA1986] flex items-center text-left gap-4 text-white rounded-lg px-4 py-1">
+            <a
+              href="/login"
+              className="group bg-[#BA1986] flex items-center text-left gap-4 text-white rounded-lg px-4 py-1"
+            >
               <div>
                 <p className="font-semibold text-sm">Join Now!</p>
                 <p className="opacity-80 text-xs">0.00 DA</p>

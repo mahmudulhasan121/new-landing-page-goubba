@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,500&display=swap");
 
 .App {
   text-align: center;
@@ -46,67 +46,66 @@
   scrollbar-width: none; /* Firefox */
 }
 
-.background-paralax{
-  background-image: url("../assets/bluePhone.png");
-    background-position: center;
-    background-repeat: no-repeat;
+.background-paralax {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bluePhone.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.background-paralax-mobile{
-  background-image: url("../assets/bluePhone.png");
+.background-paralax-mobile {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bluePhone.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.topLeft{
-  background-image: url("../assets/topLeft.png");
-  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bottomRight{
-  background-image: url("../assets/bottomRight.png");
-  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bottomLeft{
-  background-image: url("../assets/bottomLeft.png");
-  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.topRight{
-  background-image: url("../assets/topRight.png");
-  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.retropurple-background{
-  background-image: url("../assets/retro.png"); 
-  background-color: #DEAFCF;
+.topLeft {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/topLeft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-  .retroB-background{
-    background-image: url("../assets/retroB90.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
+.bottomRight {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bottomRight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomLeft {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bottomLeft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topRight {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/topRight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.retropurple-background {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/retro.png");
+  background-color: #deafcf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.retroB-background {
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/retroB90.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media only screen and (min-width: 768px) {
   .retroB-background {
-    background: url("../assets/retroB.png") 0 0 repeat;
+    background: url("https://adminv2.goubba.com/image?path=react-web/assets/retroB.png")
+      0 0 repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-
 
 .OpenMenuButton {
   cursor: pointer;
@@ -116,7 +115,6 @@
   letter-spacing: 4px;
 }
 
-
 .DrawerMenu {
   position: fixed;
   z-index: 9;
@@ -125,29 +123,21 @@
   top: 0;
   bottom: 0;
   transform: translateX(-100%);
-  transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   display: grid;
-  grid-template-areas: 'MENU OVERLAY';
-  grid-template-columns: 15fr 5fr
-  
+  grid-template-areas: "MENU OVERLAY";
+  grid-template-columns: 15fr 5fr;
 }
-
 
 @media (min-width: 30em) {
-
-
-.DrawerMenu {
-    grid-template-columns: auto 1fr
-  
-}
+  .DrawerMenu {
+    grid-template-columns: auto 1fr;
   }
-
+}
 
 [data-menu]:checked ~ .DrawerMenu {
-    transform: none
-  
+  transform: none;
 }
-
 
 .Menu {
   display: block;
@@ -155,62 +145,53 @@
   transform: translateX(-80%);
   opacity: 0;
   color: #fff;
-  transition: all 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
   contain: content;
-  grid-area: 'MENU';
+  grid-area: "MENU";
   background-color: rebeccapurple;
   box-sizing: border-box;
   padding: 24px;
   overflow: auto;
-  -webkit-overflow-scrolling: touch
+  -webkit-overflow-scrolling: touch;
 }
-
 
 @media (min-width: 30em) {
-
-
-.Menu {
-    min-width: 400px
-}
+  .Menu {
+    min-width: 400px;
   }
-
+}
 
 [data-menu]:checked ~ .DrawerMenu .Menu {
-    transform: none;
-    opacity: 1;
-    transition-delay: 300ms
+  transform: none;
+  opacity: 1;
+  transition-delay: 300ms;
 }
 
-
 .Menu a {
-    text-decoration: none;
-    color: #FFFFFF80;
-    display: block;
-    padding: 16px 0
-  }
-
+  text-decoration: none;
+  color: #ffffff80;
+  display: block;
+  padding: 16px 0;
+}
 
 .Menu a:hover {
-      color: #69F0AE;
-    }
-
+  color: #69f0ae;
+}
 
 .Menu > * + * {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 .MenuOverlay {
   display: block;
-  grid-area: 'OVERLAY'
+  grid-area: "OVERLAY";
 }
-
 
 [data-menu]:not(:checked) ~ .DrawerMenu .MenuOverlay {
-    pointer-events: none
+  pointer-events: none;
 }
 
-.z-index{
+.z-index {
   z-index: 100;
 }

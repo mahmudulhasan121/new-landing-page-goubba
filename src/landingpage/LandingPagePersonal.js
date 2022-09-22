@@ -1,71 +1,53 @@
 import "./App.css";
-import Lottie from "lottie-react";
 import { Parallax } from "react-scroll-parallax";
-import { ParallaxBanner } from "react-scroll-parallax";
 import { ParallaxProvider } from "react-scroll-parallax";
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  NavLink,
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import mobileWithQr from "../assets/mobileWithQr.png";
-import redArrow from "../assets/redArrow.png";
-import codePromoSlide from "../assets/codePromoSlide.png";
-import zolizola from "../assets/zolizola.png";
+const cazanimoC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/cazanimoC.png";
+const camperC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/camperC.png";
+const technoC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/technoC.png";
+const footlandC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/footlandC.png";
+const scechersC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/scechersC.png";
+const profootC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/profootC.png";
 
-import arrows from "../assets/arrows.png";
-import phoneList from "../assets/phoneList.png";
-import promo from "../assets/promo.png";
+const WATCHCENTERC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/WATCH CENTER.png";
+const CLARKSC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/CLARKS.png";
+const DOJUC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Dojo.png";
+const EDENPARKC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/EDEN PARK.png";
+const CASIOC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/CASIO.png";
+const sneaksaC =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/sneaksa.png";
 
-import cazanimoC from "../assets/cazanimoC.png";
-import camperC from "../assets/camperC.png";
-import technoC from "../assets/technoC.png";
-import footlandC from "../assets/footlandC.png";
-import scechersC from "../assets/scechersC.png";
-import profootC from "../assets/profootC.png";
+const xbox =
+  "https://adminv2.goubba.com/image?path=react-web/assets/international cards/xbox.png";
+const Fornite =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Fornite.png";
+const LeageofLegends =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Leage of Legends.png";
+const Itunes =
+  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Itunes.png";
 
-import WATCHCENTERC from "../assets/hero section gift cards/WATCH CENTER.png";
-import CLARKSC from "../assets/hero section gift cards/CLARKS.png";
-import DOJUC from "../assets/hero section gift cards/Dojo.png";
-import EDENPARKC from "../assets/hero section gift cards/EDEN PARK.png";
-import CASIOC from "../assets/hero section gift cards/CASIO.png";
-import sneaksaC from "../assets/hero section gift cards/sneaksa.png";
+const pay =
+  "https://adminv2.goubba.com/image?path=react-web/assets/paymentAccepted.png";
+const googlePlay =
+  "https://adminv2.goubba.com/image?path=react-web/assets/Google play.svg";
+const ios =
+  "https://adminv2.goubba.com/image?path=react-web/assets/app store.svg";
+const HUAWEI =
+  "https://adminv2.goubba.com/image?path=react-web/assets/app gallery.svg";
 
-import SpacetoonGo from "../assets/hero section gift cards/Spacetoon Go.png";
-import xbox from "../assets/international cards/xbox.png";
-import Fornite from "../assets/hero section gift cards/Fornite.png";
-// import Amazon from '../assets/hero section gift cards/Amazon.png'
-import Steam from "../assets/hero section gift cards/Steam.png";
-import LeageofLegends from "../assets/hero section gift cards/Leage of Legends.png";
-import Itunes from "../assets/hero section gift cards/Itunes.png";
-import Freefire from "../assets/international cards/Freefire.png";
-
-import pay from "../assets/paymentAccepted.png";
-import googlePlay from "../assets/Google play.svg";
-import ios from "../assets/app store.svg";
-import HUAWEI from "../assets/app gallery.svg";
-
-function Buisniss() {
-  return (
-    <div>
-      <ParallaxProvider>
-        <div className="bg-red-200 w-full h-[1500px] ">
-          <div className="flex gap-3">
-            <Parallax translateY={["200px", "-200px"]}>
-              <div className="w-20 h-20 bg-slate-400" />
-            </Parallax>
-            <Parallax translateY={["0px", "0px"]}>
-              <div className="w-20 h-20 bg-slate-400" />
-            </Parallax>
-          </div>
-        </div>
-      </ParallaxProvider>
-    </div>
-  );
-}
 //mobile
 function ParallaxCardsMobile() {
   return (
@@ -75,12 +57,16 @@ function ParallaxCardsMobile() {
           <div className="mt-28 overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Freefire} className="w-24 h-32 rounded-lg" />
+                <img
+                  src={
+                    "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
+                  }
+                  className="w-24 h-32 rounded-lg"
+                />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
-                  classN
                   className="w-24 h-32 rounded-lg"
                 />
               </div>
@@ -169,7 +155,12 @@ function ParallaxCardsMd() {
           <div className="mt-32 overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Freefire} className="w-28  rounded-lg" />
+                <img
+                  src={
+                    "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
+                  }
+                  className="w-28  rounded-lg"
+                />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
@@ -186,7 +177,7 @@ function ParallaxCardsMd() {
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="flex gap-4">
-                <img src={Fornite} classN className="w-28  rounded-lg " />
+                <img src={Fornite} className="w-28  rounded-lg " />
                 <img src={xbox} className="w-28  rounded-lg " />
               </div>
             </Parallax>
@@ -262,7 +253,12 @@ function ParallaxCardsLg() {
           <div className="mt-36 overflow-hidden no-scrollbar ">
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="flex gap-4">
-                <img src={Freefire} className="w-[135px]  rounded-lg" />
+                <img
+                  src={
+                    "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
+                  }
+                  className="w-[135px]  rounded-lg"
+                />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
@@ -354,7 +350,12 @@ function ParallaxCards() {
           <div className="mt-28  no-scrollbar overflow-y-hidden">
             <Parallax className="" translateY={[40, -50]} speed={15}>
               <div className="flex gap-3">
-                <img src={Freefire} className="w-[185px] rounded-lg" />
+                <img
+                  src={
+                    "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
+                  }
+                  className="w-[185px] rounded-lg"
+                />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
@@ -640,17 +641,29 @@ function App() {
                   <div className="absolute top-0 mr-52 lg:mr-0">
                     <Parallax translateY={[350, -100]} speed={15}>
                       <div>
-                        <img src={redArrow}></img>
+                        <img
+                          src={
+                            "https://adminv2.goubba.com/image?path=react-web/assets/redArrow.png"
+                          }
+                        ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={mobileWithQr}></img>
+                    <img
+                      src={
+                        "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQr.png"
+                      }
+                    ></img>
                   </div>
                   <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
                     <Parallax translateY={[200, 50]} speed={1}>
                       <div>
-                        <img src={codePromoSlide}></img>
+                        <img
+                          src={
+                            "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlide.png"
+                          }
+                        ></img>
                       </div>
                     </Parallax>
                   </div>
@@ -737,7 +750,11 @@ function App() {
             <div className="overflow-auto no-scrollbar order-2">
               <div className="relative py-12">
                 <div>
-                  <img src={zolizola}></img>
+                  <img
+                    src={
+                      "https://adminv2.goubba.com/image?path=react-web/assets/zolizola.png"
+                    }
+                  ></img>
                 </div>
               </div>
             </div>
@@ -751,17 +768,29 @@ function App() {
                   <div className="absolute top-0 mr-52 lg:mr-0">
                     <Parallax translateY={[350, -100]} speed={15}>
                       <div>
-                        <img src={arrows}></img>
+                        <img
+                          src={
+                            "https://adminv2.goubba.com/image?path=react-web/assets/arrows.png"
+                          }
+                        ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={phoneList}></img>
+                    <img
+                      src={
+                        "https://adminv2.goubba.com/image?path=react-web/assets/phoneList.png"
+                      }
+                    ></img>
                   </div>
                   <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
-                        <img src={promo}></img>
+                        <img
+                          src={
+                            "https://adminv2.goubba.com/image?path=react-web/assets/promo.png"
+                          }
+                        ></img>
                       </div>
                     </Parallax>
                   </div>
