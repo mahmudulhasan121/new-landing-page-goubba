@@ -1,23 +1,35 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { StrictMode } from "react";
 import "./index.css";
 import App from "./App";
 import "tw-elements";
 import * as serviceWorker from "./serviceWorker";
+import { createRoot } from "react-dom/client";
 
 window.renderCats = (containerId, history) => {
-  ReactDOM.render(
-    <App history={history} />,
-    document.getElementById(containerId)
+  const rootElement = document.getElementById(containerId);
+  const root = createRoot(rootElement);
+  root.render(
+    <StrictMode>
+      <App history={history} />
+    </StrictMode>
   );
   serviceWorker.unregister();
 };
 
 window.unmountCats = (containerId) => {
-  ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
+  const rootElement = document.getElementById(containerId);
+  const root = createRoot(rootElement);
+  root.unmountComponentAtNode(root);
 };
 
 if (!document.getElementById("Cats-container")) {
-  ReactDOM.render(<App />, document.getElementById("root"));
+  const rootElement = document.getElementById("root");
+  const root = createRoot(rootElement);
+  root.render(
+    <StrictMode>
+      <App />
+    </StrictMode>
+  );
   serviceWorker.unregister();
 }
