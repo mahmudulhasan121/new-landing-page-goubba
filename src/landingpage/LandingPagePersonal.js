@@ -52,33 +52,33 @@ const HUAWEI =
 function ParallaxCardsMobile() {
   return (
     <ParallaxProvider>
-      <div className="flex relative justify-center background-paralax-mobile ">
-        <div className="gap-4 h-[500px] over">
-          <div className="mt-28 overflow-y-hidden ">
+      <div className="tw-flex tw-relative tw-justify-center background-paralax-mobile ">
+        <div className="tw-gap-4 tw-h-[500px] over">
+          <div className="tw-mt-28 tw-overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
+              <div className="tw-flex tw-gap-4">
                 <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
-                className="w-24 h-32 rounded-lg" alt="" />
+                className="tw-w-24 tw-h-32 tw-rounded-lg" alt="" />
                 <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png" } 
-                className="w-24 h-32 rounded-lg" alt="" />
+                className="tw-w-24 tw-h-32 tw-rounded-lg" alt="" />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Itunes} className="w-24 h-32 rounded-lg " alt="" />
-                <img src={LeageofLegends} className="w-24 h-32 rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Itunes} className="tw-w-24 tw-h-32 tw-rounded-lg " alt="" />
+                <img src={LeageofLegends} className="tw-w-24 tw-h-32 tw-rounded-lg " alt="" />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Fornite} className="w-24 h-32 rounded-lg " alt="" />
-                <img src={xbox} className="w-24 h-32 rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Fornite} className="tw-w-24 tw-h-32 tw-rounded-lg " alt="" />
+                <img src={xbox} className="tw-w-24 tw-h-32 tw-rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
         </div>
 
-        <div className="flex w-full justify-between z-40 absolute bottom-0 ">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-40 tw-absolute tw-bottom-0 ">
           <Parallax
             translateY={[300, -800]}
             translateX={[30, -100]}
@@ -86,7 +86,7 @@ function ParallaxCardsMobile() {
             speed={12} >
             <img
               src={CLARKSC}
-              className="w-36 h-48 rounded-lg"
+              className="tw-w-36 tw-h-48 tw-rounded-lg"
               id="bigLeft"
               alt="" />
           </Parallax>
@@ -96,11 +96,11 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={12}
           >
-            <img src={CASIOC} className="w-36 h-48 rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-36 tw-h-48 tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-30 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-30 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[350, -800]}
             translateX={[80, -100]}
@@ -109,7 +109,7 @@ function ParallaxCardsMobile() {
           >
             <img
               src={EDENPARKC}
-              className="flex w-32 h-40 rounded-lg "
+              className="tw-flex tw-w-32 tw-h-40 tw-rounded-lg "
               alt=""
             />
           </Parallax>
@@ -119,18 +119,18 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-32 h-40 rounded-lg  " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-32 tw-h-40 tw-rounded-lg  " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-20 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-20 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[400, -800]}
             translateX={[140, -20]}
             scale={[0.7, 2]}
             speed={5}
           >
-            <img src={DOJUC} className="flex w-24 h-32 rounded-lg b" alt="" />
+            <img src={DOJUC} className="tw-flex tw-w-24 tw-h-32 tw-rounded-lg b" alt="" />
           </Parallax>
           <Parallax
             translateY={[400, -800]}
@@ -138,7 +138,7 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={5}
           >
-            <img src={sneaksaC} className="w-24 h-32 rounded-lg b " alt="" />
+            <img src={sneaksaC} className="tw-w-24 tw-h-32 tw-rounded-lg b " alt="" />
           </Parallax>
         </div>
       </div>
@@ -149,90 +149,90 @@ function ParallaxCardsMobile() {
 function ParallaxCardsMd() {
   return (
     <ParallaxProvider>
-      <div className="flex relative justify-center background-paralax-mobile no-scrollbar  overflow-x-hidden overflow-y-hidden">
-        <div className="gap-4 h-[600px] over">
-          <div className="mt-32 overflow-y-hidden ">
+      <div className="tw-flex tw-relative tw-justify-center background-paralax-mobile no-scrollbar  tw-overflow-x-hidden tw-overflow-y-hidden">
+        <div className="tw-gap-4 tw-h-[600px] over">
+          <div className="tw-mt-32 tw-overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
+              <div className="tw-flex tw-gap-4">
                 <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
-                  className="w-28 rounded-lg" alt="" />
+                  className="tw-w-28 tw-rounded-lg" alt="" />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
-                  className="w-28  rounded-lg"
+                  className="tw-w-28  tw-rounded-lg"
                   alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Itunes} className="w-28  rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Itunes} className="tw-w-28  tw-rounded-lg " alt="" />
                 <img
                   src={LeageofLegends}
-                  className="w-28  rounded-lg "
+                  className="tw-w-28  tw-rounded-lg "
                   alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[60, -60]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Fornite} className="w-28  rounded-lg " alt="" />
-                <img src={xbox} className="w-28  rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Fornite} className="tw-w-28  tw-rounded-lg " alt="" />
+                <img src={xbox} className="tw-w-28  tw-rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
         </div>
 
-        <div className="flex w-full justify-between z-40 absolute bottom-0 ">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-40 tw-absolute tw-bottom-0 ">
           <Parallax
             translateY={[300, -800]}
             translateX={[100, -50]}
             scale={[0.7, 2]}
             speed={12}
           >
-            <img src={CLARKSC} className="w-[185px] rounded-lg " alt="" />
+            <img src={CLARKSC} className="tw-w-[185px] tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -800]}
             translateX={[-100, 50]}
             scale={[0.7, 2]}
             speed={12} >
-            <img src={CASIOC} className="w-[185px] rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-[185px] tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-30 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-30 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[300, -600]}
             translateX={[150, -0]}
             scale={[0.7, 2]}
             speed={10} >
-            <img src={EDENPARKC} className="flex w-40 h-48 rounded-lg " alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-40 tw-h-48 tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -600]}
             translateX={[-150, 0]}
             scale={[0.7, 2]}
             speed={10} >
-            <img src={WATCHCENTERC} className="w-40 h-48 rounded-lg " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-40 tw-h-48 tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-20 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-20 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[300, -400]}
             translateX={[300, 0]}
             scale={[0.7, 2]}
             speed={5} >
-            <img src={DOJUC} className="flex w-32 h-40 rounded-lg " alt="" />
+            <img src={DOJUC} className="tw-flex tw-w-32 tw-h-40 tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -400]}
             translateX={[-300, 0]}
             scale={[0.7, 2]}
             speed={5} >
-            <img src={sneaksaC} className="w-32 h-40 rounded-lg  " alt="" />
+            <img src={sneaksaC} className="tw-w-32 tw-h-40 tw-rounded-lg  " alt="" />
           </Parallax>
         </div>
       </div>
@@ -243,84 +243,84 @@ function ParallaxCardsMd() {
 function ParallaxCardsLg() {
   return (
     <ParallaxProvider>
-      <div className="flex relative justify-center background-paralax-mobile no-scrollbar ">
-        <div className="gap-4 h-[700px] over">
-          <div className="mt-36 overflow-hidden no-scrollbar ">
+      <div className="tw-flex tw-relative tw-justify-center background-paralax-mobile no-scrollbar ">
+        <div className="tw-gap-4 tw-h-[700px] over">
+          <div className="tw-mt-36 tw-overflow-hidden no-scrollbar ">
             <Parallax className="" translateY={[30, -50]} speed={15}>
-              <div className="flex gap-4">
+              <div className="tw-flex tw-gap-4">
                 <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
-                  className="w-[135px]  rounded-lg" alt="" />
+                  className="tw-w-[135px]  tw-rounded-lg" alt="" />
                 <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png" } 
-                className="w-[135px]  rounded-lg " alt="" />
+                className="tw-w-[135px]  tw-rounded-lg " alt="" />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Itunes} className="w-[135px]  rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Itunes} className="tw-w-[135px]  tw-rounded-lg " alt="" />
                 <img
                   src={LeageofLegends}
-                  className="w-[135px]  rounded-lg "
+                  className="tw-w-[135px]  tw-rounded-lg "
                   alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Fornite} className="w-[135px]  rounded-lg " alt="" />
-                <img src={xbox} className="w-[135px]  rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Fornite} className="tw-w-[135px]  tw-rounded-lg " alt="" />
+                <img src={xbox} className="tw-w-[135px]  tw-rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
         </div>
 
-        <div className="flex w-full justify-between z-40 absolute bottom-0 ">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-40 tw-absolute tw-bottom-0 ">
           <Parallax
             translateY={[0, -800]}
             translateX={[20, -200]}
             scale={[0.9, 2]}
             speed={12} >
-            <img src={CLARKSC} className="w-52  rounded-lg " id="bigLeft" alt="" />
+            <img src={CLARKSC} className="tw-w-52  tw-rounded-lg " id="bigLeft" alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
             translateX={[-20, 200]}
             scale={[0.9, 2]}
             speed={12} >
-            <img src={CASIOC} className="w-52  rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-52  tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-30 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-30 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[0, -800]}
             translateX={[100, -150]}
             scale={[0.9, 2]}
             speed={10} >
-            <img src={EDENPARKC} className="flex w-40  rounded-lg " alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-40  tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
             translateX={[-100, 150]}
             scale={[0.9, 2]}
             speed={10} >
-            <img src={WATCHCENTERC} className="w-40  rounded-lg  " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-40  tw-rounded-lg  " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-20 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-20 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[0, -700]}
             translateX={[150, 50]}
             scale={[1.1, 2]}
             speed={5} >
-            <img src={DOJUC} className="flex w-32  rounded-lg " alt="" />
+            <img src={DOJUC} className="tw-flex tw-w-32  tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
             translateX={[-220, 75]}
             scale={[1.1, 2]}
             speed={5} >
-            <img src={sneaksaC} className="w-32  rounded-lg " alt="" />
+            <img src={sneaksaC} className="tw-w-32  tw-rounded-lg " alt="" />
           </Parallax>
         </div>
       </div>
@@ -330,47 +330,47 @@ function ParallaxCardsLg() {
 function ParallaxCards() {
   return (
     <ParallaxProvider>
-      <div className="flex relative justify-center pt-2 background-paralax  ">
-        <div className="gap-4 h-[800px]">
-          <div className="mt-28  no-scrollbar overflow-y-hidden">
+      <div className="tw-flex tw-relative tw-justify-center tw-pt-2 background-paralax  ">
+        <div className="tw-gap-4 tw-h-[800px]">
+          <div className="tw-mt-28  no-scrollbar tw-overflow-y-hidden">
             <Parallax className="" translateY={[40, -50]} speed={15}>
-              <div className="flex gap-3">
+              <div className="tw-flex tw-gap-3">
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
                   }
-                  className="w-[185px] rounded-lg"
+                  className="tw-w-[185px] tw-rounded-lg"
                   alt=""
                 />
                 <img
                   src={
                     "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
                   }
-                  className="w-[185px] rounded-lg "
+                  className="tw-w-[185px] tw-rounded-lg "
                   alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Itunes} className="w-[185px] rounded-lg" alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Itunes} className="tw-w-[185px] tw-rounded-lg" alt="" />
                 <img
                   src={LeageofLegends}
-                  className="w-[185px] rounded-lg"
+                  className="tw-w-[185px] tw-rounded-lg"
                   alt=""
                 />
               </div>
             </Parallax>
             <Parallax className="" translateY={[30, -50]} speed={15}>
-              <div className="flex gap-4">
-                <img src={Fornite} className="w-[185px] rounded-lg " alt="" />
-                <img src={xbox} className="w-[185px] rounded-lg " alt="" />
+              <div className="tw-flex tw-gap-4">
+                <img src={Fornite} className="tw-w-[185px] tw-rounded-lg " alt="" />
+                <img src={xbox} className="tw-w-[185px] tw-rounded-lg " alt="" />
               </div>
             </Parallax>
           </div>
         </div>
 
-        <div className="flex w-full justify-between z-40 absolute bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-40 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[50, -600]}
             translateX={[150, -800]}
@@ -379,7 +379,7 @@ function ParallaxCards() {
           >
             <img
               src={CLARKSC}
-              className="w-72 h-96 rounded-lg"
+              className="tw-w-72 tw-h-96 tw-rounded-lg"
               id="bigLeft"
               alt=""
             />
@@ -390,18 +390,18 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={12}
           >
-            <img src={CASIOC} className="w-72 h-96 rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-72 tw-h-96 tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-30 absolute  bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-30 tw-absolute  tw-bottom-0">
           <Parallax
             translateY={[0, -400]}
             translateX={[150, -500]}
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={EDENPARKC} className="flex w-64 h-80 rounded-lg" alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-64 tw-h-80 tw-rounded-lg" alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -400]}
@@ -409,18 +409,18 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="w-64 h-80 rounded-lg " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-64 tw-h-80 tw-rounded-lg " alt="" />
           </Parallax>
         </div>
 
-        <div className="flex w-full justify-between z-10 absolute  bottom-0">
+        <div className="tw-flex tw-w-full tw-justify-between tw-z-10 tw-absolute  tw-bottom-0">
           <Parallax
             translateY={[0, -200]}
             translateX={[220, -300]}
             scale={[1, 2]}
             speed={8}
           >
-            <img src={DOJUC} className="flex w-52 h-64 rounded-lg " alt="" />
+            <img src={DOJUC} className="tw-flex tw-w-52 tw-h-64 tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -200]}
@@ -428,7 +428,7 @@ function ParallaxCards() {
             scale={[1, 2]}
             speed={8}
           >
-            <img src={sneaksaC} className="w-52 h-64 rounded-lg " alt="" />
+            <img src={sneaksaC} className="tw-w-52 tw-h-64 tw-rounded-lg " alt="" />
           </Parallax>
         </div>
       </div>
@@ -447,34 +447,34 @@ function DownloadButtons() {
   // if (navigator.userAgent.indexOf("Android") !== -1) Name = "Android OS";
   // if (navigator.userAgent.indexOf("like Mac") !== -1) Name = "iOS";
   return (
-    <div className="flex gap-4 justify-center items-center my-4">
+    <div className="tw-flex tw-gap-4 tw-justify-center tw-items-center tw-my-4">
       {navigator.userAgent.indexOf("HUAWEI") !== -1 ? (
         <a href="https://appgallery.huawei.com/app/C105229305" 
-        className="flex justify-center items-center text-left px-2 " >
+        className="tw-flex tw-justify-center tw-items-center tw-text-left tw-px-2 " >
           <img src={HUAWEI} alt=""></img>
         </a>
       ) : navigator.userAgent.indexOf("like Mac") !== -1 ? (
         <a href="https://apps.apple.com/us/app/goubba-cashback-codes-promo/id1519941116" 
-        className="flex justify-center items-center  " >
+        className="tw-flex tw-justify-center tw-items-center  " >
           <img src={ios} alt=""></img>
         </a>
       ) : navigator.userAgent.indexOf("Android") !== -1 ? (
         <a href="https://goubba.app.link/Goubba_App" 
-        className="flex justify-center" >
+        className="tw-flex tw-justify-center" >
           <img src={googlePlay} alt=""></img>
         </a>
       ) : (
-        <div className="flex gap-4 justify-center items-center">
+        <div className="tw-flex tw-gap-4 tw-justify-center tw-items-center">
           <a href="https://goubba.app.link/Goubba_App" 
-          className="flex justify-center" >
+          className="tw-flex tw-justify-center" >
             <img src={googlePlay} alt=""></img>
           </a>
           <a href="https://apps.apple.com/us/app/goubba-cashback-codes-promo/id1519941116" 
-          className="flex justify-center items-center  " >
+          className="tw-flex tw-justify-center tw-items-center  " >
             <img src={ios} alt=""></img>
           </a>
           <a href="https://appgallery.huawei.com/app/C105229305" 
-          className="flex justify-center items-center text-left px-2 " >
+          className="tw-flex tw-justify-center tw-items-center tw-text-left tw-px-2 " >
             <img src={HUAWEI} alt=""></img>
           </a>
         </div>
@@ -486,115 +486,115 @@ function App() {
   return (
     <div>
       <main className="">
-        <div className="lg:mx-10 bg-[#FFF6FC] rounded-xl pt-12 lg:pt-20 no-scrollbar no-scrollbar overflow-x-auto overflow-y-hidden">
-          <div className="text-center text-[#021E27] lg:w-3/4 mx-auto">
-            <h1 className="mx-8 lg:mx-0 text-4xl lg:text-[64px] 3xl:text-[72px] font-bold lg:leading-[80px]">
+        <div className="lg:tw-mx-10 tw-bg-[#FFF6FC] tw-rounded-xl tw-pt-12 lg:tw-pt-20 no-scrollbar no-scrollbar tw-overflow-x-auto tw-overflow-y-hidden">
+          <div className="tw-text-center tw-text-[#021E27] lg:tw-w-3/4 tw-mx-auto">
+            <h1 className="tw-mx-8 lg:tw-mx-0 tw-text-4xl lg:tw-text-[64px] 3xl:tw-text-[72px] tw-font-bold lg:tw-leading-[80px]">
               Save money and pay seamlessly with Goubba super wallet
             </h1>
             <DownloadButtons></DownloadButtons>
             <div>
-              <div className="hidden 2xl:block">
+              <div className="tw-hidden 2xl:tw-block">
                 <ParallaxCards />
               </div>
-              <div className="hidden lg:block 2xl:hidden">
+              <div className="tw-hidden lg:tw-block 2xl:tw-hidden">
                 <ParallaxCardsLg />
               </div>
-              <div className="hidden md:block lg:hidden">
+              <div className="tw-hidden md:tw-block lg:tw-hidden">
                 <ParallaxCardsMd />
               </div>
-              <div className="md:hidden">
+              <div className="md:tw-hidden">
                 <ParallaxCardsMobile />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="lg:w-9/12 mx-4 lg:mx-auto mt-12">
-          <div className="flex justify-center text-left">
-            <div className="mb-12">
-              <h2 className="text-[#021E27] text-4xl lg:text-[48px] lg:mb-8 font-semibold">
+        <div className="lg:tw-w-9/12 tw-mx-4 lg:tw-mx-auto tw-mt-12">
+          <div className="tw-flex tw-justify-center tw-text-left">
+            <div className="tw-mb-12">
+              <h2 className="tw-text-[#021E27] tw-text-4xl lg:tw-text-[48px] lg:tw-mb-8 tw-font-semibold">
                 Join over 5 millions Goubists
                 saving and winning rewards
               </h2>
             </div>
           </div>
-          <div className="gap-4 lg:gap-8 
-                          grid grid-cols-1 lg:grid-cols-2 ">
-            <div className="rounded-xl topLeft p-8 lg:p-12 ">
-              <h1 className="text-5xl lg:text-[50px] xl:text-[62px] 2xl:text-[72px] font-bold mb-4 lg:mb-8">
+          <div className="tw-gap-4 lg:tw-gap-8 
+                          tw-grid tw-grid-cols-1 lg:tw-grid-cols-2 ">
+            <div className="tw-rounded-xl topLeft tw-p-8 lg:tw-p-12 ">
+              <h1 className="tw-text-5xl lg:tw-text-[50px] xl:tw-text-[62px] 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
                 +200M DA
               </h1>
-              <p className="text-[20px] 2xl:text-[24px] font-light">
+              <p className="tw-text-[20px] 2xl:tw-text-[24px] tw-font-light">
                 in savings through Goubba
               </p>
-              <div className="w-80 lg:w-0"></div>
+              <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
-            <div className=" rounded-xl topRight p-8 lg:p-12 ">
-              <h1 className="text-5xl 2xl:text-[72px] font-bold mb-4 lg:mb-8">
+            <div className=" tw-rounded-xl topRight tw-p-8 lg:tw-p-12 ">
+              <h1 className="tw-text-5xl 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
                 +22M DA
               </h1>
-              <p className="text-[24px] font-light ">
+              <p className="tw-text-[24px] tw-font-light ">
                 in rewards and prizes won
               </p>
-              <div className="w-80 lg:w-0"></div>
+              <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
-            <div className=" rounded-xl bottomLeft p-8 lg:p-12">
-              <h1 className="text-5xl 2xl:text-[72px] font-bold mb-4 lg:mb-8">
+            <div className=" tw-rounded-xl bottomLeft tw-p-8 lg:tw-p-12">
+              <h1 className="tw-text-5xl 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
                 +300
               </h1>
-              <p className="text-[24px] font-light ">
+              <p className="tw-text-[24px] tw-font-light ">
                 exclusive gift cards, promo codes, deals and offers
               </p>
-              <div className="w-80 lg:w-0"></div>
+              <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
-            <div className=" rounded-xl topRight p-8 lg:p-12">
-              <h1 className="text-5xl 2xl:text-[72px] font-bold mb-4 lg:mb-8">
+            <div className=" tw-rounded-xl topRight tw-p-8 lg:tw-p-12">
+              <h1 className="tw-text-5xl 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
                 +10,000
               </h1>
-              <p className="text-[24px] font-light ">
+              <p className="tw-text-[24px] tw-font-light ">
                 international gift cards to choose from
               </p>
-              <div className="w-80 lg:w-0"></div>
+              <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
           </div>
         </div>
 
-        <div className="mt-12 w-11/12 lg:w-9/12 mx-auto">
-          <h2 className="text-[#021E27] text-4xl lg:text-[48px] lg:mb-8 font-semibold mb-12">
+        <div className="tw-mt-12 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto">
+          <h2 className="tw-text-[#021E27] tw-text-4xl lg:tw-text-[48px] lg:tw-mb-8 tw-font-semibold tw-mb-12">
             Our Partners
           </h2>
-          <div className="hidden xl:flex items-center justify-center my-12 gap-2 ">
-            <img src={technoC} className="w-52 rounded-lg" alt=""></img>
-            <img src={scechersC} className="w-52 rounded-lg" alt=""></img>
-            <img src={cazanimoC} className="w-52 rounded-lg" alt=""></img>
-            <img src={footlandC} className="w-52 rounded-lg" alt=""></img>
-            <img src={profootC} className="w-52 rounded-lg" alt=""></img>
-            <img src={camperC} className="w-52  rounded-lg" alt=""></img>
+          <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 tw-gap-2 ">
+            <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={footlandC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={profootC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
           </div>
-          <div className="flex xl:hidden items-center gap-2 overflow-x-auto no-scrollbar my-12">
-            <img src={technoC} className="w-52 rounded-lg" alt=""></img>
-            <img src={scechersC} className="w-52 rounded-lg" alt=""></img>
-            <img src={cazanimoC} className="w-52 rounded-lg" alt=""></img>
-            <img src={footlandC} className="w-52 rounded-lg" alt=""></img>
-            <img src={profootC} className="w-52 rounded-lg" alt=""></img>
-            <img src={camperC} className="w-52  rounded-lg" alt=""></img>
+          <div className="tw-flex xl:tw-hidden tw-items-center tw-gap-2 tw-overflow-x-auto no-scrollbar tw-my-12">
+            <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={footlandC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={profootC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
           </div>
-          <div className="flex justify-center ">
+          <div className="tw-flex tw-justify-center ">
             <a
               href="https://stage.goubba.com/cards"
-              className="bg-[#FFF6FC]  flex justify-center items-center px-6 py-2 gap-4 rounded-lg text-pink-600 group" >
-              <p className="font-semibold">Explore Gift Card Partners</p>
-              <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
+              className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600 tw-group" >
+              <p className="tw-font-semibold">Explore Gift Card Partners</p>
+              <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
             </a>
           </div>
         </div>
 
-        <div className="bg-[#FFFBFC]">
-          <div className="grid lg:grid-cols-2 mt-28 pb-12 w-10/12 mx-auto">
-            <div className="lg:overflow-auto no-scrollbar">
+        <div className="tw-bg-[#FFFBFC]">
+          <div className="tw-grid lg:tw-grid-cols-2 tw-mt-28 tw-pb-12 tw-w-10/12 tw-mx-auto">
+            <div className="lg:tw-overflow-auto no-scrollbar">
               <ParallaxProvider>
-                <div className="relative pt-12">
-                  <div className="absolute top-0 mr-52 lg:mr-0">
+                <div className="tw-relative tw-pt-12">
+                  <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[500, 0]} speed={15}>
                       <div>
                         <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/redArrow.png" } alt="" ></img>
@@ -604,7 +604,7 @@ function App() {
                   <div>
                     <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQr.png" } alt="" ></img>
                   </div>
-                  <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
+                  <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
                         <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlide.png" } alt="" ></img>
@@ -614,17 +614,17 @@ function App() {
                 </div>
               </ParallaxProvider>
             </div>
-            <div className="flex items-center">
+            <div className="tw-flex tw-items-center">
               <div>
-                <p className="text-xl text-center lg:text-left lg:text-5xl lg:leading-[52px] font-medium mb-10 lg:w-2/3">
+                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   Share our exclusive gift cards, offers and deals with your
                   friends and family
                 </p>
-                <div className="flex justify-center lg:justify-start">
+                <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.app.link/Goubba_App" 
-                      className="group bg-[#FFF6FC] flex justify-center items-center px-6 py-2 gap-4 rounded-lg text-pink-600" >
-                    <p className="font-semibold">Start now</p>
-                    <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
+                      className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
+                    <p className="tw-font-semibold">Start now</p>
+                    <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
               </div>
@@ -632,24 +632,24 @@ function App() {
           </div>
         </div>
         
-        <div className="bg-[]">
-          <div className="grid grid-flow-row lg:grid-cols-2 mt-28 w-10/12 mx-auto">
-            <div className="flex items-center order-3 lg:order-1 ">
+        <div className="tw-bg-[]">
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2 tw-mt-28 tw-w-10/12 tw-mx-auto">
+            <div className="tw-flex tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
-                <p className="text-xl text-center lg:text-left lg:text-5xl lg:leading-[52px] font-medium mb-10 lg:w-2/3">
+                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   Pay seamlessly with Goubba Gift card checkout
                 </p>
-                <div className="flex justify-center lg:justify-start">
+                <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://partner.goubba.com" 
-                    className="group bg-[#FFF6FC] flex justify-center items-center px-6 py-2 gap-4 rounded-lg text-pink-600" >
-                    <p className="font-semibold">Try it</p>
-                    <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
+                    className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
+                    <p className="tw-font-semibold">Try it</p>
+                    <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="overflow-auto no-scrollbar order-2">
-              <div className="relative py-12">
+            <div className="tw-overflow-auto no-scrollbar tw-order-2">
+              <div className="tw-relative tw-py-12">
                 <div>
                   <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/zolizola.png" } alt="" ></img>
                 </div>
@@ -658,12 +658,12 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-[#FFFBFC]">
-          <div className="grid grid-flow-row lg:grid-cols-2 mt-28 w-10/12 mx-auto">
-            <div className="lg:overflow-auto no-scrollbar">
+        <div className="tw-bg-[#FFFBFC]">
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2 tw-mt-28 tw-w-10/12 tw-mx-auto">
+            <div className="lg:tw-overflow-auto no-scrollbar">
               <ParallaxProvider>
-                <div className="relative py-12">
-                  <div className="absolute top-0 mr-52 lg:mr-0">
+                <div className="tw-relative tw-py-12">
+                  <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[1050, 0]} speed={15}>
                       <div>
                         <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/arrows.png" } alt="" ></img>
@@ -673,7 +673,7 @@ function App() {
                   <div>
                     <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/phoneList.png" } alt="" ></img>
                   </div>
-                  <div className="absolute top-0 right-0 ml-36 lg:ml-0 mr-0 lg:mr-16">
+                  <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
                         <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/promo.png" } alt="" ></img>
@@ -683,21 +683,21 @@ function App() {
                 </div>
               </ParallaxProvider>
             </div>
-            <div className="flex items-center">
+            <div className="tw-flex tw-items-center">
               <div>
-                <p className="text-xl text-center lg:text-left lg:text-5xl lg:leading-[52px] font-medium mb-10 lg:w-2/3">
+                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   Top up & transfer Goubba credits instantly & securely to earn
                   rewards and win prizes.
                 </p>
-                <div className="flex justify-center lg:justify-start">
+                <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://stage.goubba.com/topup" 
-                      className="group bg-[#FFF6FC] flex justify-center items-center px-6 py-2 gap-4 rounded-lg text-pink-600" >
-                    <p className="font-semibold">Top up</p>
-                    <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
+                      className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
+                    <p className="tw-font-semibold">Top up</p>
+                    <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
-                <div className="py-12">
-                  <p className="text-sm text-gray-500">We accept:</p>
+                <div className="tw-py-12">
+                  <p className="tw-text-sm tw-text-gray-500">We accept:</p>
                   <img src={pay} alt=""></img>
                 </div>
               </div>
@@ -705,18 +705,18 @@ function App() {
           </div>
         </div>
 
-        <div className="retropurple-background lg:mx-12 lg:mb-12 lg:rounded-xl py-20 lg:py-44">
+        <div className="retropurple-background lg:tw-mx-12 lg:tw-mb-12 lg:tw-rounded-xl tw-py-20 lg:tw-py-44">
           <div>
-            <h1 className=" text-center text-[#700F50] font-bold lg:leading-[80px] text-4xl lg:text-[96px] ">
+            <h1 className=" tw-text-center tw-text-[#700F50] tw-font-bold lg:tw-leading-[80px] tw-text-4xl lg:tw-text-[96px] ">
               Join us as a Partner!
             </h1>
-            <div className="flex justify-center mt-12 lg:mt-24">
+            <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
               <NavLink
                 to="./business"
-                className="group bg-white bg-opacity-20 backdrop-blur-lg    
-                      flex justify-center items-center px-16 py-2 gap-4 rounded-lg text-[#700F50]" >
-                <p className="font-semibold">Try it</p>
-                <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg>
+                className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
+                      tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >
+                <p className="tw-font-semibold">Try it</p>
+                <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg>
               </NavLink>
             </div>
           </div>
