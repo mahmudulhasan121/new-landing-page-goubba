@@ -2996,30 +2996,9 @@ function App() {
               <a
                 href="https://partner.goubba.com"
                 className="group bg-white bg-opacity-30 backdrop-blur-lg  
-                            flex justify-center items-center px-16 py-2 gap-4 rounded-lg text-[#700F50]"
-              >
+                            flex justify-center items-center px-16 py-2 gap-4 rounded-lg text-[#700F50]" >
                 <p className="font-semibold">Try it</p>
-                <svg
-                  className="w-8 group-hover:translate-x-2 duration-800 transition"
-                  viewBox="0 0 30 31"
-                  fill="#700F50"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    opacity="0.3"
-                    x="6.25"
-                    y="16.75"
-                    width="2.5"
-                    height="17.5"
-                    rx="1"
-                    transform="rotate(-90 6.25 16.75)"
-                    fill="#700F50"
-                  />
-                  <path
-                    d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z"
-                    fill="#700F50"
-                  />
-                </svg>
+                <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg> 
               </a>
             </div>
           </div>
@@ -3051,8 +3030,7 @@ function App() {
             <div
               className="grid grid-rows-5 md:grid-rows-none 
                                     lg:grid-cols-3 xl:grid-cols-5  
-                                    gap-8 py-16 px-16 md:px-8"
-            >
+                                    gap-8 py-16 px-16 md:px-8" >
               <div className="">
                 <h1 className="font-bold text-5xl md:text-6xl text-[#380828] mb-4">
                   +5M
@@ -3109,7 +3087,7 @@ function App() {
       </div>
       <div className="grid grid-flow-row md:grid-cols-3 mt-16 md:mt-0 px-6 mb-12">
         <div className="flex items-center justify-center  order-1 sm:order-3 w-11/12 mb-6 mx-auto">
-          <p className="text-white font-medium text-center md:mr-16 md:text-right md:text-4xl lg:text-7xl z-20">
+          <p className="text-white font-medium text-center md:text-left text-3xl md:text-4xl lg:text-7xl z-20">
             Publish deals and offers
           </p>
         </div>
@@ -3119,7 +3097,7 @@ function App() {
       </div>
       <div className="grid grid-flow-row md:grid-cols-3 mt-16 md:mt-0 px-6 mb-12">
         <div className="flex items-center justify-center md:pl-24 w-11/12 mb-6 mx-auto">
-          <p className="text-white font-medium text-center md:text-left md:text-4xl lg:text-7xl z-20">
+          <p className="text-white lg:leading-[80px] font-medium text-center md:text-left text-3xl md:text-4xl lg:text-7xl z-20">
             Integrate Goubba Checkout
           </p>
         </div>
@@ -3134,34 +3112,12 @@ function App() {
           </h1>
           <div>
             <div className="flex justify-center mt-24">
-              <a
-                href="https://partner.goubba.com"
+              <a href="https://partner.goubba.com"
                 className="group bg-white bg-opacity-20 backdrop-blur-lg    
-                      flex justify-center items-center px-16 py-2 gap-4 rounded-lg text-[#700F50]"
-              >
+                      flex justify-center items-center px-16 py-2 gap-4 rounded-lg text-[#700F50]" >
                 <p className="font-semibold">Join now</p>
-                <svg
-                  className="w-8 group-hover:translate-x-2 duration-800 transition"
-                  viewBox="0 0 30 31"
-                  fill="#700F50"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    opacity="0.3"
-                    x="6.25"
-                    y="16.75"
-                    width="2.5"
-                    height="17.5"
-                    rx="1"
-                    transform="rotate(-90 6.25 16.75)"
-                    fill="#700F50"
-                  />
-                  <path
-                    d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z"
-                    fill="#700F50"
-                  />
-                </svg>
-              </a>
+                  <svg className="w-8 group-hover:translate-x-2 duration-800 transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg> 
+                </a>
             </div>
           </div>
         </div>

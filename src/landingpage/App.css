@@ -3,7 +3,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -195,3 +197,63 @@
 .z-index {
   z-index: 100;
 }
+
+
+
+
+/* Accordion styles  start*/
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: black;
+  font-weight: bold;
+  cursor: pointer;
+ /* Icon */
+}
+.tab-label:hover {
+  background: #1a252f;
+}
+.tab-label::after {
+  content: url("data:image/svg+xml,%3Csvg width='17' height='10' viewBox='0 0 17 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.8955 0.520451C15.3674 0.0485668 16.1325 0.0485668 16.6043 0.520451C17.0762 0.992333 17.0762 1.75741 16.6043 2.22929L9.35434 9.47929C8.89689 9.93674 8.16031 9.95275 7.68342 9.5156L0.433416 2.86977C-0.0585175 2.41883 -0.0917511 1.65447 0.35919 1.16254C0.810131 0.670602 1.57448 0.637369 2.06642 1.08831L8.46358 6.95237L14.8955 0.520451Z' fill='white'/%3E%3C/svg%3E");
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: black;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+input:checked + .tab-label {
+  background: #1a252f;
+}
+input:checked + .tab-label::after {
+  transform: rotate(180deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+/* Accordion styles  end*/
