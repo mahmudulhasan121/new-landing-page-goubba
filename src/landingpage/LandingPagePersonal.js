@@ -486,7 +486,10 @@ function App() {
   return (
     <div>
       <main className="">
-        <div className="lg:tw-mx-10 tw-bg-[#FFF6FC] tw-rounded-xl tw-pt-12 lg:tw-pt-20 no-scrollbar no-scrollbar tw-overflow-x-auto tw-overflow-y-hidden">
+      <div className="lg:tw-flex tw-h-28 "></div>
+        <div className="lg:tw-mx-10 tw-bg-[#FFF6FC] tw-rounded-xl 
+                    tw-pt-12 lg:tw-pt-20 no-scrollbar no-scrollbar tw-overflow-x-auto tw-overflow-y-hidden">
+          
           <div className="tw-text-center tw-text-[#021E27] lg:tw-w-3/4 tw-mx-auto">
             <h1 className="tw-mx-8 lg:tw-mx-0 tw-text-4xl lg:tw-text-[64px] 3xl:tw-text-[72px] tw-font-bold lg:tw-leading-[80px]">
               Save money and pay seamlessly with Goubba super wallet
