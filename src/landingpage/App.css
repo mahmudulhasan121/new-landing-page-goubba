@@ -258,3 +258,45 @@ input:checked ~ .tab-content {
 }
 /* Accordion styles  end*/
 
+/* corporate slide show  start*/
+.bar {
+
+  color: white;
+}
+
+.bar_content { /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+  from {transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+  
+}
+/* corporate slide show  end*/
+
+.button0{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10.5417px 21.0835px;
+  gap: 8.43px;
+
+  /* G Primary/G P */
+  background: #BA1986;
+  box-shadow: 0px 4.21669px 21.0835px rgba(186, 25, 134, 0.5);
+  border-radius: 10.5417px;
+
+  /* G Primary/G P */
+  color: #fff;
+}
+.check{
+  font-weight: 700;
+}

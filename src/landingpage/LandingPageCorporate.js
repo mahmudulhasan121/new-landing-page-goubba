@@ -33,9 +33,9 @@ function Cards(props) {
 }
 
 function App() {
-    const numbers = [1, 2, 3, 4, 5]
+    const numbers = [1, 2, 3, 4, 5, 6,7,8,9,10]
     return (
-    <div className="tw-bg-[#13030D] lg:tw-py-8 tw-w-full">
+    <div className="tw-bg-[#13030D] lg:tw-pt-8 tw-w-full">
       <div className="tw-h-20"></div>
         <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-8">
             <div className="tw-bg-[#13030D] corporate-shadow border tw-border-white  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-8 tw-pb-20">
@@ -65,7 +65,7 @@ function App() {
         </div>
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                         tw-my-24 md:tw-px-24 tw-mb-12 ">
-            <div className="tw-flex tw-items-center tw-w-11/12">
+            <div className="tw-flex tw-items-center tw-w-11/12 tw-order-3 md:tw-order-1">
                 <div className="tw-space-y-12">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20 lg:tw-leading-[80px]">
@@ -81,14 +81,14 @@ function App() {
                     </a>
                 </div>
             </div>
-            <div className="tw-flex tw-justify-center ">
+            <div className="tw-flex tw-justify-center tw-order-2">
                 <Lottie animationData={animation2} loop={true} className="" />
             </div>
         </div>
 
         <div className="tw-bg-black tw-py-12 lg:tw-py-24 tw-px-2">
             <h2 className="tw-text-center tw-text-4xl tw-w-10/12 tw-mx-auto md:tw-text-5xl tw-font-medium tw-text-white tw-my-6">
-            Brands that trust Goubba
+                Brands that trust Goubba
             </h2>
             <div className="tw-flex lg:tw-hidden tw-w-full lg:tw-w-11/12 tw-mx-auto tw-overflow-auto no-scrollbar">
                 <img className="tw-w-52 " src={cazanimo} alt=""></img>
@@ -108,7 +108,7 @@ function App() {
 
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                         tw-my-24 md:tw-px-24 tw-mb-12 ">
-            <div className="tw-flex tw-items-center tw-w-11/12">
+            <div className="tw-flex tw-items-center tw-w-11/12 tw-order-3 md:tw-order-1">
                 <div className="tw-space-y-12">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20 lg:tw-leading-[80px]">
@@ -124,63 +124,69 @@ function App() {
                     </a>
                 </div>
             </div>
-            <div className="tw-flex tw-justify-center">
-                <img className="tw-w-52" src={newCardB} alt=""></img>
+            <div className="tw-flex tw-justify-center tw-order-2">
+                <img className="" src={newCardB} alt=""></img>
+            </div>
+        </div>
+        <div className="bar">
+            <div className="tw-flex tw-gap-4 bar_content">
+                {numbers.map(name => (  
+                <div key={name} className="tw-px-24 tw-h-28 tw-bg-red-500 tw-rounded-lg">  
+                    {name}  
+                </div>  
+                ))} 
             </div>
         </div>
 
-        <div>
-            <Cards numbers={numbers} />
-        </div>
-
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
+        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-bg-[#25051B]
                         tw-my-24 md:tw-px-24 tw-mb-12 ">
-            <div className="tw-flex tw-items-center tw-w-11/12">
+            
+            <div className="tw-flex tw-justify-center">
+                <img className="" src={newCardB} alt=""></img>
+            </div>
+            <div className="tw-flex  tw-items-center tw-w-11/12 ">
                 <div className="tw-space-y-12">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20 lg:tw-leading-[80px]">
                         Send and track your corporate rewards instantly.
                     </p>
-                    
                     <a href="https://partner.goubba.com"
-                        className="tw-group tw-w-1/3
-                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
-                                    tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
-                        <p className="tw-font-semibold tw-text-white">Explore</p>
+                        className="tw-group 
+                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                            tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
+                        <p className="tw-font-semibold tw-text-white">Start now</p>
                         <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
                     </a>
                 </div>
             </div>
-            <div className="tw-flex tw-justify-center">
-                <img className="tw-w-52" src={newCardB} alt=""></img>
-            </div>
         </div>
 
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 
+        <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 
                         tw-my-24 md:tw-px-24 tw-mb-12 ">
-            <div className="tw-flex tw-items-center tw-w-11/12">
-                <div className="tw-space-y-12">
+            <div className="tw-order-3 md:tw-order-1">
+                <div className="tw-space-y-6 tw-mx-auto ">
+                    <div className="tw-flex tw-justify-center">
+                    <a href="https://partner.goubba.com"
+                        className="tw-group 
+                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
+                        <p className="tw-font-semibold tw-text-black tw-uppercase">COMING SOON</p>
+                    </a>
+                    </div>
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20 lg:tw-leading-[80px]">
                         Schedule and send gift cards automatically without delay.
                     </p>
-                    
-                    <a href="https://partner.goubba.com"
-                        className="tw-group tw-w-1/2
-                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
-                                    tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
-                        <p className="tw-font-semibold tw-text-white tw-uppercase">COMING SOON</p>
-                        <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                    </a>
                 </div>
             </div>
-            <div className="tw-flex tw-justify-center tw-col-span-2">
-                <img className="tw-w-52" src={newCardB} alt=""></img>
+            <div className="tw-flex tw-justify-center tw-col-span-2 tw-order-2">
+                <img className="" src={newCardB} alt=""></img>
             </div>
         </div>
 
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
-                        tw-my-24 md:tw-px-24 tw-mb-12 ">
+        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-bg-[#25051B]">
+            <div className="tw-flex tw-justify-center ">
+                <img className="" src={newCardB} alt=""></img>
+            </div>
             <div className="tw-flex tw-items-center tw-w-11/12">
                 <div className="tw-space-y-12">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -188,17 +194,16 @@ function App() {
                         Unused rewards are recredited to your account, you only pay for real engagement.
                     </p>
                     
-                    <a href="https://partner.goubba.com"
-                        className="tw-group tw-w-1/3
-                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
-                                    tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
-                        <p className="tw-font-semibold tw-text-white tw-uppercase">COMING SOON</p>
-                        <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                    </a>
+                    <div className="tw-flex tw-justify-center">
+                        <a href="https://partner.goubba.com"
+                            className="tw-group 
+                                        tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                                        tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
+                            <p className="tw-font-semibold tw-text-white tw-uppercase">COMING SOON</p>
+                            <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div className="tw-flex tw-justify-center">
-                <img className="tw-w-52" src={newCardB} alt=""></img>
             </div>
         </div>
     </div>
