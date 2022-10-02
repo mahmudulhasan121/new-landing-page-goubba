@@ -594,7 +594,7 @@ function App() {
 
         <div className="tw-bg-[#FFFBFC]">
           <div className="tw-grid lg:tw-grid-cols-2 tw-mt-28 tw-pb-12 tw-w-10/12 tw-mx-auto">
-            <div className="lg:tw-overflow-auto no-scrollbar">
+            <div className="lg:tw-overflow-y-hidden no-scrollbar">
               <ParallaxProvider>
                 <div className="tw-relative tw-pt-12">
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">

@@ -112,7 +112,6 @@ function App({ history = defaultHistory }) {
                 className="tw-group tw-primary-shadow tw-bg-[#BA1986] tw-flex tw-justify-between tw-items-center tw-text-left tw-gap-4 tw-text-white tw-rounded-lg tw-px-4 tw-py-1" >
                 <div>
                   <p className="tw-font-semibold tw-text-sm">Join Now!</p>
-                  <p className="tw-opacity-80 tw-text-xs">0.00 DA</p>
                 </div>
                 <div>
                   <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>
@@ -136,6 +135,15 @@ function App({ history = defaultHistory }) {
                   color: isActive ? "#BA1986" : "#000",
                 })} >
                   Partner
+              </NavLink>
+              <NavLink
+                to="./corporate"
+                className="tw-font-semibold "
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                  color: isActive ? "#BA1986" : "#000",
+                })} >
+                  Corporate
               </NavLink>
             </div>
           </Drawer>
