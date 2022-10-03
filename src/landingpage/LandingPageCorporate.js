@@ -41,7 +41,10 @@ function App() {
         <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-8">
             <div className="tw-bg-[#13030D] corporate-shadow border tw-border-white  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-8 tw-pb-20">
                 <div>
-                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/corporate-animation-one.gif"></img>
+                    <div className="tw-flex tw-justify-center">
+                        <img src="https://adminv2.goubba.com/image?path=react-web/assets/corporate-animation-one-croped.gif"></img>
+                    </div>
+                    
                     <div>
                         <p className="md:tw-w-3/4 tw-mx-4 md:tw-mx-auto tw-text-center tw-font-bold tw-text-white 
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
@@ -172,7 +175,7 @@ function App() {
             <div className="tw-flex tw-justify-center">
                 <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/corporatetwo.png" alt=""></img>
             </div>
-            <div className="tw-flex  tw-items-center md:tw-w-11/12 ">
+            <div className="tw-flex tw-mt-10 md:tw-mt-0 tw-items-center md:tw-w-11/12 ">
                 <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-12">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
