@@ -3,6 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 import { NavLink } from "react-router-dom";
+import {Trans } from 'react-i18next';
 
 const cazanimoC =
   "https://adminv2.goubba.com/image?path=react-web/assets/cazanimoC.png";
@@ -492,7 +493,7 @@ function App() {
           
           <div className="tw-text-center tw-text-[#021E27] lg:tw-w-3/4 tw-mx-auto">
             <h1 className="tw-mx-8 lg:tw-mx-0 tw-text-4xl lg:tw-text-[64px] 3xl:tw-text-[72px] tw-font-bold lg:tw-leading-[80px]">
-              Save money and pay seamlessly with Goubba super wallet
+              <Trans>save_money</Trans>
             </h1>
             <DownloadButtons></DownloadButtons>
             <div>
@@ -515,9 +516,8 @@ function App() {
         <div className="lg:tw-w-9/12 tw-mx-4 lg:tw-mx-auto tw-mt-12">
           <div className="tw-flex tw-justify-center tw-text-left">
             <div className="tw-mb-12">
-              <h2 className="tw-text-[#021E27] tw-text-4xl lg:tw-text-[48px] lg:tw-mb-8 tw-font-semibold">
-                Join over 5 millions Goubists
-                saving and winning rewards
+              <h2 className="tw-text-[#021E27] tw-text-center tw-text-4xl lg:tw-text-[48px] lg:tw-leading-[50px] lg:tw-mb-8 tw-font-semibold">
+              <Trans>join_over_5</Trans>
               </h2>
             </div>
           </div>
@@ -528,7 +528,7 @@ function App() {
                 +200M DA
               </h1>
               <p className="tw-text-[20px] 2xl:tw-text-[24px] tw-font-light">
-                in savings through Goubba
+                <Trans>in_saving</Trans>
               </p>
               <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
@@ -537,7 +537,7 @@ function App() {
                 +22M DA
               </h1>
               <p className="tw-text-[24px] tw-font-light ">
-                in rewards and prizes won
+                <Trans>in_rewards</Trans>
               </p>
               <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
@@ -546,7 +546,7 @@ function App() {
                 +300
               </h1>
               <p className="tw-text-[24px] tw-font-light ">
-                exclusive gift cards, promo codes, deals and offers
+                <Trans>exclusive_promo_cards</Trans>
               </p>
               <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
@@ -555,7 +555,7 @@ function App() {
                 +10,000
               </h1>
               <p className="tw-text-[24px] tw-font-light ">
-                international gift cards to choose from
+                <Trans>international_gitf</Trans>
               </p>
               <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
@@ -564,7 +564,7 @@ function App() {
 
         <div className="tw-mt-12 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto">
           <h2 className="tw-text-[#021E27] tw-text-4xl lg:tw-text-[48px] lg:tw-mb-8 tw-font-semibold tw-mb-12">
-            Our Partners
+            <Trans>our_partners</Trans>
           </h2>
           <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 tw-gap-2 ">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
@@ -586,7 +586,7 @@ function App() {
             <a
               href="https://stage.goubba.com/cards"
               className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600 tw-group" >
-              <p className="tw-font-semibold">Explore Gift Card Partners</p>
+              <p className="tw-font-semibold"><Trans>explore_partner</Trans></p>
               <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
             </a>
           </div>
@@ -620,13 +620,12 @@ function App() {
             <div className="tw-flex tw-items-center">
               <div>
                 <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
-                  Share our exclusive gift cards, offers and deals with your
-                  friends and family
+                  <Trans>share_our_exclusive_gift</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.app.link/Goubba_App" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
-                    <p className="tw-font-semibold">Start now</p>
+                    <p className="tw-font-semibold"><Trans>start_now</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -640,12 +639,12 @@ function App() {
             <div className="tw-flex tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
                 <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
-                  Pay seamlessly with Goubba Gift card checkout
+                <Trans>pay_seamlessly</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://partner.goubba.com" 
                     className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
-                    <p className="tw-font-semibold">Try it</p>
+                    <p className="tw-font-semibold"><Trans>try_it</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -689,18 +688,17 @@ function App() {
             <div className="tw-flex tw-items-center">
               <div>
                 <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
-                  Top up & transfer Goubba credits instantly & securely to earn
-                  rewards and win prizes.
+                  <Trans>top-up_and_transfer</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://stage.goubba.com/topup" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-pink-600" >
-                    <p className="tw-font-semibold">Top up</p>
+                    <p className="tw-font-semibold"><Trans>topup</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
                 <div className="tw-py-12">
-                  <p className="tw-text-sm tw-text-gray-500">We accept:</p>
+                  <p className="tw-text-sm tw-text-gray-500"><Trans>we_accept</Trans>:</p>
                   <img src={pay} alt=""></img>
                 </div>
               </div>
@@ -711,14 +709,14 @@ function App() {
         <div className="retropurple-background lg:tw-mx-12 lg:tw-mb-12 lg:tw-rounded-xl tw-py-20 lg:tw-py-44">
           <div>
             <h1 className=" tw-text-center tw-text-[#700F50] tw-font-bold lg:tw-leading-[80px] tw-text-4xl lg:tw-text-[96px] ">
-              Join us as a Partner!
+              <Trans>join_as_partner</Trans>
             </h1>
             <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
               <NavLink
                 to="./business"
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
                       tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >
-                <p className="tw-font-semibold">Try it</p>
+                <p className="tw-font-semibold"><Trans>try_it</Trans></p>
                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg>
               </NavLink>
             </div>
