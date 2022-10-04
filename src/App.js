@@ -2,6 +2,7 @@ import LandingPagePersonal from "./landingpage/LandingPagePersonal";
 import LandingPageBusiness from "./landingpage/LandingPageBusiness";
 import LandingPageCorporate from "./landingpage/LandingPageCorporate";
 import React, { useState } from "react";
+import { useLocation } from 'react-router-dom'
 import { useTranslation ,Trans } from 'react-i18next';
 import {
   BrowserRouter as Router,
@@ -56,11 +57,16 @@ function App({ history = defaultHistory }) {
     setLanguage(lang);
     i18n.changeLanguage(lang);
   };
+  const route=""
+  function HeaderView() {
+    const location = useLocation();
+    console.log(location.pathname);
+    return <span>{route}</span>
+  }
   return (
     <Router>
-      <nav className="tw-px-4 md:tw-px-10  tw-h-20 tw-fixed tw-inset-x-0 tw-z-50
-                      tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg   
-                        tw-flex " >
+      <nav 
+            className={`banner ${true ? "tw-px-4 md:tw-px-10  tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex" : ""}`} >
         
         <div className="tw-flex tw-justify-between tw-w-full tw-items-center">
           <div className="md:tw-flex tw-gap-6 tw-items-center">
@@ -69,6 +75,7 @@ function App({ history = defaultHistory }) {
             </a>
             <div className="tw-w-5 lg:tw-w-10"></div>
             <div className="tw-flex lg:tw-gap-10">
+            <HeaderView/>
               <NavLink
                 to="/"
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
@@ -187,14 +194,14 @@ function App({ history = defaultHistory }) {
             <a href="" 
               className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-1 tw-rounded-lg
                         tw-border-[#BA1986]">
-              <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]">Login</p>
+              <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]"><Trans>login</Trans></p>
             </a>
             <a
               href="/login"
               className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
-                        tw-text-left tw-gap-4 tw-text-white tw-rounded-lg tw-px-4 tw-py-1" >
+                        tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
               <div>
-                <p className="tw-font-bold tw-text-sm">Join Now!</p>
+                <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>join</Trans></p>
               </div>
               <div>
                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             

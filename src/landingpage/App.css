@@ -300,3 +300,9 @@ input:checked ~ .tab-content {
 .check{
   font-weight: 700;
 }
+
+/* correct collision of css  */
+a:hover {
+  text-decoration: none;
+  
+}

@@ -31,11 +31,12 @@ function App() {
             <Lottie animationData={textEn} loop={true} className="tw-mx-4" />
 
             <div className="tw-flex tw-justify-center tw-mt-12 md:tw-mt-24">
-              <a
-                href="https://partner.goubba.com"
-                className="tw-group tw-bg-white tw-bg-opacity-30 tw-backdrop-blur-lg  
-                            tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >
-                <p className="tw-font-semibold"><Trans>try_it</Trans></p>
+              <a href="https://partner.goubba.com" 
+                  className="tw-group tw-bg-white tw-bg-opacity-30 tw-backdrop-blur-lg  
+                            tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 
+                            tw-gap-4 tw-rounded-lg 
+                            " >
+                  <p className="tw-font-semibold tw-text-[#700F50]"><Trans>try_it</Trans></p>
                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg> 
               </a>
             </div>
@@ -66,12 +67,12 @@ function App() {
           </h2>
           <div className="retroB-background tw-mx-4 md:tw-mx-12 tw-mt-12 tw-rounded-xl">
             <div
-              className="tw-grid tw-grid-rows-5 md:tw-grid-rows-none 
-                                    lg:tw-grid-cols-3 xl:tw-grid-cols-5  
+              className="tw-grid tw-grid-rows-4 md:tw-grid-rows-none 
+                                    md:tw-grid-cols-2 lg:tw-grid-cols-3 xl:tw-grid-cols-4  
                                     tw-gap-8 tw-py-16 tw-px-16 md:tw-px-8" >
               <div className="">
                 <h1 className="tw-font-bold tw-text-5xl md:tw-text-6xl tw-text-[#380828] tw-mb-4">
-                  +5M
+                  +18M
                 </h1>
                 <p className="tw-font-light tw-text-2xl md:tw-text-3xl tw-text-[#700F50] md:tw-w-2/3 lg:tw-w-10/12">
                   <Trans>total_active_users</Trans>
@@ -87,14 +88,6 @@ function App() {
               </div>
               <div className="">
                 <h1 className="tw-font-bold tw-text-5xl md:tw-text-6xl tw-text-[#380828] tw-mb-4">
-                  +120k
-                </h1>
-                <p className="tw-font-light tw-text-2xl md:tw-text-3xl tw-text-[#700F50] md:tw-w-2/3 lg:tw-w-10/12">
-                  <Trans>daily_active_users</Trans>
-                </p>
-              </div>
-              <div className="">
-                <h1 className="tw-font-bold tw-text-5xl md:tw-text-6xl tw-text-[#380828] tw-mb-4">
                   25%
                 </h1>
                 <p className="tw-font-light tw-text-2xl md:tw-text-3xl tw-text-[#700F50] md:tw-w-2/3 lg:tw-w-10/12">
@@ -103,7 +96,7 @@ function App() {
               </div>
               <div className="">
                 <h1 className="tw-font-bold tw-text-5xl md:tw-text-6xl tw-text-[#380828] tw-mb-4">
-                  28Min
+                  12 Min
                 </h1>
                 <p className="tw-font-light tw-text-2xl md:tw-text-3xl tw-text-[#700F50] md:tw-w-2/3 lg:tw-w-10/12">
                   <Trans>average_time_rate</Trans>
@@ -153,7 +146,7 @@ function App() {
               <a href="https://partner.goubba.com"
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
                       tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >
-                <p className="tw-font-semibold"><Trans>join</Trans></p>
+                <p className="tw-font-semibold tw-text-[#700F50]"><Trans>join</Trans></p>
                   <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#700F50" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#700F50" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#700F50" /> </svg> 
                 </a>
             </div>
