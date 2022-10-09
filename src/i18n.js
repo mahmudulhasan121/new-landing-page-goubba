@@ -68,7 +68,8 @@ const resources = {
       "terms_conditions": "Terms & Conditions",
       "privacy_policy": "Privacy Policy",
       "get_app": "Get the app",
-      "login":"Login"
+      "login":"Login",
+      "topup":"Top-Up"
     }
   },
   ar:{
@@ -134,7 +135,8 @@ const resources = {
       "terms_conditions": "أحكام وشروط",
       "privacy_policy": "سياسة الخصوصية",
       "get_app": "احصل على التطبيق",
-      "login":"تسجيل الدخول"
+      "login":"تسجيل الدخول",
+      "topup":"اشحن الآن"
     }
   },
   fr: {
@@ -200,7 +202,8 @@ const resources = {
       "terms_conditions": "Conditions Générales",
       "privacy_policy": "Politique de Confidentialité",
       "get_app": "Télécharger l'app",
-      "login":"Se connecter"
+      "login":"Se connecter",
+      "topup":"Rechargez GC"
     }
   }
 };

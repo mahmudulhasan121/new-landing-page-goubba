@@ -53,20 +53,25 @@ function App({ history = defaultHistory }) {
 
   const handleLangChange = evt => {
     const lang = evt.target.value;
-    console.log(lang);
+    //console.log(lang);
     setLanguage(lang);
     i18n.changeLanguage(lang);
   };
-  const route=""
-  function HeaderView() {
+  const usePathname = () => {
     const location = useLocation();
     console.log(location.pathname);
-    return <span>{route}</span>
+    return location.pathname;
   }
-  return (
-    <Router>
-      <nav 
-            className={`banner ${true ? "tw-px-4 md:tw-px-10  tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex" : ""}`} >
+  var route=""
+  function HeaderView() {
+    const location = useLocation();
+    //console.log(location.pathname);
+    route=location.pathname
+    return (
+      <nav className={`${location.pathname  == "/corporate" 
+                      ? "tw-px-4 md:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-black tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex" 
+                      : "tw-px-4 md:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex" }`
+                      }>
         
         <div className="tw-flex tw-justify-between tw-w-full tw-items-center">
           <div className="md:tw-flex tw-gap-6 tw-items-center">
@@ -75,14 +80,12 @@ function App({ history = defaultHistory }) {
             </a>
             <div className="tw-w-5 lg:tw-w-10"></div>
             <div className="tw-flex lg:tw-gap-10">
-            <HeaderView/>
               <NavLink
                 to="/"
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
-                  color: isActive ? "#fff" : "#545e6f",
-                  color: isActive ? "#BA1986" : "#000",
+                  color: isActive ? "#BA1986" : location.pathname  == "/corporate" && !isActive ? "#999999" :"#000",
                   borderTop: isActive ? '6px solid #BA1986':'6px solid #FFFFFF00',
                 })}
                 end>
@@ -95,8 +98,7 @@ function App({ history = defaultHistory }) {
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
-                  color: isActive ? "#fff" : "#545e6f",
-                  color: isActive ? "#BA1986" : "#000",
+                  color: isActive ? "#BA1986" : location.pathname  == "/corporate" && !isActive ? "#999999" :"#000",
                   borderTop: isActive ? '6px solid #BA1986':'6px solid #FFFFFF00',
                 })} >
                 <div className="tw-px-4 tw-py-2.5 hover:tw-bg-slate-50 tw-rounded-lg">
@@ -108,7 +110,6 @@ function App({ history = defaultHistory }) {
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
-                  color: isActive ? "#fff" : "#545e6f",
                   color: isActive ? "#BA1986" : "#000",
                   borderTop: isActive ? '6px solid #BA1986':'6px solid #FFFFFF00',
                 })} >
@@ -168,16 +169,21 @@ function App({ history = defaultHistory }) {
           </Drawer>
           <div className="md:tw-hidden tw-flex tw-justify-end tw-gap-10">
             <div className="tw-flex tw-relative tw-items-center tw-h-10 tw-w-24 ">
-              <svg className="tw-w-7 tw-ml-12" viewBox="0 0 17 17" fill="gray" xmlns="http://www.w3.org/2000/svg" > <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M8.11993 14.0399C11.4005 14.0399 14.0599 11.3804 14.0599 8.09988C14.0599 4.81931 11.4005 2.15988 8.11993 2.15988C4.83936 2.15988 2.17993 4.81931 2.17993 8.09988C2.17993 11.3804 4.83936 14.0399 8.11993 14.0399Z" fill="gray" /> <path fillRule="evenodd" clipRule="evenodd" d="M7.94552 14.0374C4.74562 13.9451 2.17993 11.3221 2.17993 8.09988C2.17993 8.04499 2.18068 7.99028 2.18216 7.93575C2.61707 7.97734 3.40513 8.07175 3.44227 8.37735C3.49366 8.80009 3.44227 9.32853 3.80224 9.48705C4.16222 9.64557 4.26508 8.8529 4.57359 9.06431C4.88209 9.27572 5.7049 9.47922 5.7049 9.85298C5.7049 10.2267 5.55065 10.8082 5.7049 10.9139C5.85916 11.0196 6.47585 11.7593 6.47601 11.8651C6.47625 11.9708 6.69339 12.5083 6.6286 12.7137C6.57491 12.884 6.30399 13.413 6.04133 13.6535C6.63701 13.8828 7.2775 14.0173 7.94554 14.0373L7.94552 14.0374ZM5.66654 2.68862C6.4144 2.34901 7.24508 2.15988 8.11994 2.15988C10.4375 2.15988 12.4451 3.48712 13.424 5.42297C13.4459 5.9378 13.4421 6.37817 13.5558 6.53748C14.1346 7.34751 12.1456 7.90473 12.4478 9.12983C12.5809 9.67034 11.1248 9.49887 10.7692 10.0049C10.4133 10.5107 9.54386 10.1708 9.34226 10.0736C9.14067 9.97637 8.36853 10.3004 8.43602 9.74956C8.50311 9.19854 8.97285 9.16618 9.47661 8.93937C9.98013 8.7128 10.7064 7.95941 10.3495 7.86096C8.66926 7.3978 8.09603 5.7757 8.09603 5.7757C7.99523 5.75623 8.02053 4.629 7.58426 4.59664C7.14759 4.56413 6.91245 4.72623 6.27482 4.59664C5.63679 4.46706 5.77129 4.04579 5.67049 3.13837C5.64794 2.93482 5.64903 2.79161 5.66654 2.68862ZM14.0594 8.01872C14.0597 8.04573 14.0599 8.07278 14.0599 8.09988C14.0599 11.3607 11.4324 14.0079 8.17899 14.0396C11.4003 14.0071 14.0162 11.3262 14.0594 8.01872V8.01872Z" fill="gray" /> </svg> 
+              <svg className="tw-w-7 tw-ml-12" viewBox="0 0 17 17" fill="gray" xmlns="http://www.w3.org/2000/svg" > <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M8.11993 14.0399C11.4005 14.0399 14.0599 11.3804 14.0599 8.09988C14.0599 4.81931 11.4005 2.15988 8.11993 2.15988C4.83936 2.15988 2.17993 4.81931 2.17993 8.09988C2.17993 11.3804 4.83936 14.0399 8.11993 14.0399Z" 
+                  fill="gray" /> <path fillRule="evenodd" clipRule="evenodd" d="M7.94552 14.0374C4.74562 13.9451 2.17993 11.3221 2.17993 8.09988C2.17993 8.04499 2.18068 7.99028 2.18216 7.93575C2.61707 7.97734 3.40513 8.07175 3.44227 8.37735C3.49366 8.80009 3.44227 9.32853 3.80224 9.48705C4.16222 9.64557 4.26508 8.8529 4.57359 9.06431C4.88209 9.27572 5.7049 9.47922 5.7049 9.85298C5.7049 10.2267 5.55065 10.8082 5.7049 10.9139C5.85916 11.0196 6.47585 11.7593 6.47601 11.8651C6.47625 11.9708 6.69339 12.5083 6.6286 12.7137C6.57491 12.884 6.30399 13.413 6.04133 13.6535C6.63701 13.8828 7.2775 14.0173 7.94554 14.0373L7.94552 14.0374ZM5.66654 2.68862C6.4144 2.34901 7.24508 2.15988 8.11994 2.15988C10.4375 2.15988 12.4451 3.48712 13.424 5.42297C13.4459 5.9378 13.4421 6.37817 13.5558 6.53748C14.1346 7.34751 12.1456 7.90473 12.4478 9.12983C12.5809 9.67034 11.1248 9.49887 10.7692 10.0049C10.4133 10.5107 9.54386 10.1708 9.34226 10.0736C9.14067 9.97637 8.36853 10.3004 8.43602 9.74956C8.50311 9.19854 8.97285 9.16618 9.47661 8.93937C9.98013 8.7128 10.7064 7.95941 10.3495 7.86096C8.66926 7.3978 8.09603 5.7757 8.09603 5.7757C7.99523 5.75623 8.02053 4.629 7.58426 4.59664C7.14759 4.56413 6.91245 4.72623 6.27482 4.59664C5.63679 4.46706 5.77129 4.04579 5.67049 3.13837C5.64794 2.93482 5.64903 2.79161 5.66654 2.68862ZM14.0594 8.01872C14.0597 8.04573 14.0599 8.07278 14.0599 8.09988C14.0599 11.3607 11.4324 14.0079 8.17899 14.0396C11.4003 14.0071 14.0162 11.3262 14.0594 8.01872V8.01872Z" 
+                  fill="gray" /> </svg> 
               <select onChange={handleLangChange} value={language}
-                className="tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium
-                      tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent">
+                className={`${location.pathname  == "/corporate" 
+                      ? "tw-pl-5 tw-text-lg tw-text-white tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" 
+                      : "tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" }`
+                      }
+                >
                 <option value="fr" className="tw-text-black">FR</option>
                 <option value="en" className="tw-text-black">EN</option>
               </select>
             </div>
-            <button onClick={toggleDrawer} className="">
-              <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg" > <rect x="2" y="0.130859" width="30" height="4" rx="2" fill="black" /> <rect x="2" y="9.13086" width="30" height="4" rx="2" fill="black" /> <rect x="2" y="19.1309" width="30" height="4" rx="2" fill="black" /> </svg>
+            <button onClick={toggleDrawer} className="tw-text-white">
+              <svg className={`${location.pathname  == "/corporate"?"tw-fill-white":"tw-fill-black"}`} width="32" height="24" viewBox="0 0 32 24" fill="" xmlns="http://www.w3.org/2000/svg" > <rect x="2" y="0.130859" width="30" height="4" rx="2" fill="" /> <rect x="2" y="9.13086" width="30" height="4" rx="2" fill="" /> <rect x="2" y="19.1309" width="30" height="4" rx="2" fill="" /> </svg>
             </button>
           </div>
 
@@ -185,8 +191,11 @@ function App({ history = defaultHistory }) {
             <div className="tw-flex tw-relative tw-items-center tw-h-10 tw-w-20 tw-mr-6 ">
               <svg className="tw-w-6 tw-ml-12" viewBox="0 0 17 17" fill="gray" xmlns="http://www.w3.org/2000/svg" > <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M8.11993 14.0399C11.4005 14.0399 14.0599 11.3804 14.0599 8.09988C14.0599 4.81931 11.4005 2.15988 8.11993 2.15988C4.83936 2.15988 2.17993 4.81931 2.17993 8.09988C2.17993 11.3804 4.83936 14.0399 8.11993 14.0399Z" fill="gray" /> <path fillRule="evenodd" clipRule="evenodd" d="M7.94552 14.0374C4.74562 13.9451 2.17993 11.3221 2.17993 8.09988C2.17993 8.04499 2.18068 7.99028 2.18216 7.93575C2.61707 7.97734 3.40513 8.07175 3.44227 8.37735C3.49366 8.80009 3.44227 9.32853 3.80224 9.48705C4.16222 9.64557 4.26508 8.8529 4.57359 9.06431C4.88209 9.27572 5.7049 9.47922 5.7049 9.85298C5.7049 10.2267 5.55065 10.8082 5.7049 10.9139C5.85916 11.0196 6.47585 11.7593 6.47601 11.8651C6.47625 11.9708 6.69339 12.5083 6.6286 12.7137C6.57491 12.884 6.30399 13.413 6.04133 13.6535C6.63701 13.8828 7.2775 14.0173 7.94554 14.0373L7.94552 14.0374ZM5.66654 2.68862C6.4144 2.34901 7.24508 2.15988 8.11994 2.15988C10.4375 2.15988 12.4451 3.48712 13.424 5.42297C13.4459 5.9378 13.4421 6.37817 13.5558 6.53748C14.1346 7.34751 12.1456 7.90473 12.4478 9.12983C12.5809 9.67034 11.1248 9.49887 10.7692 10.0049C10.4133 10.5107 9.54386 10.1708 9.34226 10.0736C9.14067 9.97637 8.36853 10.3004 8.43602 9.74956C8.50311 9.19854 8.97285 9.16618 9.47661 8.93937C9.98013 8.7128 10.7064 7.95941 10.3495 7.86096C8.66926 7.3978 8.09603 5.7757 8.09603 5.7757C7.99523 5.75623 8.02053 4.629 7.58426 4.59664C7.14759 4.56413 6.91245 4.72623 6.27482 4.59664C5.63679 4.46706 5.77129 4.04579 5.67049 3.13837C5.64794 2.93482 5.64903 2.79161 5.66654 2.68862ZM14.0594 8.01872C14.0597 8.04573 14.0599 8.07278 14.0599 8.09988C14.0599 11.3607 11.4324 14.0079 8.17899 14.0396C11.4003 14.0071 14.0162 11.3262 14.0594 8.01872V8.01872Z" fill="gray" /> </svg> 
               <select onChange={handleLangChange} value={language}
-                className="tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium
-                      tw-pr-5 tw-absolute tw-inset-0 tw-bg-transparent">
+                className={`${location.pathname  == "/corporate" 
+                      ? "tw-pl-5 tw-text-lg tw-text-white tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" 
+                      : "tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" }`
+                      }
+                >
                 <option value="fr" className="tw-text-black">FR</option>
                 <option value="en" className="tw-text-black">EN</option>
               </select>
@@ -210,6 +219,12 @@ function App({ history = defaultHistory }) {
           </div>
         </div>
       </nav>
+    )
+  }
+  return (
+    <Router>
+      <HeaderView></HeaderView>
+      
       
 
       <Routes history={history}>

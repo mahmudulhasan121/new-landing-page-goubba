@@ -666,7 +666,7 @@ function App() {
               <ParallaxProvider>
                 <div className="tw-relative tw-py-12">
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
-                    <Parallax translateY={[1050, 0]} speed={15}>
+                    <Parallax translateY={[500, 0]} speed={15}>
                       <div>
                         <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/arrows.png" } alt="" ></img>
                       </div>
