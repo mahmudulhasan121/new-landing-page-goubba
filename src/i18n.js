@@ -69,7 +69,8 @@ const resources = {
       "privacy_policy": "Privacy Policy",
       "get_app": "Get the app",
       "login":"Login",
-      "topup":"Top-Up"
+      "topup":"Top-Up",
+      "soon":"soon"
     }
   },
   ar:{
@@ -136,7 +137,8 @@ const resources = {
       "privacy_policy": "سياسة الخصوصية",
       "get_app": "احصل على التطبيق",
       "login":"تسجيل الدخول",
-      "topup":"اشحن الآن"
+      "topup":"اشحن الآن",
+      "soon":"قريبا"
     }
   },
   fr: {
@@ -184,7 +186,7 @@ const resources = {
       "coming_soon": "Bientôt disponible",
       "schedue_send": "Ne manquez jamais les événements importants",
       "unsend_rewadrs": "Les récompenses non utilisées sont recréditées sur votre compte",
-      "your_favorite_superwallet": "Votre Super-Portefeuille préféré : Cartes-Cadeaux, offres, cashback et codes promo !",
+      "your_favorite_superwallet": "Votre Super-Wallet préféré : Cartes-Cadeaux, offres, cashback et codes promo !",
       "goubba": "Goubba",
       "about": "À propos de nous",
       "careers": "Carrières",
@@ -203,7 +205,8 @@ const resources = {
       "privacy_policy": "Politique de Confidentialité",
       "get_app": "Télécharger l'app",
       "login":"Se connecter",
-      "topup":"Rechargez GC"
+      "topup":"Rechargez GC",
+      "soon":"bientôt"
     }
   }
 };

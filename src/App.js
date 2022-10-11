@@ -1,7 +1,7 @@
 import LandingPagePersonal from "./landingpage/LandingPagePersonal";
 import LandingPageBusiness from "./landingpage/LandingPageBusiness";
 import LandingPageCorporate from "./landingpage/LandingPageCorporate";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from 'react-router-dom'
 import { useTranslation ,Trans } from 'react-i18next';
 import {
@@ -63,6 +63,73 @@ function App({ history = defaultHistory }) {
     return location.pathname;
   }
   var route=""
+
+  function CtaButton(){
+    const location = useLocation();
+    //console.log(location.pathname);
+    route=location.pathname
+    return(
+      <div className="">
+        {location.pathname  == "/business"?
+          (
+            <div className="tw-flex tw-relative tw-items-center tw-gap-4">
+              <a href="/login" 
+                className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
+                          tw-border-[#95146B]">
+                <p className="tw-font-bold tw-text-sm tw-text-[#95146B]"><Trans>login</Trans></p>
+              </a>
+              <a
+                href="/login"
+                className="tw-group primary-shadow tw-bg-[#95146B] tw-flex tw-items-center 
+                          tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
+                <div>
+                  <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>book_a_demo</Trans></p>
+                </div>
+                <div>
+                  <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             
+                </div>
+              </a>
+            </div>
+            ):location.pathname  == "/corporate"?
+            (
+              <div className="tw-flex tw-relative tw-items-center tw-gap-4">
+                <a href="/login" 
+                  className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
+                            tw-border-[#BA1986]">
+                  <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]"><Trans>login</Trans></p>
+                </a>
+                <button
+                  href="/login" disabled
+                  className="twgroup primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
+                            tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1
+                            disabled:tw-bg-slate-800" >
+                  <div>
+                    <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>book_a_demo</Trans></p>
+                  </div>
+                  <div>
+                    <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             
+                  </div>
+                </button>
+              </div>
+            ):
+            (
+            <a
+              href="/login"
+              className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
+                        tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
+              <div>
+                <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>join</Trans></p>
+              </div>
+              <div>
+                <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             
+              </div>
+            </a>
+          )
+        }
+      </div>
+    )
+  }
+
   function HeaderView() {
     const location = useLocation();
     //console.log(location.pathname);
@@ -81,7 +148,7 @@ function App({ history = defaultHistory }) {
             <div className="tw-w-5 lg:tw-w-10"></div>
             <div className="tw-flex lg:tw-gap-10">
               <NavLink
-                to="/"
+                to="/" onClick={scrollToTop}
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
@@ -94,7 +161,7 @@ function App({ history = defaultHistory }) {
                   </div>
               </NavLink>
               <NavLink
-                to="./business"
+                to="./business" onClick={scrollToTop}
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
@@ -106,16 +173,23 @@ function App({ history = defaultHistory }) {
                 </div>
               </NavLink>
               <NavLink
-                to="./corporate"
+                to="./corporate" onClick={scrollToTop}
                 className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
                   color: isActive ? "#BA1986" : "#000",
                   borderTop: isActive ? '6px solid #BA1986':'6px solid #FFFFFF00',
                 })} >
-                <div className="tw-px-4 tw-py-2.5 hover:tw-bg-slate-50 tw-rounded-lg">
+                <div className="tw-px-4 tw-py-2.5 tw-flex tw-gap-1 hover:tw-bg-slate-50 tw-rounded-lg">
                   <Trans>corporate</Trans>
+                  <div className="tw-flex tw-items-center">
+                    <p className="  tw-bg-amber-400 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
+                        tw-px-1">
+                      <Trans>soon</Trans>
+                    </p>
+                  </div>
                 </div>
+                  
               </NavLink>
             </div>
           </div>
@@ -138,7 +212,7 @@ function App({ history = defaultHistory }) {
                 </div>
               </a>
               <NavLink
-                to="/"
+                to="/" onClick={scrollToTop}
                 className="tw-font-semibold "
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
@@ -147,7 +221,7 @@ function App({ history = defaultHistory }) {
                 end>
                     <Trans>personal</Trans>
               </NavLink>
-              <NavLink
+              <NavLink onClick={scrollToTop}
                 to="./business"
                 className="tw-font-semibold "
                 style={({ isActive }) => ({
@@ -157,7 +231,7 @@ function App({ history = defaultHistory }) {
                   <Trans>business</Trans>
               </NavLink>
               <NavLink
-                to="./corporate"
+                to="./corporate" onClick={scrollToTop}
                 className="tw-font-semibold "
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
@@ -172,12 +246,13 @@ function App({ history = defaultHistory }) {
               <svg className="tw-w-7 tw-ml-12" viewBox="0 0 17 17" fill="gray" xmlns="http://www.w3.org/2000/svg" > <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M8.11993 14.0399C11.4005 14.0399 14.0599 11.3804 14.0599 8.09988C14.0599 4.81931 11.4005 2.15988 8.11993 2.15988C4.83936 2.15988 2.17993 4.81931 2.17993 8.09988C2.17993 11.3804 4.83936 14.0399 8.11993 14.0399Z" 
                   fill="gray" /> <path fillRule="evenodd" clipRule="evenodd" d="M7.94552 14.0374C4.74562 13.9451 2.17993 11.3221 2.17993 8.09988C2.17993 8.04499 2.18068 7.99028 2.18216 7.93575C2.61707 7.97734 3.40513 8.07175 3.44227 8.37735C3.49366 8.80009 3.44227 9.32853 3.80224 9.48705C4.16222 9.64557 4.26508 8.8529 4.57359 9.06431C4.88209 9.27572 5.7049 9.47922 5.7049 9.85298C5.7049 10.2267 5.55065 10.8082 5.7049 10.9139C5.85916 11.0196 6.47585 11.7593 6.47601 11.8651C6.47625 11.9708 6.69339 12.5083 6.6286 12.7137C6.57491 12.884 6.30399 13.413 6.04133 13.6535C6.63701 13.8828 7.2775 14.0173 7.94554 14.0373L7.94552 14.0374ZM5.66654 2.68862C6.4144 2.34901 7.24508 2.15988 8.11994 2.15988C10.4375 2.15988 12.4451 3.48712 13.424 5.42297C13.4459 5.9378 13.4421 6.37817 13.5558 6.53748C14.1346 7.34751 12.1456 7.90473 12.4478 9.12983C12.5809 9.67034 11.1248 9.49887 10.7692 10.0049C10.4133 10.5107 9.54386 10.1708 9.34226 10.0736C9.14067 9.97637 8.36853 10.3004 8.43602 9.74956C8.50311 9.19854 8.97285 9.16618 9.47661 8.93937C9.98013 8.7128 10.7064 7.95941 10.3495 7.86096C8.66926 7.3978 8.09603 5.7757 8.09603 5.7757C7.99523 5.75623 8.02053 4.629 7.58426 4.59664C7.14759 4.56413 6.91245 4.72623 6.27482 4.59664C5.63679 4.46706 5.77129 4.04579 5.67049 3.13837C5.64794 2.93482 5.64903 2.79161 5.66654 2.68862ZM14.0594 8.01872C14.0597 8.04573 14.0599 8.07278 14.0599 8.09988C14.0599 11.3607 11.4324 14.0079 8.17899 14.0396C11.4003 14.0071 14.0162 11.3262 14.0594 8.01872V8.01872Z" 
                   fill="gray" /> </svg> 
+              <svg className="tw-w-4" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15.6161 0.866115C16.1043 0.37796 16.8957 0.37796 17.3839 0.866115C17.872 1.35427 17.872 2.14573 17.3839 2.63388L9.88388 10.1339C9.41066 10.6071 8.64868 10.6237 8.15534 10.1714L0.655344 3.29644C0.146445 2.82995 0.112067 2.03924 0.578557 1.53034C1.04505 1.02144 1.83576 0.987065 2.34466 1.45356L8.96241 7.51983L15.6161 0.866115Z" fill="#333333"/> </svg>
               <select onChange={handleLangChange} value={language}
-                className={`${location.pathname  == "/corporate" 
-                      ? "tw-pl-5 tw-text-lg tw-text-white tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" 
-                      : "tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" }`
-                      }
-                >
+                className={`tw-appearance-none tw-pl-5 tw-text-lg tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent
+                    ${location.pathname  == "/corporate" 
+                      ? " tw-text-white " 
+                      : " tw-text-gray-800 " }`
+                      }>
                 <option value="fr" className="tw-text-black">FR</option>
                 <option value="en" className="tw-text-black">EN</option>
               </select>
@@ -188,45 +263,29 @@ function App({ history = defaultHistory }) {
           </div>
 
           <div className="tw-gap-4 tw-hidden md:tw-flex ">
-            <div className="tw-flex tw-relative tw-items-center tw-h-10 tw-w-20 tw-mr-6 ">
+            <div className="tw-flex tw-relative tw-items-center tw-h-10 tw-w-24 tw-mr-6 ">
               <svg className="tw-w-6 tw-ml-12" viewBox="0 0 17 17" fill="gray" xmlns="http://www.w3.org/2000/svg" > <path opacity="0.3" fillRule="evenodd" clipRule="evenodd" d="M8.11993 14.0399C11.4005 14.0399 14.0599 11.3804 14.0599 8.09988C14.0599 4.81931 11.4005 2.15988 8.11993 2.15988C4.83936 2.15988 2.17993 4.81931 2.17993 8.09988C2.17993 11.3804 4.83936 14.0399 8.11993 14.0399Z" fill="gray" /> <path fillRule="evenodd" clipRule="evenodd" d="M7.94552 14.0374C4.74562 13.9451 2.17993 11.3221 2.17993 8.09988C2.17993 8.04499 2.18068 7.99028 2.18216 7.93575C2.61707 7.97734 3.40513 8.07175 3.44227 8.37735C3.49366 8.80009 3.44227 9.32853 3.80224 9.48705C4.16222 9.64557 4.26508 8.8529 4.57359 9.06431C4.88209 9.27572 5.7049 9.47922 5.7049 9.85298C5.7049 10.2267 5.55065 10.8082 5.7049 10.9139C5.85916 11.0196 6.47585 11.7593 6.47601 11.8651C6.47625 11.9708 6.69339 12.5083 6.6286 12.7137C6.57491 12.884 6.30399 13.413 6.04133 13.6535C6.63701 13.8828 7.2775 14.0173 7.94554 14.0373L7.94552 14.0374ZM5.66654 2.68862C6.4144 2.34901 7.24508 2.15988 8.11994 2.15988C10.4375 2.15988 12.4451 3.48712 13.424 5.42297C13.4459 5.9378 13.4421 6.37817 13.5558 6.53748C14.1346 7.34751 12.1456 7.90473 12.4478 9.12983C12.5809 9.67034 11.1248 9.49887 10.7692 10.0049C10.4133 10.5107 9.54386 10.1708 9.34226 10.0736C9.14067 9.97637 8.36853 10.3004 8.43602 9.74956C8.50311 9.19854 8.97285 9.16618 9.47661 8.93937C9.98013 8.7128 10.7064 7.95941 10.3495 7.86096C8.66926 7.3978 8.09603 5.7757 8.09603 5.7757C7.99523 5.75623 8.02053 4.629 7.58426 4.59664C7.14759 4.56413 6.91245 4.72623 6.27482 4.59664C5.63679 4.46706 5.77129 4.04579 5.67049 3.13837C5.64794 2.93482 5.64903 2.79161 5.66654 2.68862ZM14.0594 8.01872C14.0597 8.04573 14.0599 8.07278 14.0599 8.09988C14.0599 11.3607 11.4324 14.0079 8.17899 14.0396C11.4003 14.0071 14.0162 11.3262 14.0594 8.01872V8.01872Z" fill="gray" /> </svg> 
+              <svg className="tw-w-4" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15.6161 0.866115C16.1043 0.37796 16.8957 0.37796 17.3839 0.866115C17.872 1.35427 17.872 2.14573 17.3839 2.63388L9.88388 10.1339C9.41066 10.6071 8.64868 10.6237 8.15534 10.1714L0.655344 3.29644C0.146445 2.82995 0.112067 2.03924 0.578557 1.53034C1.04505 1.02144 1.83576 0.987065 2.34466 1.45356L8.96241 7.51983L15.6161 0.866115Z" fill="#333333"/> </svg>
               <select onChange={handleLangChange} value={language}
-                className={`${location.pathname  == "/corporate" 
-                      ? "tw-pl-5 tw-text-lg tw-text-white tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" 
-                      : "tw-pl-5 tw-text-lg tw-text-gray-800 tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent" }`
-                      }
-                >
+                className={`tw-appearance-none tw-pl-5 tw-text-lg tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent
+                    ${location.pathname  == "/corporate" 
+                      ? " tw-text-white " 
+                      : " tw-text-gray-800 " }`
+                      }>
                 <option value="fr" className="tw-text-black">FR</option>
                 <option value="en" className="tw-text-black">EN</option>
               </select>
             </div>
-            <a href="" 
-              className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-1 tw-rounded-lg
-                        tw-border-[#BA1986]">
-              <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]"><Trans>login</Trans></p>
-            </a>
-            <a
-              href="/login"
-              className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
-                        tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
-              <div>
-                <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>join</Trans></p>
-              </div>
-              <div>
-                <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             
-              </div>
-            </a>
+            <CtaButton/>
           </div>
         </div>
       </nav>
     )
   }
+
   return (
     <Router>
       <HeaderView></HeaderView>
-      
-      
-
       <Routes history={history}>
         <Route path="/" element={<LandingPagePersonal />} />
         <Route path="/business" element={<LandingPageBusiness />} />
@@ -340,7 +399,7 @@ function App({ history = defaultHistory }) {
             </div>
             <div className="tw-flex tw-justify-end">
               <div className="">
-                <h3 className="tw-font-bold text-[#cccccc]"><Trans>get_app</Trans></h3>
+                <h3 className="tw-font-bold tw-mb-4"><Trans>get_app</Trans></h3>
                 <img className="tw-w-32" src={QRCode} alt="" />
               </div>
             </div>
@@ -474,7 +533,7 @@ function App({ history = defaultHistory }) {
             </div>
           </div>
           <div className="">
-            <h3 className="tw-font-bold text-[#cccccc]">Get the app</h3>
+            <h3 className="tw-font-bold tw-text-[#cccccc]">Get the app</h3>
             <img className="tw-w-32" src={QRCode} alt="" />
           </div>
         </div>

@@ -6,39 +6,43 @@ import { NavLink } from "react-router-dom";
 import {Trans } from 'react-i18next';
 
 const cazanimoC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/cazanimoC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png";
 const camperC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/camperC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png";
 const technoC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/technoC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png";
 const footlandC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/footlandC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png";
 const scechersC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/scechersC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png";
 const profootC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/profootC.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png";
 
 const WATCHCENTERC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/WATCH CENTER.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/WATCH CENTERWCCompressedshadow.png";
 const CLARKSC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/CLARKS.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/CLARKSCompressed.png";
 const DOJUC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Dojo.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/TECHNOhCompressed.png";
 const EDENPARKC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/EDEN PARK.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/EDEN PARKCompressed.png";
 const CASIOC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/CASIO.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/CASIOCompressed.png";
 const sneaksaC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/sneaksa.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/SNEAKSACompressed.png";
 
 const xbox =
-  "https://adminv2.goubba.com/image?path=react-web/assets/international cards/xbox.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/xboxCompressed.png";
 const Fornite =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Fornite.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/NintendoCompressed.png";
 const LeageofLegends =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Leage of Legends.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/NETFLIXCompressed.png";
 const Itunes =
-  "https://adminv2.goubba.com/image?path=react-web/assets/hero section gift cards/Itunes.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/ItunesCompressed.png";
+const Freefire =
+  "https://adminv2.goubba.com/image?path=react-web/assets/FreefireCompressed.png";
+const Nintendo =
+  "https://adminv2.goubba.com/image?path=react-web/assets/Leage of LegendsCompressed.png";
 
 const pay =
   "https://adminv2.goubba.com/image?path=react-web/assets/paymentAccepted.png";
@@ -58,9 +62,9 @@ function ParallaxCardsMobile() {
           <div className="tw-mt-28 tw-overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="tw-flex tw-gap-4">
-                <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
+                <img src={ Freefire } 
                 className="tw-w-24 tw-h-32 tw-rounded-lg" alt="" />
-                <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png" } 
+                <img src={ Nintendo} 
                 className="tw-w-24 tw-h-32 tw-rounded-lg" alt="" />
               </div>
             </Parallax>
@@ -97,7 +101,7 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={12}
           >
-            <img src={CASIOC} className="tw-w-36 tw-h-48 tw-rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-36 tw-h-48 tw-rounded-[15.1px] tw-shadow-md" alt="" />
           </Parallax>
         </div>
 
@@ -110,7 +114,7 @@ function ParallaxCardsMobile() {
           >
             <img
               src={EDENPARKC}
-              className="tw-flex tw-w-32 tw-h-40 tw-rounded-lg "
+              className="tw-flex tw-w-32 tw-h-40 tw-rounded-[15.1px] tw-shadow-md "
               alt=""
             />
           </Parallax>
@@ -120,7 +124,7 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="tw-w-32 tw-h-40 tw-rounded-lg  " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-32 tw-h-40 tw-rounded-[15.1px] tw-shadow-md  " alt="" />
           </Parallax>
         </div>
 
@@ -139,7 +143,7 @@ function ParallaxCardsMobile() {
             scale={[0.7, 2]}
             speed={5}
           >
-            <img src={sneaksaC} className="tw-w-24 tw-h-32 tw-rounded-lg b " alt="" />
+            <img src={sneaksaC} className="tw-w-24 tw-h-32 tw-rounded-[13.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
       </div>
@@ -155,12 +159,10 @@ function ParallaxCardsMd() {
           <div className="tw-mt-32 tw-overflow-y-hidden ">
             <Parallax className="" translateY={[60, -60]} speed={15}>
               <div className="tw-flex tw-gap-4">
-                <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
+                <img src={ Freefire } 
                   className="tw-w-28 tw-rounded-lg" alt="" />
                 <img
-                  src={
-                    "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
-                  }
+                  src={Nintendo}
                   className="tw-w-28  tw-rounded-lg"
                   alt=""
                 />
@@ -199,7 +201,7 @@ function ParallaxCardsMd() {
             translateX={[-100, 50]}
             scale={[0.7, 2]}
             speed={12} >
-            <img src={CASIOC} className="tw-w-[185px] tw-rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-[185px] tw-rounded-[15.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
 
@@ -209,14 +211,14 @@ function ParallaxCardsMd() {
             translateX={[150, -0]}
             scale={[0.7, 2]}
             speed={10} >
-            <img src={EDENPARKC} className="tw-flex tw-w-40 tw-h-48 tw-rounded-lg " alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-40 tw-h-48 tw-rounded-[13.1px] tw-shadow-md " alt="" />
           </Parallax>
           <Parallax
             translateY={[300, -600]}
             translateX={[-150, 0]}
             scale={[0.7, 2]}
             speed={10} >
-            <img src={WATCHCENTERC} className="tw-w-40 tw-h-48 tw-rounded-lg " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-40 tw-h-48 tw-rounded-[15.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
 
@@ -233,7 +235,7 @@ function ParallaxCardsMd() {
             translateX={[-300, 0]}
             scale={[0.7, 2]}
             speed={5} >
-            <img src={sneaksaC} className="tw-w-32 tw-h-40 tw-rounded-lg  " alt="" />
+            <img src={sneaksaC} className="tw-w-32 tw-h-40 tw-rounded-[13.1px] tw-shadow-md  " alt="" />
           </Parallax>
         </div>
       </div>
@@ -249,9 +251,9 @@ function ParallaxCardsLg() {
           <div className="tw-mt-36 tw-overflow-hidden no-scrollbar ">
             <Parallax className="" translateY={[30, -50]} speed={15}>
               <div className="tw-flex tw-gap-4">
-                <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png" } 
+                <img src={ Freefire } 
                   className="tw-w-[135px]  tw-rounded-lg" alt="" />
-                <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png" } 
+                <img src={ Nintendo } 
                 className="tw-w-[135px]  tw-rounded-lg " alt="" />
               </div>
             </Parallax>
@@ -287,7 +289,7 @@ function ParallaxCardsLg() {
             translateX={[-20, 200]}
             scale={[0.9, 2]}
             speed={12} >
-            <img src={CASIOC} className="tw-w-52  tw-rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-52  tw-rounded-[15.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
 
@@ -297,31 +299,31 @@ function ParallaxCardsLg() {
             translateX={[100, -150]}
             scale={[0.9, 2]}
             speed={10} >
-            <img src={EDENPARKC} className="tw-flex tw-w-40  tw-rounded-lg " alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-40  tw-rounded-[12.1px] tw-shadow-md " alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -800]}
             translateX={[-100, 150]}
             scale={[0.9, 2]}
             speed={10} >
-            <img src={WATCHCENTERC} className="tw-w-40  tw-rounded-lg  " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-40  tw-rounded-[15.1px] tw-shadow-md  " alt="" />
           </Parallax>
         </div>
 
         <div className="tw-flex tw-w-full tw-justify-between tw-z-20 tw-absolute tw-bottom-0">
           <Parallax
             translateY={[0, -700]}
-            translateX={[150, 50]}
+            translateX={[150, -50]}
             scale={[1.1, 2]}
             speed={5} >
             <img src={DOJUC} className="tw-flex tw-w-32  tw-rounded-lg " alt="" />
           </Parallax>
           <Parallax
-            translateY={[0, -800]}
-            translateX={[-220, 75]}
+            translateY={[0, -700]}
+            translateX={[-150, 50]}
             scale={[1.1, 2]}
             speed={5} >
-            <img src={sneaksaC} className="tw-w-32  tw-rounded-lg " alt="" />
+            <img src={sneaksaC} className="tw-w-32  tw-rounded-[14.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
       </div>
@@ -337,16 +339,12 @@ function ParallaxCards() {
             <Parallax className="" translateY={[40, -50]} speed={15}>
               <div className="tw-flex tw-gap-3">
                 <img
-                  src={
-                    "https://adminv2.goubba.com/image?path=react-web/assets/international cards/Freefire.png"
-                  }
+                  src={Freefire}
                   className="tw-w-[185px] tw-rounded-lg"
                   alt=""
                 />
                 <img
-                  src={
-                    "https://adminv2.goubba.com/image?path=react-web/assets/international%20cards/Amazon-1.png"
-                  }
+                  src={Nintendo}
                   className="tw-w-[185px] tw-rounded-lg "
                   alt=""
                 />
@@ -391,7 +389,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={12}
           >
-            <img src={CASIOC} className="tw-w-72 tw-h-96 tw-rounded-lg " alt="" />
+            <img src={CASIOC} className="tw-w-72 tw-h-96 tw-rounded-[27.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
 
@@ -402,7 +400,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={EDENPARKC} className="tw-flex tw-w-64 tw-h-80 tw-rounded-lg" alt="" />
+            <img src={EDENPARKC} className="tw-flex tw-w-64 tw-h-80 tw-rounded-[27.1px] tw-shadow-md" alt="" />
           </Parallax>
           <Parallax
             translateY={[0, -400]}
@@ -410,7 +408,7 @@ function ParallaxCards() {
             scale={[1, 1.4]}
             speed={10}
           >
-            <img src={WATCHCENTERC} className="tw-w-64 tw-h-80 tw-rounded-lg " alt="" />
+            <img src={WATCHCENTERC} className="tw-w-64 tw-h-80 tw-rounded-[27.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
 
@@ -429,7 +427,7 @@ function ParallaxCards() {
             scale={[1, 2]}
             speed={8}
           >
-            <img src={sneaksaC} className="tw-w-52 tw-h-64 tw-rounded-lg " alt="" />
+            <img src={sneaksaC} className="tw-w-52 tw-h-64 tw-rounded-[15.1px] tw-shadow-md " alt="" />
           </Parallax>
         </div>
       </div>
@@ -484,6 +482,12 @@ function DownloadButtons() {
   );
 }
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // for smoothly scrolling
+    });
+  };
   return (
     <div>
       <main className="">
@@ -550,7 +554,7 @@ function App() {
               </p>
               <div className="tw-w-80 lg:tw-w-0"></div>
             </div>
-            <div className=" tw-rounded-xl topRight tw-p-8 lg:tw-p-12">
+            <div className=" tw-rounded-xl bottomRight tw-p-8 lg:tw-p-12">
               <h1 className="tw-text-5xl 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
                 +10,000
               </h1>
@@ -584,7 +588,7 @@ function App() {
           </div>
           <div className="tw-flex tw-justify-center ">
             <a
-              href="https://stage.goubba.com/cards"
+              href="https://goubba.com/cards"
               className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg  tw-group" >
               <p className="tw-font-semibold tw-text-pink-600"><Trans>explore_partner</Trans></p>
               <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
@@ -593,24 +597,24 @@ function App() {
         </div>
 
         <div className="tw-bg-[#FFFBFC]">
-          <div className="tw-grid lg:tw-grid-cols-2 tw-mt-28 tw-pb-12 tw-w-10/12 tw-mx-auto">
+          <div className="tw-grid lg:tw-grid-cols-2 tw-mt-28  tw-w-10/12 tw-mx-auto">
             <div className="lg:tw-overflow-y-hidden no-scrollbar">
               <ParallaxProvider>
                 <div className="tw-relative tw-pt-12">
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[500, 0]} speed={15}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/redArrow.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/redArrowCompressed.png" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQr.png" } alt="" ></img>
+                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQrCompressed.png" } alt="" ></img>
                   </div>
                   <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlide.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlideCompressed.png" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
@@ -635,7 +639,7 @@ function App() {
         </div>
         
         <div className="tw-bg-[]">
-          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2 tw-mt-28 tw-w-10/12 tw-mx-auto">
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
             <div className="tw-flex tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
                 <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
@@ -653,7 +657,7 @@ function App() {
             <div className="tw-overflow-auto no-scrollbar tw-order-2">
               <div className="tw-relative tw-py-12">
                 <div>
-                  <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/zolizola.png" } alt="" ></img>
+                  <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/zolizolaCompressed2.png" } alt="" ></img>
                 </div>
               </div>
             </div>
@@ -661,24 +665,24 @@ function App() {
         </div>
 
         <div className="tw-bg-[#FFFBFC]">
-          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2 tw-mt-28 tw-w-10/12 tw-mx-auto">
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
             <div className="lg:tw-overflow-y-hidden no-scrollbar">
               <ParallaxProvider>
-                <div className="tw-relative tw-py-12">
+                <div className="tw-relative ">
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[500, 0]} speed={15}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/arrows.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/arrowsCopmressed.png" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/phoneList.png" } alt="" ></img>
+                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/phoneListCopmressed.png" } alt="" ></img>
                   </div>
                   <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/promo.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/promoCompressed.png" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
@@ -691,7 +695,7 @@ function App() {
                   <Trans>top-up_and_transfer</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
-                  <a href="https://stage.goubba.com/topup" 
+                  <a href="https://goubba.com/topup" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
                     <p className="tw-font-semibold tw-text-pink-600"><Trans>topup</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
@@ -706,14 +710,14 @@ function App() {
           </div>
         </div>
 
-        <div className="retropurple-background lg:tw-mx-12 lg:tw-mb-12 lg:tw-rounded-xl tw-py-20 lg:tw-py-44">
+        <div className="retropurple-background tw-h-[80vh] tw-flex tw-justify-center tw-items-center lg:tw-mx-12 lg:tw-mb-12 lg:tw-rounded-xl tw-py-20 lg:tw-py-44">
           <div>
             <h1 className=" tw-text-center tw-text-[#700F50] tw-font-bold lg:tw-leading-[80px] tw-text-4xl lg:tw-text-[96px] ">
               <Trans>join_as_partner</Trans>
             </h1>
             <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
               <NavLink
-                to="./business"
+                to="./business" onClick={scrollToTop}
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
                       tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg" >
                 <p className="tw-font-semibold tw-text-[#700F50]"><Trans>try_it</Trans></p>
