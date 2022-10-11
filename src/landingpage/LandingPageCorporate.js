@@ -33,7 +33,7 @@ function App() {
     <div className="tw-bg-[#13030D] lg:tw-pt-8 tw-w-full">
       <div className="tw-h-20"></div>
         <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-8">
-            <div className="tw-bg-[#13030D] corporate-shadow  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-8 tw-pb-20">
+            <div className="tw-bg-[#13030D] corporate-shadow  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-16 tw-pb-20">
                 <div>
                     <div className="tw-flex tw-justify-center">
                         <img src="https://adminv2.goubba.com/image?path=react-web/assets/corporate-animation-one-croped.gif"></img>
