@@ -590,7 +590,7 @@ function App() {
             <a
               href="https://goubba.com/cards"
               className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg  tw-group" >
-              <p className="tw-font-semibold tw-text-pink-600"><Trans>explore_partner</Trans></p>
+              <p className="tw-font-semibold tw-text-[#700F50]"><Trans>explore_partner</Trans></p>
               <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
             </a>
           </div>
@@ -629,7 +629,7 @@ function App() {
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.app.link/Goubba_App" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-pink-600"><Trans>start_now</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>start_now</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -648,7 +648,7 @@ function App() {
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://partner.goubba.com" 
                     className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-pink-600"><Trans>try_it</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>try_it</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -697,7 +697,7 @@ function App() {
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.com/topup" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-pink-600"><Trans>topup</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>topup</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
