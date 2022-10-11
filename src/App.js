@@ -539,7 +539,7 @@ function App({ history = defaultHistory }) {
         </div>
         <div className="tw-bg-white lg:tw-flex tw-justify-between tw-items-center tw-p-4 tw-px-12">
           <p className="tw-text-sm">© Goubba Solutions all right reserved 2022</p>
-          <div className="tw-flex tw-items-start tw-gap-3 tw-mt-3">
+          <div className="tw-flex tw-items-center tw-gap-3 ">
             <p className="tw-text-gray-400 tw-font-semibold tw-mx-4 tw-whitespace-nowrap">
               Follow us:
             </p>
