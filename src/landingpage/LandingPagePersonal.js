@@ -449,7 +449,7 @@ function DownloadButtons() {
     <div className="tw-flex tw-gap-4 tw-justify-center tw-items-center tw-my-4">
       {navigator.userAgent.indexOf("HUAWEI") !== -1 ? (
         <a href="https://appgallery.huawei.com/app/C105229305" 
-        className="tw-flex tw-justify-center tw-items-center tw-text-left tw-px-2 " >
+        className="tw-flex tw-justify-center tw-items-center tw-text-left" >
           <img src={HUAWEI} alt=""></img>
         </a>
       ) : navigator.userAgent.indexOf("like Mac") !== -1 ? (
@@ -473,7 +473,7 @@ function DownloadButtons() {
             <img src={ios} alt=""></img>
           </a>
           <a href="https://appgallery.huawei.com/app/C105229305" 
-          className="tw-flex tw-justify-center tw-items-center tw-text-left tw-px-2 " >
+          className="tw-flex tw-justify-center tw-items-center tw-text-left" >
             <img src={HUAWEI} alt=""></img>
           </a>
         </div>
@@ -491,10 +491,9 @@ function App() {
   return (
     <div>
       <main className="">
-      <div className="lg:tw-flex tw-h-28 "></div>
+      <div className="lg:tw-flex tw-h-20 "></div>
         <div className="lg:tw-mx-10 tw-bg-[#FFF6FC] tw-rounded-xl 
                     tw-pt-12 lg:tw-pt-20 no-scrollbar no-scrollbar tw-overflow-x-auto tw-overflow-y-hidden">
-          
           <div className="tw-text-center tw-text-[#021E27] lg:tw-w-3/4 tw-mx-auto">
             <h1 className="tw-mx-8 lg:tw-mx-0 tw-text-4xl lg:tw-text-[64px] 3xl:tw-text-[72px] tw-font-bold lg:tw-leading-[80px]">
               <Trans>save_money</Trans>
