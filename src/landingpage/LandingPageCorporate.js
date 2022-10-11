@@ -45,13 +45,13 @@ function App() {
                             <Trans>employee_happiness</Trans>
                         </p>
                         <div className="tw-flex tw-gap-4 tw-justify-center tw-mt-12 md:tw-mt-24">
-                                <a href="/login" 
+                                <button href="/login" disabled
                                     className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
-                                    tw-text-left tw-gap-4 tw-text-white tw-rounded-lg tw-px-4 tw-py-1">
+                                    tw-text-left tw-gap-4 tw-text-white tw-rounded-lg tw-px-4 tw-py-1 disabled:tw-opacity-50">
                                     <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>login</Trans></p>
-                                </a>
+                                </button>
                             <button href="https://partner.goubba.com" disabled
-                                className="twgroup disabled:tw-bg-gray-800
+                                className="twgroup d disabled:tw-opacity-30
                                             tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                             tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
                                 <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
@@ -75,7 +75,7 @@ function App() {
                         <button href="https://partner.goubba.com" disabled
                             className="twgroup tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                         tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
-                                        disabled:tw-bg-gray-800" >
+                                        d disabled:tw-opacity-30" >
                             <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
                             <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
                         </button>
@@ -110,7 +110,7 @@ function App() {
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                         tw-my-24  tw-mb-12 ">
             <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1">
-                <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-12">
+                <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24">
                     <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                 tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
                         <Trans>access_exclusive</Trans>
@@ -132,131 +132,152 @@ function App() {
             </div>
         </div>
         <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png" height="100" width="250" alt="" />
-		</div>
-        <div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/ClarksCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/airstreetCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CasioCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/Eden parkCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/FreestyleCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/sneaksaCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/WCCompressed.png" height="100" width="250" alt="" />
-		</div>
-        <div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png" height="100" width="250" alt="" />
-		</div>
-        <div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/ClarksCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/airstreetCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/CasioCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/Eden parkCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/FreestyleCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/sneaksaCompressed.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://adminv2.goubba.com/image?path=react-web/assets/WCCompressed.png" height="100" width="250" alt="" />
-		</div>
-	</div>
-</div>
-
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-bg-[#25051B]
-                        tw-py-24 tw-my-24  tw-mb-12 ">
-            <div className="tw-flex tw-justify-center">
-                <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/corporatetwoCompressed.png" alt=""></img>
-            </div>
-            <div className="tw-flex tw-mt-10 md:tw-mt-0 tw-items-center md:tw-w-11/12 ">
-                <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-12">
-                    <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
-                                tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
-                        <Trans>send_track</Trans>
-                    </p>
-                    <div className="tw-flex tw-justify-center md:tw-justify-start">
-                        <button href="https://partner.goubba.com" disabled
-                            className="twgroup 
-                                tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
-                                tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
-                                disabled:tw-bg-gray-800" >
-                            <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
-                            <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                        </button>
-                    </div>
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/ClarksCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/airstreetCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CasioCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/Eden parkCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/FreestyleCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/sneaksaCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/WCCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/ClarksCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/airstreetCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/CasioCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/Eden parkCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/FreestyleCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/sneaksaCompressed.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://adminv2.goubba.com/image?path=react-web/assets/WCCompressed.png" height="100" width="250" alt="" />
                 </div>
             </div>
         </div>
 
-        <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 
-                        tw-my-24  tw-mb-12 ">
-            <div className="tw-order-3 md:tw-order-1 tw-mx-4 lg:tw-mx-12">
-                <div className="tw-space-y-6 tw-mx-auto ">
-                    <div className="tw-flex tw-justify-center md:tw-justify-start">
-                        <div  className="tw-group 
-                                        tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
-                            <p className="tw-font-semibold tw-text-black tw-uppercase"><Trans>coming_soon</Trans></p>
+        <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24 tw-my-24  tw-mb-12 ">
+            <p className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left 
+                            tw-text-3xl tw-w-5/6 tw-mx-auto tw-mb-12">
+                <Trans>send_track</Trans>
+            </p>
+            <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2">
+                <div className="tw-flex tw-justify-center tw-h-96 md:tw-h-[450px]">
+                    <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/corporatetwoCompressed.png" alt=""></img>
+                </div>
+                <div className="tw-hidden tw-mt-10 md:tw-mt-0 md:tw-flex tw-items-center md:tw-w-11/12 ">
+                    <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-12">
+                        <p className=" tw-text-white tw-font-medium tw-text-center md:tw-text-left 
+                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
+                            <Trans>send_track</Trans>
+                        </p>
+                        <div className="tw-flex tw-w-full tw-justify-center md:tw-justify-start">
+                            <button href="https://partner.goubba.com" disabled
+                                className="twgroup 
+                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                                    tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
+                                    d disabled:tw-opacity-30" >
+                                <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
+                                <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
+                            </button>
                         </div>
                     </div>
-                    <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-break-words 
-                                tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
-                        <Trans>schedue_send</Trans>
-                    </p>
+                </div>
+                <div className="tw-flex tw-justify-center md:tw-hidden tw-w-full tw-mt-8">
+                    <button href="https://partner.goubba.com" disabled
+                        className="twgroup 
+                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                            tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
+                            d disabled:tw-opacity-30" >
+                        <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
+                        <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
+                    </button>
                 </div>
             </div>
-            <div className="tw-flex tw-justify-center tw-col-span-2 tw-order-2 tw-mx-4 tw-mb-10 md:tw-mb-0">
-                <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/corporatethreeCompressed.png" alt=""></img>
+        </div>
+
+        <div className="tw-text-3xl  tw-my-24 md:tw-w-11/12 tw-mx-auto">
+            <p className="md:tw-hidden tw-mb-12 tw-text-white tw-font-medium tw-text-center md:tw-text-left ">
+                <Trans>schedue_send</Trans>
+            </p>
+            <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3">
+                <div className="tw-order-3 md:tw-order-1 tw-mx-4 lg:tw-mx-12">
+                    <div className="tw-space-y-6 tw-mx-auto ">
+                        <div className="tw-flex tw-justify-center md:tw-justify-start">
+                            <div  className="tw-group tw-w-1/2 tw-text-lg tw-whitespace-nowrap
+                                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
+                                <p className=" tw-font-semibold tw-text-black tw-uppercase">
+                                    <Trans>coming_soon</Trans>
+                                </p>
+                            </div>
+                        </div>
+                        <p className="tw-hidden md:tw-block tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-break-words 
+                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
+                            <Trans>schedue_send</Trans>
+                        </p>
+                    </div>
+                </div>
+                <div className="tw-flex tw-justify-center tw-col-span-2 tw-order-2 tw-mx-4 tw-mb-10 md:tw-mb-0">
+                    <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/corporatethreeCompressed.png" alt=""></img>
+                </div>
             </div>
         </div>
 
@@ -274,7 +295,7 @@ function App() {
                     
                     <div className="tw-flex tw-justify-center md:tw-justify-start ">
                         <button href="https://partner.goubba.com" disabled
-                            className="twgroup disabled:tw-bg-slate-800
+                            className="twgroup disabled:disabled:tw-opacity-30
                                         tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 
                                         tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
                             <p className="tw-font-semibold tw-text-white tw-uppercase"><Trans>start_now</Trans></p>

@@ -73,13 +73,13 @@ function App({ history = defaultHistory }) {
         {location.pathname  == "/business"?
           (
             <div className="tw-flex tw-relative tw-items-center tw-gap-4">
-              <a href="/login" 
+              <a href="https://partner.goubba.com" 
                 className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
-                          tw-border-[#95146B]">
+                    tw-border-[#BA1986] disabled:tw-opacity-30">
                 <p className="tw-font-bold tw-text-sm tw-text-[#95146B]"><Trans>login</Trans></p>
               </a>
-              <a
-                href="/login"
+              
+              <a href="https://partner.goubba.com"
                 className="tw-group primary-shadow tw-bg-[#95146B] tw-flex tw-items-center 
                           tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
                 <div>
@@ -93,16 +93,16 @@ function App({ history = defaultHistory }) {
             ):location.pathname  == "/corporate"?
             (
               <div className="tw-flex tw-relative tw-items-center tw-gap-4">
-                <a href="/login" 
+                <button href="/login" disabled
                   className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
-                            tw-border-[#BA1986]">
+                            tw-border-[#BA1986] disabled:tw-opacity-30">
                   <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]"><Trans>login</Trans></p>
-                </a>
+                </button>
                 <button
                   href="/login" disabled
                   className="twgroup primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
                             tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1
-                            disabled:tw-bg-slate-800" >
+                            disabled:tw-opacity-30" >
                   <div>
                     <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>book_a_demo</Trans></p>
                   </div>
@@ -533,7 +533,7 @@ function App({ history = defaultHistory }) {
             </div>
           </div>
           <div className="">
-            <h3 className="tw-font-bold tw-text-[#cccccc]">Get the app</h3>
+            <h3 className="tw-font-bold tw-mb-3 tw-text-white">Get the app</h3>
             <img className="tw-w-32" src={QRCode} alt="" />
           </div>
         </div>

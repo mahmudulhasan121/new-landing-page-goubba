@@ -67,7 +67,7 @@ function App() {
           <div className="tw-text-center tw-w-4/5 tw-mx-auto tw-text-4xl tw-flex tw-justify-center tw-items-center tw-space-x-4
            md:tw-text-5xl tw-font-medium tw-text-[#4A0A36]">
             <p><Trans>join_boost</Trans></p>
-            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12.7093 48.2917H50.8343C52.238 48.2917 53.376 49.4296 53.376 50.8333C53.376 52.2371 52.238 53.375 50.8343 53.375H10.1676C8.76392 53.375 7.62598 52.2371 7.62598 50.8333V10.1667C7.62598 8.76294 8.76392 7.625 10.1676 7.625C11.5714 7.625 12.7093 8.76294 12.7093 10.1667V48.2917Z" fill="#4A0A36"/> <path opacity="0.3" d="M22.1879 37.3217C21.2278 38.3458 19.6194 38.3977 18.5953 37.4376C17.5712 36.4775 17.5194 34.8691 18.4794 33.845L28.0107 23.6783C28.9392 22.6879 30.4821 22.6021 31.5148 23.4833L39.0374 29.9026L48.8388 17.4876C49.7086 16.3858 51.3068 16.1978 52.4086 17.0676C53.5104 17.9374 53.6984 19.5357 52.8286 20.6375L41.3911 35.125C40.4977 36.2565 38.843 36.4193 37.7463 35.4834L30.0602 28.9246L22.1879 37.3217Z" fill="#4A0A36"/> </svg>
+            <svg className="tw-hidden lg:tw-flex" width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12.7093 48.2917H50.8343C52.238 48.2917 53.376 49.4296 53.376 50.8333C53.376 52.2371 52.238 53.375 50.8343 53.375H10.1676C8.76392 53.375 7.62598 52.2371 7.62598 50.8333V10.1667C7.62598 8.76294 8.76392 7.625 10.1676 7.625C11.5714 7.625 12.7093 8.76294 12.7093 10.1667V48.2917Z" fill="#4A0A36"/> <path opacity="0.3" d="M22.1879 37.3217C21.2278 38.3458 19.6194 38.3977 18.5953 37.4376C17.5712 36.4775 17.5194 34.8691 18.4794 33.845L28.0107 23.6783C28.9392 22.6879 30.4821 22.6021 31.5148 23.4833L39.0374 29.9026L48.8388 17.4876C49.7086 16.3858 51.3068 16.1978 52.4086 17.0676C53.5104 17.9374 53.6984 19.5357 52.8286 20.6375L41.3911 35.125C40.4977 36.2565 38.843 36.4193 37.7463 35.4834L30.0602 28.9246L22.1879 37.3217Z" fill="#4A0A36"/> </svg>
           </div>
           <div className="retroB-background tw-mx-4 md:tw-mx-12 tw-mt-12 tw-rounded-xl">
             <div
@@ -140,13 +140,13 @@ function App() {
           <img src={checkB} alt=""></img>
         </div>
       </div>
-      <div className="retropurple-background  tw-flex tw-justify-center lg:tw-my-16 tw-py-24 md:tw-py-44 tw-mx-auto lg:tw-rounded-xl ">
+      <div className="retropurple-background tw-h-[80vh] tw-flex tw-justify-center tw-items-center lg:tw-my-16 tw-py-24 md:tw-py-44 tw-mx-auto lg:tw-rounded-xl ">
         <div>
           <h1 className="tw-text-[#700F50] tw-font-bold md:tw-leading-[80px] tw-leading-10 tw-text-4xl md:tw-text-[96px] tw-text-center">
             <Trans>join_as_partner</Trans>
           </h1>
           <div>
-            <div className="tw-flex tw-justify-center tw-mt-24">
+            <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
               <a href="https://partner.goubba.com"
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
                       tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >

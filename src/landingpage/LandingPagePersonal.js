@@ -519,7 +519,7 @@ function App() {
 
         <div className="lg:tw-w-9/12 tw-mx-4 lg:tw-mx-auto tw-mt-12">
           <div className="tw-flex tw-justify-center tw-text-left">
-            <div className="tw-mb-12">
+            <div className="tw-mb-10 lg:tw-my-12">
               <h2 className="tw-text-[#021E27] tw-text-center tw-text-4xl lg:tw-text-[48px] lg:tw-leading-[50px] lg:tw-mb-8 tw-font-semibold">
               <Trans>join_over_5</Trans>
               </h2>
@@ -566,11 +566,11 @@ function App() {
           </div>
         </div>
 
-        <div className="tw-mt-12 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto">
-          <h2 className="tw-text-[#021E27] tw-text-4xl lg:tw-text-[48px] lg:tw-mb-8 tw-font-semibold tw-mb-12">
+        <div className="tw-my-12 lg:tw-mt-28 lg:tw-mb-0 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto">
+          <h2 className="tw-text-[#021E27] tw-text-2xl tw-w-2/3 lg:tw-w-full lg:tw-text-[48px] tw-font-medium tw-mb-6">
             <Trans>list_of</Trans>
           </h2>
-          <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 tw-gap-2 ">
+          <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 lg:tw-mb-6 tw-gap-2 ">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
@@ -590,14 +590,18 @@ function App() {
             <a
               href="https://goubba.com/cards"
               className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg  tw-group" >
-              <p className="tw-font-semibold tw-text-[#700F50]"><Trans>explore_partner</Trans></p>
+              <p className="tw-font-semibold tw-text-[#BA1986]"><Trans>explore_partner</Trans></p>
               <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
             </a>
           </div>
         </div>
 
-        <div className="tw-bg-[#FFFBFC]">
-          <div className="tw-grid lg:tw-grid-cols-2 tw-mt-28  tw-w-10/12 tw-mx-auto">
+        <div className="tw-bg-[#FFFBFC] tw-pb-10 lg:tw-pb-0">
+          <p className="tw-text-2xl -tw-mb-8 tw-text-center tw-font-semibold tw-pt-10 lg:tw-w-2/3
+                        lg:tw-hidden tw-mx-6">
+            <Trans>share_our_exclusive_gift</Trans>
+          </p>
+          <div className="tw-grid lg:tw-grid-cols-2 tw-mt-0 lg:tw-mt-28  tw-w-10/12 tw-mx-auto">
             <div className="lg:tw-overflow-y-hidden no-scrollbar">
               <ParallaxProvider>
                 <div className="tw-relative tw-pt-12">
@@ -621,15 +625,15 @@ function App() {
                 </div>
               </ParallaxProvider>
             </div>
-            <div className="tw-flex tw-items-center">
+            <div className="tw-flex tw-justify-center tw-items-center">
               <div>
-                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
+                <p className="tw-hidden lg:tw-block tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   <Trans>share_our_exclusive_gift</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.app.link/Goubba_App" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>start_now</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#BA1986]"><Trans>start_now</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -638,17 +642,21 @@ function App() {
           </div>
         </div>
         
-        <div className="tw-bg-[]">
+        <div className="tw-bg-[] tw-pb-10 lg:tw-pb-0">
+          <p className="tw-text-2xl -tw-mb-8 tw-text-center tw-font-semibold tw-pt-10 lg:tw-w-2/3
+                        lg:tw-hidden tw-mx-6">
+            <Trans>pay_seamlessly</Trans>
+          </p>
           <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
-            <div className="tw-flex tw-items-center tw-order-3 lg:tw-order-1 ">
+            <div className="tw-flex tw-justify-center tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
-                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
+                <p className="tw-hidden lg:tw-block tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                 <Trans>pay_seamlessly</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://partner.goubba.com" 
                     className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>try_it</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#BA1986]"><Trans>try_it</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
@@ -665,6 +673,10 @@ function App() {
         </div>
 
         <div className="tw-bg-[#FFFBFC]">
+          <p className="tw-text-2xl -tw-mb-8 tw-text-center tw-font-semibold tw-pt-10 lg:tw-w-2/3
+                        lg:tw-hidden tw-mx-6">
+            <Trans>top-up_and_transfer</Trans>
+          </p>
           <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
             <div className="lg:tw-overflow-y-hidden no-scrollbar">
               <ParallaxProvider>
@@ -691,13 +703,13 @@ function App() {
             </div>
             <div className="tw-flex tw-items-center">
               <div>
-                <p className="tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
+                <p className="tw-hidden lg:tw-block tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   <Trans>top-up_and_transfer</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.com/topup" 
                       className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg " >
-                    <p className="tw-font-semibold tw-text-[#700F50]"><Trans>topup</Trans></p>
+                    <p className="tw-font-semibold tw-text-[#BA1986]"><Trans>topup</Trans></p>
                     <svg className="tw-w-8 group-hover:tw-translate-x-2 duration-800 tw-transition" viewBox="0 0 30 31" fill="#BA1986" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="#BA1986" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="#BA1986" /> </svg>
                   </a>
                 </div>
