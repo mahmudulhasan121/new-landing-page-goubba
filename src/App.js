@@ -119,6 +119,7 @@ function App({ history = defaultHistory }) {
                         tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1" >
               <div>
                 <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>join</Trans></p>
+                <p className="tw-text-sm tw-text-white">0.00 DA</p>
               </div>
               <div>
                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg>             
@@ -183,7 +184,7 @@ function App({ history = defaultHistory }) {
                 <div className="tw-px-4 tw-py-2.5 tw-flex tw-gap-1 hover:tw-bg-slate-50 tw-rounded-lg">
                   <Trans>corporate</Trans>
                   <div className="tw-flex tw-items-center">
-                    <p className="  tw-bg-amber-400 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
+                    <p className="  tw-bg-amber-500 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
                         tw-px-1">
                       <Trans>soon</Trans>
                     </p>
@@ -232,12 +233,18 @@ function App({ history = defaultHistory }) {
               </NavLink>
               <NavLink
                 to="./corporate" onClick={scrollToTop}
-                className="tw-font-semibold "
+                className="tw-font-semibold tw-flex tw-items-center tw-gap-3"
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
                   color: isActive ? "#BA1986" : "#000",
                 })} >
                   <Trans>corporate</Trans>
+                  <div>
+                    <p className="  tw-bg-amber-500 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
+                        tw-px-1">
+                      <Trans>soon</Trans>
+                    </p>
+                  </div>
               </NavLink>
             </div>
           </Drawer>
@@ -293,7 +300,8 @@ function App({ history = defaultHistory }) {
       </Routes>
 
       <footer>
-        <div className="tw-bg-black tw-border-t-8 tw-border-[#BA1986] tw-p-6 tw-relative">
+        <div className="tw-bg-[#BA1986] tw-h-2"></div>
+        <div className="tw-bg-black   tw-p-6 tw-relative">
           <div className="tw-flex tw-justify-between lg:tw-px-12">
             <div className="lg:tw-flex tw-justify-start">
               <div className="">
@@ -340,7 +348,7 @@ function App({ history = defaultHistory }) {
               <h3 className="tw-font-bold text-[#cccccc]"><Trans>shop</Trans></h3>
               <ul>
                 <li>
-                  <a href="/" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
+                  <a href="/cards" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>gift_cards</Trans>
                   </a>
                 </li>
@@ -436,7 +444,7 @@ function App({ history = defaultHistory }) {
             <div className="tab-content">
               <ul className="tw-space-y-3">
                 <li>
-                  <a href="/" 
+                  <a href="/cards" 
                     className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>gift_cards</Trans>
                   </a>
