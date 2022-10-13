@@ -338,9 +338,6 @@ function App({ history = defaultHistory }) {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/goubba/jobs/" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
-                    <Trans>careers</Trans>
-                  </a>
                 </li>
               </ul>
             </div>
