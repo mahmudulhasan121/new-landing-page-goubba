@@ -6,17 +6,17 @@ import { NavLink } from "react-router-dom";
 import {Trans } from 'react-i18next';
 
 const cazanimoC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/CazanimoCompressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/Cazanimowebp.webp";
 const camperC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/CamperCompressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/Camperwebp.webp";
 const technoC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/TechnoCompressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/Technowebp.webp";
 const footlandC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/footlandCompressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/footlandwebp.webp";
 const scechersC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/sketchersCompressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/sketcherswebp.webp";
 const profootC =
-  "https://adminv2.goubba.com/image?path=react-web/assets/profoot00Compressed.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/profootwebp.webp";
 
 const WATCHCENTERC =
   "https://adminv2.goubba.com/image?path=react-web/assets/WATCH CENTER.webp";
@@ -45,7 +45,7 @@ const Nintendo =
   "https://adminv2.goubba.com/image?path=react-web/assets/Leage of Legends.webp";
 
 const pay =
-  "https://adminv2.goubba.com/image?path=react-web/assets/paymentAccepted.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/payment accepted.webp";
 const googlePlay =
   "https://adminv2.goubba.com/image?path=react-web/assets/Google play.svg";
 const ios =
@@ -571,11 +571,11 @@ function App() {
           </h2>
           <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 lg:tw-mb-6 tw-gap-2 ">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={scechersC} className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg" alt=""></img>
             <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={footlandC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={profootC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img src={footlandC} className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg" alt=""></img>
             <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
+            <img src={profootC} className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg" alt=""></img>
           </div>
           <div className="tw-flex xl:tw-hidden tw-items-center tw-gap-2 tw-overflow-x-auto no-scrollbar tw-my-12">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
@@ -607,17 +607,17 @@ function App() {
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[500, 0]} speed={15}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/redArrowCompressed.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Frame 6505.webp" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/mobileWithQrCompressed.png" } alt="" ></img>
+                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Group 34456.webp" } alt="" ></img>
                   </div>
                   <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/codePromoSlideCompressed.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Promo code section.webp" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
@@ -664,7 +664,7 @@ function App() {
             <div className="tw-overflow-auto no-scrollbar tw-order-2">
               <div className="tw-relative tw-py-12">
                 <div>
-                  <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/zolizolaCompressed2.png" } alt="" ></img>
+                  <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Group 34546webp.webp" } alt="" ></img>
                 </div>
               </div>
             </div>
@@ -683,17 +683,17 @@ function App() {
                   <div className="tw-absolute tw-top-0 tw-mr-52 lg:tw-mr-0">
                     <Parallax translateY={[500, 0]} speed={15}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/arrowsCopmressed.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Frame 36993.webp" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>
                   <div>
-                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/phoneListCopmressed.png" } alt="" ></img>
+                    <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/Group 34487.webp" } alt="" ></img>
                   </div>
                   <div className="tw-absolute tw-top-0 tw-right-0 tw-ml-36 lg:tw-ml-0 tw-mr-0 lg:tw-mr-16">
                     <Parallax translateY={[200, 50]} speed={2}>
                       <div>
-                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/promoCompressed.png" } alt="" ></img>
+                        <img src={ "https://adminv2.goubba.com/image?path=react-web/assets/gift promo - horizontal.webp" } alt="" ></img>
                       </div>
                     </Parallax>
                   </div>

@@ -53,58 +53,58 @@ a:link {
 }
 
 .background-paralax {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bluePhone.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/Group 34550webp.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 .background-paralax-mobile {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/bluePhone.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/Group 34550webp.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .topLeft {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/brCompressed.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/1webp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bottomRight {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/trCompressed.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/2-1webp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bottomLeft {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/blCompressed.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/1-1webp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .topRight {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/tlCompressed.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/2webp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .retropurple-background {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/retroPartnerCompressed.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/Rectanglewebp.webp");
   background-color: #deafcf;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .retroB-background {
-  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/retroB90.png");
+  background-image: url("https://adminv2.goubba.com/image?path=react-web/assets/Numberswebp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media only screen and (min-width: 768px) {
   .retroB-background {
-    background: url("https://adminv2.goubba.com/image?path=react-web/assets/retroPartnerpurpleCompressed.png")
+    background: url("https://adminv2.goubba.com/image?path=react-web/assets/Numberswebp.webp")
       0 0 repeat;
     background-position: center;
     background-repeat: no-repeat;

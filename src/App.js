@@ -17,7 +17,9 @@ import "react-modern-drawer/dist/index.css";
 import { createBrowserHistory } from "history";
 
 const startup =
-  "https://adminv2.goubba.com/image?path=react-web/assets/startup.png";
+  "https://adminv2.goubba.com/image?path=react-web/assets/Startup label logo 1.webp";
+  const ecsel =
+  "https://adminv2.goubba.com/image?path=react-web/assets/badge 1.webp";
 const QRCode =
   "https://adminv2.goubba.com/image?path=react-web/assets/QRCode.jpeg";
 
@@ -310,7 +312,10 @@ function App({ history = defaultHistory }) {
                   <Trans>your_favorite_superwallet</Trans>
                 </p>
               </div>
-              <img src={startup} alt=""></img>
+              <div className=" tw-flex tw-gap-3">
+                <img src={startup} alt=""></img>
+                <img src={ecsel}  alt=""></img>
+              </div>
             </div>
             <div className="tw-flex tw-justify-end tw-items-start tw-gap-6">
               <div className="tw-hidden lg:tw-flex tw-items-center tw-py-1 tw-px-4 tw-text-white tw-border tw-rounded-lg">
