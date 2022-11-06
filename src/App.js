@@ -19,7 +19,7 @@ import { createBrowserHistory } from "history";
 const startup =
   "https://adminv2.goubba.com/image?path=react-web/assets/Startup label logo 1.webp";
   const ecsel =
-  "https://adminv2.goubba.com/image?path=react-web/assets/badge 1.webp";
+  "https://adminv2.goubba.com/image?path=react-web/assets/ecsel_trophy.svg";
 const QRCode =
   "https://adminv2.goubba.com/image?path=react-web/assets/QRCode.jpeg";
 
@@ -314,7 +314,10 @@ function App({ history = defaultHistory }) {
               </div>
               <div className=" tw-flex tw-gap-3">
                 <img src={startup} alt=""></img>
-                <img src={ecsel}  alt=""></img>
+                <a href="https://www.salonecsel.com/v/6/prix-ecsel/" 
+                  className="tw-flex tw-justify-center tw-items-center">
+                  <img src={ecsel} className='tw-w-[85px]'  alt=""></img>
+                </a>
               </div>
             </div>
             <div className="tw-flex tw-justify-end tw-items-start tw-gap-6">
