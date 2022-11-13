@@ -75,7 +75,7 @@ function App({ history = defaultHistory }) {
     return (
       <div className="">
         {location.pathname == "/business" ? (
-          <div className="tw-flex tw-relative tw-items-center tw-gap-4">
+          <div className="tw-flex tw-relative tw-items-center tw-gap-2 lg:tw-gap-4">
             <a
               href="https://partner.goubba.com"
               className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
@@ -89,7 +89,7 @@ function App({ history = defaultHistory }) {
             <a
               href="https://partner.goubba.com"
               className="tw-group primary-shadow tw-bg-[#95146B] tw-flex tw-items-center 
-                          tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1"
+                          tw-text-left tw-gap-2 lg:tw-gap-4 tw-rounded-lg tw-px-4 tw-py-1 tw-whitespace-nowrap"
             >
               <div>
                 <p className="tw-font-bold tw-text-sm tw-text-white">
@@ -123,7 +123,7 @@ function App({ history = defaultHistory }) {
             </a>
           </div>
         ) : location.pathname == "/corporate" ? (
-          <div className="tw-flex tw-relative tw-items-center tw-gap-4">
+          <div className="tw-flex tw-relative tw-items-center tw-gap-2 lg:tw-gap-4">
             <button
               href="/login"
               disabled
@@ -137,9 +137,9 @@ function App({ history = defaultHistory }) {
             <button
               href="/login"
               disabled
-              className="twgroup primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
-                            tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1
-                            disabled:tw-opacity-30"
+              className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
+                            tw-text-left tw-gap-2 lg:tw-gap-4 tw-rounded-lg tw-px-4 tw-py-1
+                            disabled:tw-opacity-30 tw-whitespace-nowrap"
             >
               <div>
                 <p className="tw-font-bold tw-text-sm tw-text-white">
@@ -176,7 +176,7 @@ function App({ history = defaultHistory }) {
           <a
             href="/login"
             className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
-                        tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1"
+                        tw-text-left tw-gap-4 tw-rounded-lg tw-px-4 tw-py-1"
           >
             <div>
               <p className="tw-font-bold tw-text-sm tw-text-white">
@@ -223,12 +223,12 @@ function App({ history = defaultHistory }) {
         <nav
           className={`${
             location.pathname == "/corporate"
-              ? "tw-px-4 md:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-black tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex"
-              : "tw-px-4 md:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex"
+              ? "tw-px-4 lg:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-black tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex"
+              : "tw-px-4 lg:tw-px-10 tw-h-20 tw-fixed tw-inset-x-0 tw-z-50 tw-bg-white tw-bg-opacity-80 tw-backdrop-blur-lg tw-flex"
           }`}
         >
-          <div className="tw-flex tw-justify-between tw-w-full tw-items-center">
-            <div className="md:tw-flex tw-gap-6 tw-items-center">
+          <div className="tw-flex tw-w-full tw-justify-between tw-items-center tw-gap-2">
+            <div className="md:tw-flex tw-gap-2 lg:tw-gap-6 tw-items-center">
               <a href="/">
                 <svg
                   className="tw-w-24 lg:tw-w-32 "
@@ -259,13 +259,13 @@ function App({ history = defaultHistory }) {
                   />{" "}
                 </svg>
               </a>
-              <div className="tw-w-5 lg:tw-w-10"></div>
-              <div className="tw-flex lg:tw-gap-10">
+              <div className="tw-w-0 lg:tw-w-10"></div>
+              <div className="tw-flex lg:tw-gap-6">
                 <NavLink
                   to="/"
                   onClick={scrollToTop}
                   className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
-                tw-w-12 flex tw-justify-center tw-mx-8"
+                tw-w-12 flex tw-justify-center tw-mx-6 lg:tw-mx-8"
                   style={({ isActive }) => ({
                     color: isActive
                       ? "#BA1986"
@@ -278,7 +278,7 @@ function App({ history = defaultHistory }) {
                   })}
                   end
                 >
-                  <div className="tw-px-4  tw-py-2.5 hover:tw-bg-slate-50 tw-rounded-lg">
+                  <div className="tw-px-4 tw-py-2.5 hover:tw-bg-slate-50 tw-rounded-lg">
                     <Trans>personal</Trans>
                   </div>
                 </NavLink>
@@ -306,7 +306,7 @@ function App({ history = defaultHistory }) {
                   to="./corporate"
                   onClick={scrollToTop}
                   className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
-                tw-w-12 flex tw-justify-center tw-mx-8"
+                tw-w-12 flex tw-justify-center tw-mx-10"
                   style={({ isActive }) => ({
                     color: isActive ? "#BA1986" : "#000",
                     borderTop: isActive
@@ -318,7 +318,7 @@ function App({ history = defaultHistory }) {
                     <Trans>corporate</Trans>
                     <div className="tw-flex tw-items-center">
                       <p
-                        className="  tw-bg-amber-500 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
+                        className="tw-bg-amber-500 tw-rounded-lg tw-py-0.5 tw-text-xs tw-font-light tw-text-black
                         tw-px-1"
                       >
                         <Trans>soon</Trans>
@@ -538,10 +538,10 @@ function App({ history = defaultHistory }) {
               </button>
             </div>
 
-            <div className="tw-gap-4 tw-hidden md:tw-flex">
-              <div className="tw-flex tw-relative tw-items-center tw-h-10 tw-w-24 tw-mr-6 ">
+            <div className="tw-hidden md:tw-flex">
+              <div className="tw-flex tw-relative tw-items-center tw-h-auto tw-w-auto tw-mr-2 lg:tw-mr-6">
                 <svg
-                  className="tw-w-6 tw-ml-12"
+                  className="tw-w-4 tw-ml-6 lg:tw-w-6 lg:tw-ml-12"
                   viewBox="0 0 17 17"
                   fill="gray"
                   xmlns="http://www.w3.org/2000/svg"
@@ -562,7 +562,7 @@ function App({ history = defaultHistory }) {
                   />{" "}
                 </svg>
                 <svg
-                  className="tw-w-4"
+                  className="tw-w-3 lg:tw-w-4"
                   viewBox="0 0 18 11"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -576,7 +576,7 @@ function App({ history = defaultHistory }) {
                 <select
                   onChange={handleLangChange}
                   value={language}
-                  className={`tw-appearance-none tw-pl-5 tw-text-lg tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent
+                  className={`tw-appearance-none lg:tw-pl-5 lg:tw-text-lg tw-font-medium tw-pr-7 tw-absolute tw-inset-0 tw-bg-transparent
                     ${
                       location.pathname == "/corporate"
                         ? " tw-text-white "
