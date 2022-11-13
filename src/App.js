@@ -326,26 +326,6 @@ function App({ history = defaultHistory }) {
                     </div>
                   </div>
                 </NavLink>
-                <NavLink
-                  to="./about-us"
-                  onClick={scrollToTop}
-                  className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
-                tw-w-12 flex tw-justify-center tw-mx-8"
-                  style={({ isActive }) => ({
-                    color: isActive
-                      ? "#BA1986"
-                      : location.pathname == "/corporate" && !isActive
-                      ? "#999999"
-                      : "#000",
-                    borderTop: isActive
-                      ? "6px solid #BA1986"
-                      : "6px solid #FFFFFF00",
-                  })}
-                >
-                  <div className="tw-px-4 tw-py-2.5 hover:tw-bg-slate-50 tw-rounded-lg">
-                    <Trans>About</Trans>
-                  </div>
-                </NavLink>
               </div>
             </div>
 
@@ -459,17 +439,6 @@ function App({ history = defaultHistory }) {
                       <Trans>soon</Trans>
                     </p>
                   </div>
-                </NavLink>
-                <NavLink
-                  onClick={scrollToTop}
-                  to="./about-us"
-                  className="tw-font-semibold "
-                  style={({ isActive }) => ({
-                    // color: isActive ? "#fff" : "#545e6f",
-                    color: isActive ? "#BA1986" : "#000",
-                  })}
-                >
-                  <Trans>About us</Trans>
                 </NavLink>
               </div>
             </Drawer>
@@ -764,24 +733,32 @@ function App({ history = defaultHistory }) {
               <ul>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/goubba"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    href="/about-us"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>about</Trans>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/goubba/jobs/"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
+                  >
+                    <Trans>careers</Trans>
                   </a>
                 </li>
                 <li></li>
               </ul>
             </div>
             <div className="">
-              <h3 className="tw-font-bold text-[#cccccc]">
+              <h3 className="tw-font-bold tw-text-[#cccccc]">
                 <Trans>shop</Trans>
               </h3>
               <ul>
                 <li>
                   <a
                     href="/cards"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>gift_cards</Trans>
                   </a>
@@ -789,7 +766,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a
                     href="/promo"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>promo_codes</Trans>
                   </a>
@@ -797,7 +774,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a
                     href="/cashback"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>cachback</Trans>
                   </a>
@@ -805,25 +782,25 @@ function App({ history = defaultHistory }) {
               </ul>
             </div>
             <div className="">
-              <h3 className="tw-font-bold text-[#cccccc]">
+              <h3 className="tw-font-bold tw-text-[#cccccc]">
                 <Trans>b2b_solutions</Trans>
               </h3>
               <a
                 href="https://partner.goubba.com"
-                className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
               >
                 <Trans>goubba_partner</Trans>
               </a>
             </div>
             <div className="">
-              <h3 className="tw-font-bold text-[#cccccc]">
+              <h3 className="tw-font-bold tw-text-[#cccccc]">
                 <Trans>support</Trans>
               </h3>
               <ul>
                 <li>
                   <a
                     href="https://support.goubba.com/hc/fr-fr/requests/new"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>contact_supoort</Trans>
                   </a>
@@ -831,7 +808,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a
                     href="https://www.youtube.com/channel/UCxn_i88UA3_9BmW_cX0czyg"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>how_to</Trans>
                   </a>
@@ -839,7 +816,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a
                     href="https://support.goubba.com/hc/fr-fr"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>qanda</Trans>
                   </a>
@@ -847,14 +824,14 @@ function App({ history = defaultHistory }) {
               </ul>
             </div>
             <div className="">
-              <h3 className="tw-font-bold text-[#cccccc]">
+              <h3 className="tw-font-bold tw-text-[#cccccc]">
                 <Trans>legal</Trans>
               </h3>
               <ul>
                 <li>
                   <a
                     href="https://goubba.com/merchant_terms_conditions"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>terms_conditions</Trans>
                   </a>
@@ -862,7 +839,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a
                     href="https://goubba.com/privacy"
-                    className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100"
+                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>privacy_policy</Trans>
                   </a>
@@ -891,7 +868,7 @@ function App({ history = defaultHistory }) {
               <ul className="tw-space-y-3">
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/goubba"
+                    href="/about-us"
                     className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100"
                   >
                     <Trans>about</Trans>

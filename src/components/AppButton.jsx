@@ -4,7 +4,7 @@ import Text from "./Text";
 function AppButton({ title, onClick, className, ...props }) {
   return (
     <button
-      className={`tw-w-fit tw-py-4 tw-px-20 tw-text-white tw-text-center tw-bg-[#BA1986] tw-rounded-md hover:tw-opacity-90 ${className}`}
+      className={`tw-w-full md:tw-w-fit tw-py-4 tw-px-20 tw-text-white tw-text-center tw-bg-[#BA1986] tw-rounded-md hover:tw-opacity-90 ${className}`}
       onClick={onClick}
       {...props}
     >
