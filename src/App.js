@@ -343,7 +343,7 @@ function App({ history = defaultHistory }) {
               <h3 className="tw-font-bold tw-text-[#cccccc]">GOUBBA</h3>
               <ul>
                 <li>
-                  <NavLink to="./about-us" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
+                  <NavLink to="./about-us" onClick={scrollToTop} className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
                   </NavLink>
                 </li>
@@ -435,6 +435,7 @@ function App({ history = defaultHistory }) {
               <ul className="tw-space-y-3">
                 <li>
                   <NavLink to="./about-us"
+                    onClick={scrollToTop}
                     className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
                   </NavLink>
