@@ -343,7 +343,7 @@ function App({ history = defaultHistory }) {
                 <li>
                   <a href="https://www.linkedin.com/company/goubba" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
                 </li>
@@ -431,7 +431,7 @@ function App({ history = defaultHistory }) {
                   <a href="https://www.linkedin.com/company/goubba" 
                     className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/company/goubba/jobs/" 

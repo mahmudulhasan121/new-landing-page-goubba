@@ -3,7 +3,7 @@
 .App {
   text-align: center;
 }
-body {
+body{
   background-color: white;
 }
 .App-logo {
@@ -18,7 +18,7 @@ a:link {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.card-sahdow {
+.card-sahdow{
   box-shadow: 0px 0px 122.106px rgba(0, 0, 0, 0.05);
 }
 .App-header {
@@ -204,6 +204,9 @@ a:link {
   z-index: 100;
 }
 
+
+
+
 /* Accordion styles  start*/
 
 .tab {
@@ -219,7 +222,7 @@ a:link {
   background: black;
   font-weight: bold;
   cursor: pointer;
-  /* Icon */
+ /* Icon */
 }
 .tab-label:hover {
   background: #1a252f;
@@ -261,31 +264,27 @@ input:checked ~ .tab-content {
 }
 /* Accordion styles  end*/
 
+
 /*slide show auto rotataion*/
 
 @keyframes scroll {
   0% {
     transform: translateX(0);
-  }
+ }
   100% {
     transform: translateX(calc(-250px * 7));
-  }
+ }
 }
 .slider {
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: auto;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.slider::before,
-.slider::after {
-  background: linear-gradient(
-    to right,
-    #25051b 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+.slider::before, .slider::after {
+  background: linear-gradient(to right, #25051B 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100%;
   position: absolute;
@@ -311,6 +310,3 @@ input:checked ~ .tab-content {
   width: 250px;
 }
 
-.debugBorder {
-  @apply tw-border-teal-700 tw-border-solid tw-border;
-}

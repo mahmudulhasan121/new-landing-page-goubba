@@ -33,7 +33,7 @@ function App() {
               )
             }
             <div className="tw-flex tw-justify-center tw-mt-12 md:tw-mt-24">
-              <a href="https://partner.goubba.com" 
+              <a href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34" 
                   className="tw-group tw-bg-white tw-bg-opacity-30 tw-backdrop-blur-lg  
                             tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 
                             tw-gap-4 tw-rounded-lg 
@@ -147,7 +147,7 @@ function App() {
           </h1>
           <div>
             <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
-              <a href="https://partner.goubba.com"
+              <a href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34"
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
                       tw-flex tw-justify-center tw-items-center tw-px-16 tw-py-2 tw-gap-4 tw-rounded-lg tw-text-[#700F50]" >
                 <p className="tw-font-semibold tw-text-[#700F50]"><Trans>join</Trans></p>
