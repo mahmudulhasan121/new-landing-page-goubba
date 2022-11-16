@@ -312,5 +312,5 @@ input:checked ~ .tab-content {
 }
 
 .debugBorder {
-  @apply tw-border-teal-700 tw-border-solid tw-border;
+  @apply tw-border-black tw-border-solid tw-border-2;
 }

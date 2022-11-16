@@ -1,0 +1,20 @@
+.value-icon {
+  background-color: rgba(94, 17, 83, 1);
+  box-shadow: 0px 2.62414px 13.1207px 13.1207px rgba(0, 0, 0, 0.05);
+}
+
+.join-btn {
+  box-shadow: 0px 4px 20px rgba(111, 26, 83, 0.5);
+  border-radius: 50px;
+
+  /* background: #ba1986; */
+}
+
+@media (min-width: 1024px) {
+  .value-icon {
+    box-shadow: 0px 4px 20px 20px rgba(0, 0, 0, 0.05);
+  }
+  .join-btn {
+    box-shadow: 0px 4px 20px rgba(218, 54, 165, 0.5);
+  }
+}

@@ -7,12 +7,12 @@ const data = {
       {
         // img: <IconMenu />,
         img: "https://adminv2.goubba.com/image?path=react-web/assets/yacine.webp",
-        quote: "“Goubba wants to disrupt the consumption habits of Algerians.”",
+        quote: `“Goubba wants to disrupt\nthe consumption habits of Algerians.”`,
         name: " Yacine Benmosbah - Founder & CEO",
       },
       {
         img: "https://adminv2.goubba.com/image?path=react-web/assets/kinan.webp",
-        quote: "“Our mission ? Boost a cashless algerian society.”",
+        quote: `“Our mission ?\nBoost a cashless algerian society.”`,
         name: " Kinan Mobayed - Co-founder",
       },
     ],
@@ -294,9 +294,9 @@ const data = {
     image_members:
       "https://adminv2.goubba.com/image?path=react-web/assets/group.webp",
     images_events: [
+      "https://adminv2.goubba.com/image?path=react-web/assets/group%20desk.webp",
       "https://adminv2.goubba.com/image?path=react-web/assets/group%20team.webp",
       "https://adminv2.goubba.com/image?path=react-web/assets/group%20meeting.webp",
-      "https://adminv2.goubba.com/image?path=react-web/assets/group%20desk.webp",
     ],
   },
   //
