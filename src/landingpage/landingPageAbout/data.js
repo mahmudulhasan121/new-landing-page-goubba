@@ -292,7 +292,7 @@ const data = {
   team: {
     title: "Our team",
     image_members:
-      "https://adminv2.goubba.com/image?path=react-web/assets/group.webp",
+      "https://adminv2.goubba.com/image?path=react-web/assets/teamGoubba.jpg",
     images_events: [
       "https://adminv2.goubba.com/image?path=react-web/assets/group%20desk.webp",
       "https://adminv2.goubba.com/image?path=react-web/assets/group%20team.webp",
