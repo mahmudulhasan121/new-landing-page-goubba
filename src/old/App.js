@@ -1,7 +1,6 @@
 import LandingPagePersonal from "./landingpage/LandingPagePersonal";
 import LandingPageBusiness from "./landingpage/LandingPageBusiness";
 import LandingPageCorporate from "./landingpage/LandingPageCorporate";
-import AboutUsPage from "./landingpage/landingPageAbout/landingPageAbout.jsx"
 import React, { useState, useEffect } from "react";
 import { useLocation } from 'react-router-dom'
 import { useTranslation ,Trans } from 'react-i18next';
@@ -300,7 +299,6 @@ function App({ history = defaultHistory }) {
         <Route path="/" element={<LandingPagePersonal />} />
         <Route path="/business" element={<LandingPageBusiness />} />
         <Route path="/corporate" element={<LandingPageCorporate />} />
-        <Route path="/about-us" element={<AboutUsPage />} />
       </Routes>
 
       <footer>
@@ -343,15 +341,11 @@ function App({ history = defaultHistory }) {
               <h3 className="tw-font-bold tw-text-[#cccccc]">GOUBBA</h3>
               <ul>
                 <li>
-                  <NavLink to="./about-us" onClick={scrollToTop} className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
+                  <a href="https://www.linkedin.com/company/goubba" className="tw-text-sm text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/goubba/jobs/" 
-                    className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100" >
-                    <Trans>careers</Trans>
-                  </a>
                 </li>
               </ul>
             </div>
@@ -434,11 +428,10 @@ function App({ history = defaultHistory }) {
             <div className="tab-content border-2 ">
               <ul className="tw-space-y-3">
                 <li>
-                  <NavLink to="./about-us"
-                    onClick={scrollToTop}
+                  <a href="https://www.linkedin.com/company/goubba" 
                     className="tw-text-sm tw-text-[#b3b3b3] hover:tw-text-gray-100" >
                     <Trans>about</Trans>
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/company/goubba/jobs/" 

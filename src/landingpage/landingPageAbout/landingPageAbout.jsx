@@ -188,11 +188,10 @@ function PersonCard({ img, quote, name, className, ...props }) {
           {secondLine}
         </p>
 
-        {/* ------------------------------ to display quote in small screen ---------------------------------------------------*/}
+        {/* ------------------------------ to display quote in small ---------------------------------------------------*/}
         <p className="tw-flex lg:tw-hidden tw-font-normal tw-text-xs">
           {quote}
         </p>
-
         <p className="tw-font-bold tw-text-xs tw-leading-[22px] lg:tw-text-sm lg:tw-leading-[22px]">
           {name}
         </p>
