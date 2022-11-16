@@ -262,7 +262,7 @@ function App({ history = defaultHistory }) {
               <NavLink
                 to="/"
                 onClick={scrollToTop}
-                className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
+                className="tw-font-medium tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
                   color: isActive
@@ -283,7 +283,7 @@ function App({ history = defaultHistory }) {
               <NavLink
                 to="./business"
                 onClick={scrollToTop}
-                className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
+                className="tw-font-medium tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
                   color: isActive
@@ -303,7 +303,7 @@ function App({ history = defaultHistory }) {
               <NavLink
                 to="./corporate"
                 onClick={scrollToTop}
-                className="tw-font-semibold tw-hidden md:tw-flex tw-py-4
+                className="tw-font-medium tw-hidden md:tw-flex tw-py-4
                 tw-w-12 flex tw-justify-center tw-mx-8"
                 style={({ isActive }) => ({
                   color: isActive ? "#BA1986" : "#000",
