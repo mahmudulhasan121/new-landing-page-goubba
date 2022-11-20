@@ -224,7 +224,45 @@ function App() {
                         We bring together everything that’s required to set up rewards, incentives and payouts, for employees, customers and partners.
                     </p>
                 </div>
-                <div className=" tw-flex tw-justify-center tw-mt-4">
+            </div>
+            <div className="tw-bg-[#0C0108]">
+                <div className="tw-flex md:tw-flex-none md:tw-grid  tw-gap-3 tw-grid-cols-3 tw-text-white  tw-mx-4 tw-mt-10 tw-rounded-lg tw-px-8 tw-py-8
+                    tw-overflow-x-auto ">
+                    <div className=" tw-mx-6 ">
+                        <div>
+                            <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fillRule="evenodd" clipRule="evenodd" d="M44.8555 45.7799C41.8432 44.4851 38.39 44.7323 35.5929 46.4429L22.6541 54.3555C18.9975 56.5917 17.1493 60.8914 18.043 65.0834L21.2051 79.9165C21.8887 83.1232 24.0856 85.7989 27.0979 87.0936L65.9298 103.785C71.0573 105.988 77.0004 103.618 79.2043 98.491L88.981 75.7452C91.1849 70.6178 88.8149 64.6746 83.6875 62.4707L44.8555 45.7799ZM27.5399 69.2515C30.3599 70.4637 33.6287 69.1602 34.8408 66.3401C36.053 63.52 34.7495 60.2513 31.9294 59.0392C29.1093 57.827 25.8406 59.1305 24.6284 61.9506C23.4163 64.7707 24.7198 68.0394 27.5399 69.2515Z" fill="white" fillOpacity="0.05"/> <path fillRule="evenodd" clipRule="evenodd" d="M36.4665 36.6658C33.1878 36.6658 30.1129 38.2565 28.2186 40.9326L19.4559 53.3115C16.9795 56.81 16.9795 61.49 19.4559 64.9884L28.2186 77.3674C30.1129 80.0435 33.1878 81.6342 36.4665 81.6342H78.7337C84.3146 81.6342 88.8389 77.11 88.8389 71.529V46.771C88.8389 41.1901 84.3146 36.6658 78.7337 36.6658H36.4665ZM34.0186 64.9604C37.0882 64.9604 39.5765 62.472 39.5765 59.4025C39.5765 56.3329 37.0882 53.8446 34.0186 53.8446C30.9491 53.8446 28.4607 56.3329 28.4607 59.4025C28.4607 62.472 30.9491 64.9604 34.0186 64.9604Z" fill="white" fillOpacity="0.25"/> <path fillRule="evenodd" clipRule="evenodd" d="M28.8955 33.7968C25.7908 34.8508 23.3905 37.3456 22.4571 40.4886L18.1391 55.0275C16.9188 59.1363 18.4233 63.5679 21.8929 66.0845L34.17 74.9894C36.8241 76.9145 40.2471 77.4322 43.3518 76.3782L83.3753 62.7903C88.66 60.9962 91.4897 55.2576 89.6956 49.9729L81.7365 26.5292C79.9423 21.2444 74.2037 18.4148 68.919 20.2089L28.8955 33.7968ZM35.6734 61.3771C38.58 60.3903 40.1363 57.2341 39.1495 54.3275C38.1627 51.4209 35.0065 49.8646 32.0999 50.8514C29.1933 51.8382 27.637 54.9944 28.6238 57.901C29.6105 60.8076 32.7668 62.3639 35.6734 61.3771Z" fill="white"/> </svg>
+                        </div>
+                        <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
+                            Employees
+                        </h3>
+                        <p className=" md:tw-text-2xl tw-mt-6">
+                            We help create tailered engagement programs that deliver rewards across +100 countries
+                        </p>
+                    </div>
+                    <div className=" tw-mx-6">
+                        <div>
+                            <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clipPath="url(#clip0_1984_62132)"> <path d="M28.9472 98.7432C26.1231 98.8368 23.3292 98.1375 20.8821 96.7247C13.6463 92.547 11.1671 83.2946 15.3447 76.0587L34.8405 42.291C39.0182 35.0551 48.2706 32.5759 55.5065 36.7536C57.9536 38.1664 59.9561 40.2363 61.2871 42.7289L78.3395 74.6614C83.7687 84.8281 76.6471 97.1632 65.1279 97.5447L28.9472 98.7432Z" fill="white" fillOpacity="0.1"/> <path d="M37.9056 78.2578C35.5066 79.7509 32.7374 80.5423 29.9117 80.5423C21.5565 80.5423 14.7832 73.769 14.7832 65.4138L14.7832 26.4221C14.7832 18.0669 21.5565 11.2936 29.9117 11.2936C32.7374 11.2936 35.5066 12.085 37.9056 13.5781L68.6397 32.7063C78.4248 38.7963 78.4248 53.0396 68.6397 59.1296L37.9056 78.2578Z" fill="white"/> <path d="M35.3748 88.1851C32.6711 89.0064 29.7915 89.0541 27.0621 88.3228C18.9915 86.1603 14.2021 77.8647 16.3646 69.7942L26.4564 32.1312C28.6189 24.0606 36.9144 19.2712 44.985 21.4337C47.7144 22.165 50.1844 23.6462 52.1152 25.7093L76.8513 52.1403C84.7268 60.5554 81.0404 74.3133 70.0124 77.6633L35.3748 88.1851Z" fill="white" fillOpacity="0.25"/> </g> <defs> <clipPath id="clip0_1984_62132"> <rect width="113.599" height="113.599" fill="white" transform="translate(0 0.400391)"/> </clipPath> </defs> </svg>
+                        </div>
+                        <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
+                            Customers
+                        </h3>
+                        <p className=" md:tw-text-2xl tw-mt-6">
+                            We help distribute campaigns omni-channel using multiple channels and out of the box integrations.
+                        </p>
+                    </div>
+                    <div className=" md:tw-w-full tw-mx-6 ">
+                        <div>
+                            <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="52.9093" cy="74.3155" r="31.9011" fill="white" fillOpacity="0.1"/> <circle cx="49.0189" cy="50.9733" r="31.9011" fill="white"/> <circle cx="56.7996" cy="60.3102" r="31.9011" fill="white" fillOpacity="0.25"/> </svg>
+                        </div>
+                        <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
+                            Partners
+                        </h3>
+                        <p className=" md:tw-text-2xl tw-mt-6">
+                            Our technology helps keep the channel flexible to meet the preferences of evolving channel ecosystem.
+                        </p>
+                    </div>
+                </div>
+                <div className=" tw-flex tw-justify-center tw-mt-4 tw-py-10">
                     <a href="" className="tw-group  tw-text-lg tw-whitespace-nowrap
                                     tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                     tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10" >
@@ -233,42 +271,6 @@ function App() {
                         </p>
                         <svg className=" group-hover:tw-translate-x-3 tw-duration-300 tw-transition tw-w-8" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect opacity="0.3" x="7.5" y="19.5" width="3" height="21" rx="1" transform="rotate(-90 7.5 19.5)" fill="white"/> <path d="M16.9393 25.9393C16.3536 26.5251 16.3536 27.4749 16.9393 28.0607C17.5251 28.6464 18.4749 28.6464 19.0607 28.0607L28.0607 19.0607C28.6285 18.4928 28.6484 17.5784 28.1057 16.9864L19.8557 7.98641C19.2959 7.37574 18.3471 7.33448 17.7364 7.89427C17.1257 8.45406 17.0845 9.40291 17.6443 10.0136L24.9238 17.9549L16.9393 25.9393Z" fill="white"/> </svg>
                     </a>
-                </div>
-            </div>
-            <div className="tw-flex md:tw-flex-none md:tw-grid  tw-gap-3 tw-grid-cols-3 tw-text-white tw-bg-[#0C0108] tw-mx-4 tw-mt-10 tw-rounded-lg tw-px-8 tw-py-8
-                tw-overflow-x-auto ">
-                <div className=" tw-mx-6 ">
-                    <div>
-                        <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fillRule="evenodd" clipRule="evenodd" d="M44.8555 45.7799C41.8432 44.4851 38.39 44.7323 35.5929 46.4429L22.6541 54.3555C18.9975 56.5917 17.1493 60.8914 18.043 65.0834L21.2051 79.9165C21.8887 83.1232 24.0856 85.7989 27.0979 87.0936L65.9298 103.785C71.0573 105.988 77.0004 103.618 79.2043 98.491L88.981 75.7452C91.1849 70.6178 88.8149 64.6746 83.6875 62.4707L44.8555 45.7799ZM27.5399 69.2515C30.3599 70.4637 33.6287 69.1602 34.8408 66.3401C36.053 63.52 34.7495 60.2513 31.9294 59.0392C29.1093 57.827 25.8406 59.1305 24.6284 61.9506C23.4163 64.7707 24.7198 68.0394 27.5399 69.2515Z" fill="white" fillOpacity="0.05"/> <path fillRule="evenodd" clipRule="evenodd" d="M36.4665 36.6658C33.1878 36.6658 30.1129 38.2565 28.2186 40.9326L19.4559 53.3115C16.9795 56.81 16.9795 61.49 19.4559 64.9884L28.2186 77.3674C30.1129 80.0435 33.1878 81.6342 36.4665 81.6342H78.7337C84.3146 81.6342 88.8389 77.11 88.8389 71.529V46.771C88.8389 41.1901 84.3146 36.6658 78.7337 36.6658H36.4665ZM34.0186 64.9604C37.0882 64.9604 39.5765 62.472 39.5765 59.4025C39.5765 56.3329 37.0882 53.8446 34.0186 53.8446C30.9491 53.8446 28.4607 56.3329 28.4607 59.4025C28.4607 62.472 30.9491 64.9604 34.0186 64.9604Z" fill="white" fillOpacity="0.25"/> <path fillRule="evenodd" clipRule="evenodd" d="M28.8955 33.7968C25.7908 34.8508 23.3905 37.3456 22.4571 40.4886L18.1391 55.0275C16.9188 59.1363 18.4233 63.5679 21.8929 66.0845L34.17 74.9894C36.8241 76.9145 40.2471 77.4322 43.3518 76.3782L83.3753 62.7903C88.66 60.9962 91.4897 55.2576 89.6956 49.9729L81.7365 26.5292C79.9423 21.2444 74.2037 18.4148 68.919 20.2089L28.8955 33.7968ZM35.6734 61.3771C38.58 60.3903 40.1363 57.2341 39.1495 54.3275C38.1627 51.4209 35.0065 49.8646 32.0999 50.8514C29.1933 51.8382 27.637 54.9944 28.6238 57.901C29.6105 60.8076 32.7668 62.3639 35.6734 61.3771Z" fill="white"/> </svg>
-                    </div>
-                    <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                        Employees
-                    </h3>
-                    <p className=" md:tw-text-2xl tw-mt-6">
-                        We help create tailered engagement programs that deliver rewards across +100 countries
-                    </p>
-                </div>
-                <div className=" tw-mx-6">
-                    <div>
-                        <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clipPath="url(#clip0_1984_62132)"> <path d="M28.9472 98.7432C26.1231 98.8368 23.3292 98.1375 20.8821 96.7247C13.6463 92.547 11.1671 83.2946 15.3447 76.0587L34.8405 42.291C39.0182 35.0551 48.2706 32.5759 55.5065 36.7536C57.9536 38.1664 59.9561 40.2363 61.2871 42.7289L78.3395 74.6614C83.7687 84.8281 76.6471 97.1632 65.1279 97.5447L28.9472 98.7432Z" fill="white" fillOpacity="0.1"/> <path d="M37.9056 78.2578C35.5066 79.7509 32.7374 80.5423 29.9117 80.5423C21.5565 80.5423 14.7832 73.769 14.7832 65.4138L14.7832 26.4221C14.7832 18.0669 21.5565 11.2936 29.9117 11.2936C32.7374 11.2936 35.5066 12.085 37.9056 13.5781L68.6397 32.7063C78.4248 38.7963 78.4248 53.0396 68.6397 59.1296L37.9056 78.2578Z" fill="white"/> <path d="M35.3748 88.1851C32.6711 89.0064 29.7915 89.0541 27.0621 88.3228C18.9915 86.1603 14.2021 77.8647 16.3646 69.7942L26.4564 32.1312C28.6189 24.0606 36.9144 19.2712 44.985 21.4337C47.7144 22.165 50.1844 23.6462 52.1152 25.7093L76.8513 52.1403C84.7268 60.5554 81.0404 74.3133 70.0124 77.6633L35.3748 88.1851Z" fill="white" fillOpacity="0.25"/> </g> <defs> <clipPath id="clip0_1984_62132"> <rect width="113.599" height="113.599" fill="white" transform="translate(0 0.400391)"/> </clipPath> </defs> </svg>
-                    </div>
-                    <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                        Customers
-                    </h3>
-                    <p className=" md:tw-text-2xl tw-mt-6">
-                        We help distribute campaigns omni-channel using multiple channels and out of the box integrations.
-                    </p>
-                </div>
-                <div className=" md:tw-w-full tw-mx-6 ">
-                    <div>
-                        <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="52.9093" cy="74.3155" r="31.9011" fill="white" fillOpacity="0.1"/> <circle cx="49.0189" cy="50.9733" r="31.9011" fill="white"/> <circle cx="56.7996" cy="60.3102" r="31.9011" fill="white" fillOpacity="0.25"/> </svg>
-                    </div>
-                    <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                        Partners
-                    </h3>
-                    <p className=" md:tw-text-2xl tw-mt-6">
-                        Our technology helps keep the channel flexible to meet the preferences of evolving channel ecosystem.
-                    </p>
                 </div>
             </div>
             <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-5
