@@ -27,7 +27,7 @@ function App() {
                         <div className="tw-flex tw-justify-center md:tw-justify-start tw-mx-8 md:tw-mx-0">
                             <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/membershipUione.png" alt=""></img>
                         </div>
-                        <div className="tw-flex tw-items-center md:tw-w-10/12">
+                        <div className="tw-flex tw-items-center tw-justify-center md:tw-w-10/12">
                             <div className="">
                                 <h1 className="tw-hidden md:tw-flex tw-text-black tw-font-bold tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
                                             tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-mb-6 md:tw-w-1/2">

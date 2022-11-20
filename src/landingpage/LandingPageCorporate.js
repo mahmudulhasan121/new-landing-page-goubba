@@ -42,9 +42,10 @@ function App() {
                         <div className="tw-flex tw-justify-center tw-mt-12 md:tw-mt-0">
                             <img src="https://adminv2.goubba.com/image?path=react-web/assets/corporate-animation-one-croped.gif"></img>
                         </div>
-                        <div className=" tw-mt-24 md:tw-mt-0">
-                            <p className="md:tw-w-3/4 tw-mx-4 md:tw-mx-auto tw-text-center tw-font-bold tw-text-white 
-                                        tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
+                        <div className=" tw-mt-24 lg:tw-mt-0">
+                            <p className="sm:tw-w-3/4 tw-mx-auto md:tw-mx-auto tw-text-center tw-font-bold tw-text-white 
+                                        tw-text-3xl sm:tw-text-4xl md:tw-text-5xl 2xl:tw-text-7xl tw-z-20 
+                                        lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
                                 <Trans>employee_happiness</Trans>
                             </p>
                             <div className="tw-hidden tw-gap-4 tw-justify-center tw-mt-12 md:tw-mt-24">
