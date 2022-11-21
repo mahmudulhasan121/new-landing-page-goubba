@@ -439,7 +439,7 @@ function App({ history = defaultHistory }) {
         <Route path="/business" element={<LandingPageBusiness />} />
         <Route path="/corporate" element={<LandingPageCorporate />} />
         <Route path="/about-us" element={<AboutUsPage />} />
-        <Route path="/welcomeToMembership" element={<WelcomeMemeberShip />} />
+        <Route path="/corporate-membership" element={<WelcomeMemeberShip />} />
 
       </Routes>
 
