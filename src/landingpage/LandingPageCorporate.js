@@ -76,19 +76,13 @@ function App() {
                         </p>
                         
                         <div className="tw-flex tw-justify-center md:tw-justify-start">
-                            <button href="https://partner.goubba.com" disabled
-                                className="tw-group twflex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                            <a href="https://corporate.goubba.com/register" disabled
+                                className="tw-group tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                             tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
                                             " >
                                 <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
                                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                            </button>
-                            <div  className="tw-group tw-text-lg tw-whitespace-nowrap
-                                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
-                                <p className=" tw-font-semibold tw-text-black tw-uppercase">
-                                    <Trans>coming_soon</Trans>
-                                </p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -105,18 +99,12 @@ function App() {
                             <Trans>access_exclusive</Trans>
                         </p>
                         <div className="tw-flex tw-justify-center md:tw-justify-start">
-                            <a href="https://goubba.com/cards"
-                                className="tw-group twflex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                            <a href="https://corporate.goubba.com/cards "
+                                className="tw-group tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                             tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
                                 <p className="tw-font-semibold tw-text-white"><Trans>explore</Trans></p>
                                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
                             </a>
-                            <div  className="tw-group  tw-text-lg tw-whitespace-nowrap
-                                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
-                                <p className=" tw-font-semibold tw-text-black tw-uppercase">
-                                    <Trans>coming_soon</Trans>
-                                </p>
-                            </div>
                         </div>
                         
                     </div>
@@ -345,19 +333,13 @@ function App() {
                                 <Trans>send_track</Trans>
                             </p>
                             <div className="tw-flex tw-w-full tw-justify-center md:tw-justify-start">
-                                <button href="https://partner.goubba.com" disabled
+                                <a href="https://corporate.goubba.com/register"
                                     className="tw-group 
-                                        twflex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                                        tw-flex twhidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                         tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
                                     <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
                                     <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                                </button>
-                                <div  className="tw-group  tw-text-lg tw-whitespace-nowrap
-                                                tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
-                                    <p className=" tw-font-semibold tw-text-black tw-uppercase">
-                                        <Trans>coming_soon</Trans>
-                                    </p>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -393,10 +375,19 @@ function App() {
                                 
                             </button>
                             <div  className="tw-group  tw-text-lg tw-whitespace-nowrap
-                                            tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
+                                            twflex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  " >
                                 <p className=" tw-font-semibold tw-text-black tw-uppercase">
                                     <Trans>coming_soon</Trans>
                                 </p>
+                            </div>
+                            <div className="tw-flex tw-justify-center md:tw-justify-start">
+                                <a href="https://corporate.goubba.com/register"
+                                    className="tw-group tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                                                tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 
+                                                " >
+                                    <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
+                                    <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
+                                </a>
                             </div>
                         </div>
                     </div>
