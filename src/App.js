@@ -98,17 +98,14 @@ function App({ history = defaultHistory }) {
           </div>
         ) : location.pathname == "/corporate" ? (
           <div className="tw-flex tw-relative tw-items-center tw-gap-4">
-            <a
-              href="https://corporate.goubba.com/login"
+            <a href="https://corporate.goubba.com/login"
               className="tw-border tw-flex tw-justify-center tw-items-center tw-px-4 tw-py-2.5 tw-rounded-lg
                             tw-border-[#BA1986] disabled:tw-opacity-30" >
               <p className="tw-font-bold tw-text-sm tw-text-[#BA1986]">
                 <Trans>login</Trans>
               </p>
             </a>
-            <a
-              href="https://corporate.goubba.com/register"
-              
+            <a href="https://corporate.goubba.com/register"
               className="twgroup primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
                             tw-text-left tw-gap-4  tw-rounded-lg tw-px-4 tw-py-1
                             disabled:tw-opacity-30" >

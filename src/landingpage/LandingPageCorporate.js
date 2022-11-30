@@ -48,19 +48,19 @@ function App() {
                                         lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
                                 <Trans>employee_happiness</Trans>
                             </p>
-                            <div className="tw-hidden tw-gap-4 tw-justify-center tw-mt-12 md:tw-mt-24">
-                                <button href="/login" 
+                            <div className=" tw-flex tw-gap-4 tw-justify-center tw-mt-12 md:tw-mt-24">
+                                <a href="https://corporate.goubba.com/login" 
                                     className="tw-group primary-shadow tw-bg-[#BA1986] tw-flex tw-items-center 
                                     tw-text-left tw-gap-4 tw-text-white tw-rounded-lg tw-px-4 tw-py-1 disabled:tw-opacity-50">
                                     <p className="tw-font-bold tw-text-sm tw-text-white"><Trans>login</Trans></p>
-                                </button>
-                                <button href="https://partner.goubba.com" 
+                                </a>
+                                <a href="https://corporate.goubba.com/register" 
                                     className="tw-group d disabled:tw-opacity-30
                                                 tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                                 tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 " >
                                     <p className="tw-font-semibold tw-text-white"><Trans>start_now</Trans></p>
                                     <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -200,16 +200,16 @@ function App() {
                 <div className=" md:tw-w-2/3 tw-mx-6 tw-flex tw-flex-col tw-justify-center">
                     <h2 className=" tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
-                        Explore limitless possibilities
+                        <Trans>explore_possibilities</Trans>
                     </h2>
                     <p className=" tw-hidden md:tw-flex md:tw-text-3xl tw-my-6">
-                        We bring together everything that’s required to set up rewards, incentives and payouts, for employees, customers and partners.
+                        <Trans>explore_possibilities_txt</Trans>
                     </p>
                 </div>
                 <div className=" tw-mt-12 md:tw-mt-0">
                     <img src="https://adminv2.goubba.com/image?path=react-web/assets/infinity.webp"></img>
                     <p className="md:tw-hidden tw-text-xl tw-text-center tw-my-12">
-                        We bring together everything that’s required to set up rewards, incentives and payouts, for employees, customers and partners.
+                        <Trans>explore_possibilities_txt</Trans>
                     </p>
                 </div>
             </div>
@@ -221,10 +221,10 @@ function App() {
                             <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fillRule="evenodd" clipRule="evenodd" d="M44.8555 45.7799C41.8432 44.4851 38.39 44.7323 35.5929 46.4429L22.6541 54.3555C18.9975 56.5917 17.1493 60.8914 18.043 65.0834L21.2051 79.9165C21.8887 83.1232 24.0856 85.7989 27.0979 87.0936L65.9298 103.785C71.0573 105.988 77.0004 103.618 79.2043 98.491L88.981 75.7452C91.1849 70.6178 88.8149 64.6746 83.6875 62.4707L44.8555 45.7799ZM27.5399 69.2515C30.3599 70.4637 33.6287 69.1602 34.8408 66.3401C36.053 63.52 34.7495 60.2513 31.9294 59.0392C29.1093 57.827 25.8406 59.1305 24.6284 61.9506C23.4163 64.7707 24.7198 68.0394 27.5399 69.2515Z" fill="white" fillOpacity="0.05"/> <path fillRule="evenodd" clipRule="evenodd" d="M36.4665 36.6658C33.1878 36.6658 30.1129 38.2565 28.2186 40.9326L19.4559 53.3115C16.9795 56.81 16.9795 61.49 19.4559 64.9884L28.2186 77.3674C30.1129 80.0435 33.1878 81.6342 36.4665 81.6342H78.7337C84.3146 81.6342 88.8389 77.11 88.8389 71.529V46.771C88.8389 41.1901 84.3146 36.6658 78.7337 36.6658H36.4665ZM34.0186 64.9604C37.0882 64.9604 39.5765 62.472 39.5765 59.4025C39.5765 56.3329 37.0882 53.8446 34.0186 53.8446C30.9491 53.8446 28.4607 56.3329 28.4607 59.4025C28.4607 62.472 30.9491 64.9604 34.0186 64.9604Z" fill="white" fillOpacity="0.25"/> <path fillRule="evenodd" clipRule="evenodd" d="M28.8955 33.7968C25.7908 34.8508 23.3905 37.3456 22.4571 40.4886L18.1391 55.0275C16.9188 59.1363 18.4233 63.5679 21.8929 66.0845L34.17 74.9894C36.8241 76.9145 40.2471 77.4322 43.3518 76.3782L83.3753 62.7903C88.66 60.9962 91.4897 55.2576 89.6956 49.9729L81.7365 26.5292C79.9423 21.2444 74.2037 18.4148 68.919 20.2089L28.8955 33.7968ZM35.6734 61.3771C38.58 60.3903 40.1363 57.2341 39.1495 54.3275C38.1627 51.4209 35.0065 49.8646 32.0999 50.8514C29.1933 51.8382 27.637 54.9944 28.6238 57.901C29.6105 60.8076 32.7668 62.3639 35.6734 61.3771Z" fill="white"/> </svg>
                         </div>
                         <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                            Employees
+                            <Trans>employees</Trans>
                         </h3>
                         <p className=" md:tw-text-2xl tw-mt-6">
-                            We help create tailered engagement programs that deliver rewards across +100 countries
+                            <Trans>emplyees_txt</Trans>
                         </p>
                     </div>
                     <div className=" tw-mx-6">
@@ -232,10 +232,10 @@ function App() {
                             <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clipPath="url(#clip0_1984_62132)"> <path d="M28.9472 98.7432C26.1231 98.8368 23.3292 98.1375 20.8821 96.7247C13.6463 92.547 11.1671 83.2946 15.3447 76.0587L34.8405 42.291C39.0182 35.0551 48.2706 32.5759 55.5065 36.7536C57.9536 38.1664 59.9561 40.2363 61.2871 42.7289L78.3395 74.6614C83.7687 84.8281 76.6471 97.1632 65.1279 97.5447L28.9472 98.7432Z" fill="white" fillOpacity="0.1"/> <path d="M37.9056 78.2578C35.5066 79.7509 32.7374 80.5423 29.9117 80.5423C21.5565 80.5423 14.7832 73.769 14.7832 65.4138L14.7832 26.4221C14.7832 18.0669 21.5565 11.2936 29.9117 11.2936C32.7374 11.2936 35.5066 12.085 37.9056 13.5781L68.6397 32.7063C78.4248 38.7963 78.4248 53.0396 68.6397 59.1296L37.9056 78.2578Z" fill="white"/> <path d="M35.3748 88.1851C32.6711 89.0064 29.7915 89.0541 27.0621 88.3228C18.9915 86.1603 14.2021 77.8647 16.3646 69.7942L26.4564 32.1312C28.6189 24.0606 36.9144 19.2712 44.985 21.4337C47.7144 22.165 50.1844 23.6462 52.1152 25.7093L76.8513 52.1403C84.7268 60.5554 81.0404 74.3133 70.0124 77.6633L35.3748 88.1851Z" fill="white" fillOpacity="0.25"/> </g> <defs> <clipPath id="clip0_1984_62132"> <rect width="113.599" height="113.599" fill="white" transform="translate(0 0.400391)"/> </clipPath> </defs> </svg>
                         </div>
                         <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                            Customers
+                            <Trans>customers</Trans>
                         </h3>
                         <p className=" md:tw-text-2xl tw-mt-6">
-                            We help distribute campaigns omni-channel using multiple channels and out of the box integrations.
+                            <Trans>customers_txt</Trans>
                         </p>
                     </div>
                     <div className=" md:tw-w-full tw-mx-6 ">
@@ -243,19 +243,19 @@ function App() {
                             <svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="52.9093" cy="74.3155" r="31.9011" fill="white" fillOpacity="0.1"/> <circle cx="49.0189" cy="50.9733" r="31.9011" fill="white"/> <circle cx="56.7996" cy="60.3102" r="31.9011" fill="white" fillOpacity="0.25"/> </svg>
                         </div>
                         <h3 className="tw-mr-24 md:tw-mr-0 tw-text-2xl md:tw-text-5xl tw-font-semibold">
-                            Partners
+                            <Trans>partners</Trans>
                         </h3>
                         <p className=" md:tw-text-2xl tw-mt-6">
-                            Our technology helps keep the channel flexible to meet the preferences of evolving channel ecosystem.
+                            <Trans>partners_txt</Trans>
                         </p>
                     </div>
                 </div>
                 <div className=" tw-flex tw-justify-center tw-mt-4 tw-py-10">
-                    <a href="" className="tw-group  tw-text-lg tw-whitespace-nowrap
+                    <a href="https://corporate.goubba.com/register" className="tw-group  tw-text-lg tw-whitespace-nowrap
                                     tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                     tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10" >
                         <p className=" tw-font-semibold tw-text-white tw-uppercase">
-                            Join now
+                            <Trans>join</Trans>
                         </p>
                         <svg className=" group-hover:tw-translate-x-3 tw-duration-300 tw-transition tw-w-8" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect opacity="0.3" x="7.5" y="19.5" width="3" height="21" rx="1" transform="rotate(-90 7.5 19.5)" fill="white"/> <path d="M16.9393 25.9393C16.3536 26.5251 16.3536 27.4749 16.9393 28.0607C17.5251 28.6464 18.4749 28.6464 19.0607 28.0607L28.0607 19.0607C28.6285 18.4928 28.6484 17.5784 28.1057 16.9864L19.8557 7.98641C19.2959 7.37574 18.3471 7.33448 17.7364 7.89427C17.1257 8.45406 17.0845 9.40291 17.6443 10.0136L24.9238 17.9549L16.9393 25.9393Z" fill="white"/> </svg>
                     </a>
@@ -267,7 +267,7 @@ function App() {
                     <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24">
                         <h1 className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
-                            Huge Flexibility, tone of discounts by enlocking PRO membership for your employees.
+                            <Trans>huge_flexibility</Trans>
                         </h1>
                         <div className="tw-flex tw-justify-center md:tw-justify-start">
                             <a href="https://goubba.com/cards"
@@ -276,14 +276,14 @@ function App() {
                                 <p className="tw-font-semibold tw-text-white"><Trans>explore</Trans></p>
                                 <svg className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition" viewBox="0 0 30 31" fill="white" xmlns="http://www.w3.org/2000/svg" > <rect opacity="0.3" x="6.25" y="16.75" width="2.5" height="17.5" rx="1" transform="rotate(-90 6.25 16.75)" fill="white" /> <path d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z" fill="white" /> </svg> 
                             </a>
-                            <NavLink to="/corporate-membership" onClick={scrollToTop} className="tw-group  tw-text-lg tw-whitespace-nowrap
+                            <a href="https://corporate.goubba.com/register" onClick={scrollToTop} className="tw-group  tw-text-lg tw-whitespace-nowrap
                                             tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                             tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10" >
                                 <p className=" tw-font-semibold tw-text-white tw-uppercase">
-                                    Check more
+                                    <Trans>check_more</Trans>
                                 </p>
                                 <svg className=" group-hover:tw-translate-x-3 tw-duration-300 tw-transition tw-w-8" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect opacity="0.3" x="7.5" y="19.5" width="3" height="21" rx="1" transform="rotate(-90 7.5 19.5)" fill="white"/> <path d="M16.9393 25.9393C16.3536 26.5251 16.3536 27.4749 16.9393 28.0607C17.5251 28.6464 18.4749 28.6464 19.0607 28.0607L28.0607 19.0607C28.6285 18.4928 28.6484 17.5784 28.1057 16.9864L19.8557 7.98641C19.2959 7.37574 18.3471 7.33448 17.7364 7.89427C17.1257 8.45406 17.0845 9.40291 17.6443 10.0136L24.9238 17.9549L16.9393 25.9393Z" fill="white"/> </svg>
-                            </NavLink>
+                            </a>
                         </div>
                         
                     </div>
@@ -316,7 +316,6 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24 tw-my-24  tw-mb-12 ">
@@ -401,35 +400,37 @@ function App() {
                             <div className=" tw-bg-[#0C0108] tw-rounded-lg tw-p-12">
                                 <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fillRule="evenodd" clipRule="evenodd" d="M45.4671 25.4957L31.2002 23.7397C29.5824 23.5406 28.0251 24.4246 27.3667 25.9158L11.3494 62.1963C10.5062 64.1064 11.4109 66.3353 13.3469 67.1172L45.7998 80.2244C47.6929 80.989 49.8474 80.0741 50.612 78.181L67.1208 37.3058C67.8875 35.4075 66.9654 33.2475 65.0641 32.4882L56.1959 28.9468C56.1773 29.0137 56.1548 29.0803 56.1281 29.1462C55.7458 30.0928 54.6686 30.5502 53.722 30.1679L46.6216 27.3001C45.8724 26.9976 45.4296 26.2596 45.4671 25.4957Z" fill="white" fillOpacity="0.1"/> <path fillRule="evenodd" clipRule="evenodd" d="M24.0256 18.4412C22.454 18.5779 21.1422 19.6968 20.7595 21.2273L11.3923 58.6892C10.8885 60.7039 12.1427 62.7382 14.1691 63.193L48.3478 70.864C50.3399 71.3111 52.3173 70.0586 52.7644 68.0665L62.4209 25.0413C62.8682 23.0483 61.6146 21.0703 59.6214 20.6242L43.1963 16.9473C42.8264 16.8645 42.446 16.8391 42.0684 16.8719L24.0256 18.4412ZM44.9561 22.644L42.877 22.1773C42.9479 21.2754 42.3471 20.435 41.4386 20.2311C40.5302 20.0272 39.6278 20.5302 39.3065 21.376L37.4843 20.967C36.4882 20.7435 35.4995 21.3697 35.276 22.3658C35.0524 23.3618 35.6787 24.3505 36.6747 24.5741L44.1465 26.251C45.1426 26.4746 46.1313 25.8483 46.3548 24.8523C46.5784 23.8562 45.9522 22.8675 44.9561 22.644Z" fill="white" fillOpacity="0.5"/> <path fillRule="evenodd" clipRule="evenodd" d="M13.1867 6.71289C11.145 6.71289 9.48987 8.36801 9.48987 10.4097V54.5073C9.48987 56.549 11.145 58.2041 13.1867 58.2041H48.3064C50.348 58.2041 52.0032 56.549 52.0032 54.5073V10.4097C52.0032 8.36801 50.348 6.71289 48.3064 6.71289H13.1867ZM34.5751 11.9934H32.444C32.3157 11.0979 31.5454 10.4095 30.6144 10.4095C29.6833 10.4095 28.9131 11.0979 28.7848 11.9934H26.9174C25.8966 11.9934 25.069 12.8209 25.069 13.8418C25.069 14.8626 25.8966 15.6902 26.9174 15.6902H34.5751C35.5959 15.6902 36.4235 14.8626 36.4235 13.8418C36.4235 12.8209 35.5959 11.9934 34.5751 11.9934Z" fill="white"/> </svg>
                                 <h3 className="tw-text-xl md:tw-text-3xl tw-font-semibold tw-w-40 md:tw-w-2/3">
-                                    Rewards & Incentives
+                                    <Trans>incentives</Trans>
                                 </h3>
                                 <p className="ld:tw-text-2xl tw-mt-4">
-                                    Everything you need to build a program that can send rewards and incentives globally.
+                                    <Trans>incentives_txt</Trans>
                                 </p>
                             </div>
                             <div className=" tw-bg-[#0C0108] tw-rounded-lg tw-p-12">
                                 <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="11.079" y="30.6382" width="55.0382" height="45.6887" rx="6.34446" fill="white"/> <path d="M44.2428 51.8068C44.2428 48.884 46.6122 46.5146 49.5349 46.5146H66.1169V60.627H49.5349C46.6122 60.627 44.2428 58.2576 44.2428 55.3349V51.8068Z" fill="#C9C9C9" fillOpacity="0.75"/> <circle cx="50.8482" cy="53.5708" r="2.65653" transform="rotate(105 50.8482 53.5708)" fill="white"/> <circle cx="54.6638" cy="14.335" r="7.71242" fill="white" fillOpacity="0.1"/> <circle cx="34.7482" cy="29.7593" r="7.71242" fill="#F7F7F7"/> <circle cx="42.3634" cy="20.1919" r="7.71242" fill="white" fillOpacity="0.5"/> </svg>
                                 <h3 className="tw-text-xl md:tw-text-3xl tw-font-semibold tw-w-40 md:tw-w-2/3">
-                                    Benefits
+                                    <Trans>benefits</Trans>
                                 </h3>
                                 <p className="ld:tw-text-2xl tw-mt-4">
-                                    Offer a tailored benefit plan for your employees with one stand-alone solution.                            </p>
+                                    <Trans>benefits_txt</Trans>
+                                </p>
                             </div>
                             <div className=" tw-bg-[#0C0108] tw-rounded-lg tw-p-12">
                                 <svg width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="34.7347" y="17.4565" width="44.2961" height="49.0421" rx="3.95501" transform="rotate(28.2488 34.7347 17.4565)" fill="white" fillOpacity="0.1"/> <rect x="18.2968" y="15.2925" width="44.2961" height="49.0421" rx="3.95501" transform="rotate(12.0112 18.2968 15.2925)" fill="white" fillOpacity="0.25"/> <rect x="4.00818" y="13.0366" width="44.2961" height="49.0421" rx="3.95501" fill="white"/> </svg>
                                 <h3 className="tw-text-xl md:tw-text-3xl tw-font-semibold tw-w-40 md:tw-w-2/3">
-                                    Catalog
+                                    <Trans>catalogue</Trans>
                                 </h3>
                                 <p className="ld:tw-text-2xl tw-mt-4">
-                                    Integrate direct real-time connectivity to every major branded gift card across Algeria.                            </p>
+                                    <Trans>catalogue_txt</Trans>                                
+                                </p>
                             </div>
                             <div className=" tw-bg-[#0C0108] tw-rounded-lg tw-p-12">
                                 <svg width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clipPath="url(#clip0_1984_62313)"> <rect x="13.7437" y="23.272" width="35.4851" height="55.0382" rx="3.62093" transform="rotate(-23.4725 13.7437 23.272)" fill="white"/> <circle cx="40.8348" cy="41.1153" r="8.32815" transform="rotate(-23.4725 40.8348 41.1153)" fill="#D9D9D9"/> <rect x="20.2893" y="16.0688" width="35.4851" height="55.0382" rx="3.62093" transform="rotate(-6.37826 20.2893 16.0688)" fill="white" fillOpacity="0.5"/> <circle cx="40.9387" cy="41.0872" r="8.32815" transform="rotate(-6.37826 40.9387 41.0872)" fill="#D9D9D9" fillOpacity="0.5"/> <rect x="33.9037" y="9.47754" width="35.4851" height="55.0382" rx="3.62093" transform="rotate(20.332 33.9037 9.47754)" fill="white" fillOpacity="0.1"/> <circle cx="41.1047" cy="41.1077" r="8.32815" transform="rotate(20.332 41.1047 41.1077)" fill="#BABABA" fillOpacity="0.1"/> </g> <defs> <clipPath id="clip0_1984_62313"> <rect width="82.2668" height="82.2668" fill="white" transform="translate(0.407227 0.725586)"/> </clipPath> </defs> </svg>
                                 <h3 className="tw-text-xl md:tw-text-3xl tw-font-semibold tw-w-40 md:tw-w-2/3">
-                                    Payouts
+                                    <Trans>payouts</Trans>
                                 </h3>
                                 <p className="ld:tw-text-2xl tw-mt-4">
-                                    Pay anyone instantly, employees, customers and partners with Goubba gift cards.
+                                    <Trans>payouts_txt</Trans>
                                 </p>
                             </div>
                         </div>
@@ -437,26 +438,26 @@ function App() {
                     <div className=" tw-text-white">
                     <h1 className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-z-20 lg:tw-leading-[60px]">
-                            Goubba is a fully- stack embedded solution
+                        <Trans>fullstack_solution</Trans>
                     </h1>
                     <p className=" tw-hidden md:tw-flex tw-text-2xl tw-my-6">
-                            Build your solution piece by piece with modular API suite that lets you integrate new features and geographies as you scale
+                        <Trans>fullstack_solution_txt</Trans>
                     </p>
                         <div className=" tw-m-6 md:tw-m-0">
                             <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/fully stack.webp"></img>
                         </div>
                     
                         <p className=" md:tw-hidden tw-text-2xl tw-my-6 tw-mx-6 tw-text-center">
-                            Build your solution piece by piece with modular API suite that lets you integrate new features and geographies as you scale
+                            <Trans>fullstack_solution_txt</Trans>
                         </p>
                     </div>
                 </div>
                 <div className=" tw-flex tw-justify-center tw-mt-12">
-                    <a href="" className="tw-group  tw-text-lg tw-whitespace-nowrap
+                    <a href="https://corporate.goubba.com/register" className="tw-group  tw-text-lg tw-whitespace-nowrap
                                     tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                     tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10" >
                         <p className=" tw-font-semibold tw-text-white tw-uppercase">
-                            Start now
+                            <Trans>start_now</Trans>
                         </p>
                         <svg className=" group-hover:tw-translate-x-3 tw-duration-300 tw-transition tw-w-8" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect opacity="0.3" x="7.5" y="19.5" width="3" height="21" rx="1" transform="rotate(-90 7.5 19.5)" fill="white"/> <path d="M16.9393 25.9393C16.3536 26.5251 16.3536 27.4749 16.9393 28.0607C17.5251 28.6464 18.4749 28.6464 19.0607 28.0607L28.0607 19.0607C28.6285 18.4928 28.6484 17.5784 28.1057 16.9864L19.8557 7.98641C19.2959 7.37574 18.3471 7.33448 17.7364 7.89427C17.1257 8.45406 17.0845 9.40291 17.6443 10.0136L24.9238 17.9549L16.9393 25.9393Z" fill="white"/> </svg>
                     </a>
