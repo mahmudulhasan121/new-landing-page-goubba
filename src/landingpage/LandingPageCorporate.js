@@ -35,6 +35,7 @@ function App() {
     return (
         <div className="tw-bg-[#13030D] lg:tw-pt-8 tw-w-full">
             <div className="tw-h-20"></div>
+            {/* hero section */}
             <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-8 ">
                 <div className="tw-bg-[#13030D] corporate-shadow  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-16 tw-pb-20
                     tw-h-[85vh]">
@@ -66,6 +67,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            {/* rwarding */}
             <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                             tw-my-24 md:tw-px-24 tw-mb-12 ">
                 <div className="tw-flex tw-items-center tw-w-11/12 tw-mx-auto tw-order-3 md:tw-order-1">
@@ -90,6 +92,7 @@ function App() {
                 <img src="https://adminv2.goubba.com/image?path=react-web/assets/corporate-animation-two.gif"></img>
                 </div>
             </div>
+            {/* exclusive selection */}
             <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                             tw-my-24  tw-mb-12 ">
                 <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1">
@@ -114,6 +117,7 @@ function App() {
                     <img className="md:tw-hidden" src="https://adminv2.goubba.com/image?path=react-web/assets/corporateonemobile.png" alt=""></img>
                 </div>
             </div>
+            {/* cards slider */}
             <div className="slider">
                 <div className="slide-track">
                     <div className="slide">
@@ -196,6 +200,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            {/* explore limitless */}
             <div className=" tw-grid md:tw-grid-cols-2 tw-text-white tw-bg-[#0C0108] tw-mx-4 tw-mt-20 tw-rounded-lg tw-px-8 tw-py-8">
                 <div className=" md:tw-w-2/3 tw-mx-6 tw-flex tw-flex-col tw-justify-center">
                     <h2 className=" tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -213,6 +218,7 @@ function App() {
                     </p>
                 </div>
             </div>
+            {/* epmloyees/customers/partners */}
             <div className="tw-bg-[#0C0108]">
                 <div className="tw-flex md:tw-flex-none md:tw-grid  tw-gap-3 tw-grid-cols-3 tw-text-white  tw-mx-4 tw-mt-10 tw-rounded-lg tw-px-8 tw-py-8
                     tw-overflow-x-auto ">
@@ -261,6 +267,7 @@ function App() {
                     </a>
                 </div>
             </div>
+            {/* huge */}
             <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-5
                             tw-my-24 tw-bg-[#25051B] tw-py-16">
                 <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1 md:tw-col-span-3">
@@ -292,13 +299,14 @@ function App() {
                     <img src="https://adminv2.goubba.com/image?path=react-web/assets/pro member.webp"></img>
                 </div>
             </div>
+            {/* events */}
             <div className="tw-text-3xl  tw-my-24 md:tw-w-11/12 tw-mx-auto">
                 <p className="md:tw-hidden tw-mb-12 tw-text-white tw-font-medium tw-text-center md:tw-text-left ">
                     <Trans>schedue_send</Trans>
                 </p>
                 <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3">
                     <div className="tw-flex tw-justify-center tw-col-span-2  tw-mx-4 tw-mb-10 md:tw-mb-0">
-                        <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/Frame 37058webp.webp" alt=""></img>
+                        <img className="" src="https://adminv2.goubba.com/image?path=react-web/assets/calander_new.webp" alt=""></img>
                     </div>
                     <div className=" tw-mx-4 lg:tw-mx-12">
                         <div className="tw-space-y-6 tw-mx-auto ">
@@ -318,6 +326,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            {/* send and track */}
             <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24 tw-my-24  tw-mb-12 ">
                 <p className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                             tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]">
@@ -347,6 +356,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            {/* wallet */}
             <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-bg-[#25051B] tw-pb-12">
                 <div className="tw-flex tw-justify-center md:tw-justify-start ">
                     <img className="tw-hidden md:tw-flex" src="https://adminv2.goubba.com/image?path=react-web/assets/Frame 37065webp.webp" alt=""></img>
@@ -392,6 +402,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            {/* full-stack */}
             <div className="tw-py-16 md:tw-py-24">
                 <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 md:tw-w-11/12 tw-mx-auto">
                     <div className="tw-my-10 md:tw-my-0 md:tw-flex tw-items-center md:tw-w-11/12 tw-overflow-x-auto md:tw-overflow-x-hidden">
