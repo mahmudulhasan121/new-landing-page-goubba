@@ -749,7 +749,7 @@ function App() {
               className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
               alt=""
             ></img>
-            <video loop className="tw-w-[185px]">
+            <video muted autoPlay loop className="tw-w-[185px]">
               <source src={becomePartner} type="video/webm" />
             </video>
           </div>
