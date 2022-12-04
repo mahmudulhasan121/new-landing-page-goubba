@@ -1,10 +1,14 @@
 import "./App.css";
 import { Parallax } from "react-scroll-parallax";
 import { ParallaxProvider } from "react-scroll-parallax";
+import Lottie from "lottie-react";
 
 import { NavLink } from "react-router-dom";
 import { Trans } from "react-i18next";
+import { GoubbaPro } from "./GoubbaPro";
 
+const becomePartner =
+  "https://adminv2.goubba.com/image?path=react-web/assets/becomepartner.webm";
 const cazanimoC =
   "https://adminv2.goubba.com/image?path=react-web/assets/Cazanimowebp.webp";
 const camperC =
@@ -685,7 +689,7 @@ function App() {
           >
             <div className="tw-rounded-xl topLeft tw-p-8 lg:tw-p-12 ">
               <h1 className="tw-text-5xl lg:tw-text-[50px] xl:tw-text-[62px] 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
-                +200M DA
+                +200dM DA
               </h1>
               <p className="tw-text-[20px] 2xl:tw-text-[24px] tw-font-light">
                 <Trans>in_saving</Trans>
@@ -745,6 +749,9 @@ function App() {
               className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
               alt=""
             ></img>
+            <video loop className="tw-w-[185px]">
+              <source src={becomePartner} type="video/webm" />
+            </video>
           </div>
           <div className="tw-flex xl:tw-hidden tw-items-center tw-gap-2 tw-overflow-x-auto no-scrollbar tw-my-12">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
@@ -756,7 +763,7 @@ function App() {
           </div>
           <div className="tw-flex tw-justify-center ">
             <a
-              href="https://goubba.com/cards"
+              href="/login"
               className="tw-bg-[#FFF6FC]  tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg  tw-group"
             >
               <p className="tw-font-semibold tw-text-[#BA1986]">
@@ -991,7 +998,7 @@ function App() {
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a
-                    href="https://goubba.com/topup"
+                    href="/login"
                     className="tw-group tw-bg-[#FFF6FC] tw-flex tw-justify-center tw-items-center tw-px-6 tw-py-2 tw-gap-4 tw-rounded-lg "
                   >
                     <p className="tw-font-semibold tw-text-[#BA1986]">
@@ -1026,6 +1033,319 @@ function App() {
                     <Trans>we_accept</Trans>:
                   </p>
                   <img src={pay} alt=""></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="tw-bg-[] tw-pb-10 lg:tw-pb-0">
+          <p
+            className="tw-text-2xl -tw-mb-8 tw-text-center tw-font-semibold tw-pt-10 lg:tw-w-2/3
+                        lg:tw-hidden tw-mx-6"
+          >
+            Unlock Goubba PRO, Tons of exclusive Discounts and offers.
+          </p>
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
+            <div className="tw-flex tw-justify-center tw-items-center tw-order-3 lg:tw-order-1 ">
+              <div>
+                <p className="tw-hidden lg:tw-block tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
+                  Unlock Goubba PRO, Tons of exclusive Discounts and offers.
+                </p>
+                <div className="tw-flex tw-justify-center lg:tw-justify-start">
+                  <a href="https://goubba.com/login" className="">
+                    {/* GIF here */}
+                    <Lottie
+                      animationData={GoubbaPro}
+                      loop={true}
+                      className=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="tw-overflow-auto no-scrollbar tw-order-2">
+              <div className="tw-relative tw-py-12">
+                <div className="tw-bg-white tw-drop-shadow-lg tw-rounded-xl tw-px-12 tw-py-8 tw-m-4 tw-h-[700px] tw-overflow-scroll	no-scrollbar tw-scroll-smooth">
+                  <div className="tw-flex tw-justify-center tw-items-center tw-flex-col">
+                    <h3 className="tw-font-bold tw-text-3xl tw-mt-8">
+                      Features of Goubba PRO
+                    </h3>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-6">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Unlock Partner Discounts</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>Yes</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>No</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Deposit Bonus</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>5%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>0%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Exchange Rate Discount</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>30%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>0%</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" tw-mt-20">
+                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                      Payment Fees
+                    </h3>
+                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                      Deposit Fees using:
+                    </p>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">CIB/Edahabia</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>3%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Credit/Debit card</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>4%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Bank Transfer</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>100DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>250DA</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" tw-mt-20">
+                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                      Payment Fees
+                    </h3>
+                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                      Deposit Fees using:
+                    </p>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">CIB/Edahabia</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>3%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Credit/Debit card</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>4%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Bank Transfer</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>100DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>250DA</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" tw-mt-20">
+                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                      Purchasing Fees Using
+                    </p>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">CIB/Edahabia</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>0%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>6%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Credit/Debit card</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>3%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Bank Transfer</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>4%</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10%</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" tw-mt-20">
+                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                      Exchange Rate
+                    </h3>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">1$ to DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>150DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>220DA</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">1€ to DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>150DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>220DA</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" tw-mt-20">
+                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                      Transaction Limits
+                    </h3>
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12">
+                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
+                        <p className=" tw-font-bold	">PRO</p>
+                      </div>
+                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
+                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Deposit Transaction Limit</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>100,000DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10,000DA</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Deposit Limit/Month</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>500,000DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>50,000DA</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Transfer Limit/Day</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>Unlimited</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10,000DA</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Daily Spending Limit</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>Unlimited</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>10,000DA</p>
+                      </div>
+
+                      <div>
+                        <p className="tw-py-2">Monthly Spending Limit</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
+                        <p>300,000DA</p>
+                      </div>
+                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
+                        <p>100,000DA</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
