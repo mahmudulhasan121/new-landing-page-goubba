@@ -318,7 +318,7 @@ const resources = {
   fr: {
     translation: {
       personal: "Particulier",
-      business: "Buisness",
+      business: "Business",
       corporate: "Corporate",
       join: "S'inscrire",
       save_money:
