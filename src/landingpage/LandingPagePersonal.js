@@ -689,7 +689,7 @@ function App() {
           >
             <div className="tw-rounded-xl topLeft tw-p-8 lg:tw-p-12 ">
               <h1 className="tw-text-5xl lg:tw-text-[50px] xl:tw-text-[62px] 2xl:tw-text-[72px] tw-font-bold tw-mb-4 lg:tw-mb-8">
-                +200dM DA
+                +200M DA
               </h1>
               <p className="tw-text-[20px] 2xl:tw-text-[24px] tw-font-light">
                 <Trans>in_saving</Trans>

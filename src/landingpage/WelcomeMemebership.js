@@ -57,7 +57,7 @@ function App() {
                 <div className="tw-mt-6 tw-flex tw-justify-center md:tw-justify-start">
                   <a
                     href="https://corporate.goubba.com/login"
-                    className=" tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
+                    className="tw-rounded-lg hover:tw-bg-[#c92093] tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
                   >
                     <Trans>unlock_now</Trans>
                   </a>
@@ -93,7 +93,7 @@ function App() {
                 <div className="tw-mt-6 tw-flex tw-justify-center md:tw-justify-start">
                   <a
                     href="https://corporate.goubba.com/login"
-                    className=" tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
+                    className="hover:tw-bg-[#c92093] tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
                   >
                     <Trans>check_details</Trans>
                   </a>
@@ -129,7 +129,7 @@ function App() {
                 <div className="tw-mt-6 tw-flex tw-justify-center md:tw-justify-start">
                   <a
                     href="https://corporate.goubba.com/login"
-                    className=" tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
+                    className=" tw-rounded-lg tw-bg-[#BA1986] hover:tw-bg-[#c92093] tw-text-white tw-text-xl tw-py-2 tw-px-6"
                   >
                     <Trans>unlock_now</Trans>
                   </a>
@@ -163,9 +163,12 @@ function App() {
                   <Trans>lower_fees_mmb_txt</Trans>
                 </p>
                 <div className="tw-mt-6 tw-flex tw-justify-center md:tw-justify-start">
-                  <button className=" tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6">
+                  <a
+                    href="https://corporate.goubba.com/login"
+                    className=" tw-rounded-lg hover:tw-bg-[#c92093] tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
+                  >
                     <Trans>check_details</Trans>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -180,7 +183,7 @@ function App() {
         <div className="tw-w-full tw-mb-[2%] lg:tw-mb-[5%] tw-absolute tw-bottom-0 tw-flex tw-justify-center tw-items-start">
           <a
             href="https://corporate.goubba.com/login"
-            className="tw-rounded-lg tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
+            className="tw-rounded-lg hover:tw-bg-[#c92093] tw-bg-[#BA1986] tw-text-white tw-text-xl tw-py-2 tw-px-6"
           >
             <Trans>unlock_now</Trans>
           </a>
