@@ -12,6 +12,7 @@ body {
 }
 a:link {
   text-decoration: none;
+  color: white;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
