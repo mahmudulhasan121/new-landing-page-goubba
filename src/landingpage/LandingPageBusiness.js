@@ -6295,7 +6295,7 @@ function App() {
       <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 tw-mt-16 md:tw-mt-0 tw-px-6 tw-mb-12">
         <div className="tw-flex tw-items-center tw-justify-center  tw-order-1 sm:tw-order-3 tw-w-11/12 tw-mb-6 tw-mx-auto">
           <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20">
-            <Trans>publidh_deals_offers</Trans>
+            <Trans>publish_deals_offers</Trans>
           </p>
         </div>
         <div className="tw-flex tw-justify-center md:tw-col-span-2 tw-order-2">
@@ -6308,15 +6308,16 @@ function App() {
             <Trans>integrate_goubba</Trans>
           </p>
         </div>
-        <div className="tw-flex tw-justify-center md:tw-col-span-2">
+        <div className="tw-justify-center md:tw-col-span-2">
           <img src={checkB} alt=""></img>
         </div>
       </div>
 
+      {/* Integration */}
       <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 tw-mt-16 md:tw-mt-0 tw-px-6 tw-mb-12">
-        <div className="tw-flex tw-items-center tw-justify-center  tw-order-1 sm:tw-order-3 tw-w-11/12 tw-mb-6 tw-mx-auto">
-          <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-text-3xl md:tw-text-4xl lg:tw-text-7xl tw-z-20">
-            The appropriate Integration for your online store
+        <div className="tw-flex tw-items-center tw-justify-center  tw-order-1 md:tw-order-3 tw-w-11/12 tw-mb-6 tw-mx-auto">
+          <p className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-text-3xl md:tw-text-4xl lg:tw-text-6xl xl:tw-text-7xl tw-z-20">
+            <Trans>appropriate_integration</Trans>
           </p>
         </div>
         <div className="tw-flex tw-justify-center md:tw-col-span-2 tw-order-2">

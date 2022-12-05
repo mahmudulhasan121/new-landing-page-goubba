@@ -1040,16 +1040,10 @@ function App() {
         </div>
 
         <div className="tw-bg-[] tw-pb-10 lg:tw-pb-0">
-          <p
-            className="tw-text-2xl -tw-mb-8 tw-text-center tw-font-semibold tw-pt-10 lg:tw-w-2/3
-                        lg:tw-hidden tw-mx-6"
-          >
-            Unlock Goubba PRO, Tons of exclusive Discounts and offers.
-          </p>
-          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  tw-w-10/12 tw-mx-auto">
-            <div className="tw-flex tw-justify-center tw-items-center tw-order-3 lg:tw-order-1 ">
+          <div className="tw-grid tw-grid-flow-row lg:tw-grid-cols-2  sm:tw-w-10/12 sm:tw-mx-auto">
+            <div className="tw-flex tw-order-first tw-mt-8 lg:tw-mt-0 tw-justify-center tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
-                <p className="tw-hidden lg:tw-block tw-text-xl tw-text-center lg:tw-text-left lg:tw-text-5xl lg:tw-leading-[52px] tw-font-medium tw-mb-10 lg:tw-w-2/3">
+                <p className="lg:tw-block tw-text-2xl lg:tw-text-5xl tw-text-center lg:tw-text-left tw-text-3x4 tw-font-medium tw-mb-10 lg:tw-w-2/3">
                   Unlock Goubba PRO, Tons of exclusive Discounts and offers.
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
@@ -1064,16 +1058,16 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="tw-overflow-auto no-scrollbar tw-order-2">
-              <div className="tw-relative tw-py-12">
-                <div className="tw-bg-white tw-drop-shadow-lg tw-rounded-xl tw-px-12 tw-py-8 tw-m-4 tw-h-[700px] tw-overflow-scroll	no-scrollbar tw-scroll-smooth">
-                  <div className="tw-flex tw-justify-center tw-items-center tw-flex-col">
-                    <h3 className="tw-font-bold tw-text-3xl tw-mt-8">
+            <div className="tw-overflow-auto lg:tw-order-2">
+              <div className="tw-relative tw-py-0 tw-py-12">
+                <div className="tw-bg-white tw-drop-shadow-lg tw-rounded-xl tw-p-2 sm:tw-px-12 sm:tw-py-8 tw-m-4 tw-h-[700px] scroll tw-overflow-x-hidden tw-overflow-scroll tw-scroll-smooth">
+                  <div className="tw-mt-20 ">
+                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center tw-mt-8">
                       Features of Goubba PRO
                     </h3>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-6">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-6 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
+                        <p className=" tw-font-bold">PRO</p>
                       </div>
                       <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
                         <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
@@ -1112,13 +1106,13 @@ function App() {
                   </div>
 
                   <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
                       Payment Fees
                     </h3>
-                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                    <p className="tw-font-medium sm:tw-text-lg tw-text-xs tw-mt-8">
                       Deposit Fees using:
                     </p>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
                         <p className=" tw-font-bold	">PRO</p>
                       </div>
@@ -1159,13 +1153,13 @@ function App() {
                   </div>
 
                   <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
                       Payment Fees
                     </h3>
-                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                    <p className="tw-font-medium sm:tw-text-lg tw-text-xs tw-mt-8">
                       Deposit Fees using:
                     </p>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
                         <p className=" tw-font-bold	">PRO</p>
                       </div>
@@ -1206,10 +1200,10 @@ function App() {
                   </div>
 
                   <div className=" tw-mt-20">
-                    <p className="tw-font-medium tw-text-lg tw-mt-8">
+                    <p className="tw-font-medium sm:tw-text-3xl tw-text-sm tw-mt-8">
                       Purchasing Fees Using
                     </p>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
                         <p className=" tw-font-bold	">PRO</p>
                       </div>
@@ -1250,10 +1244,10 @@ function App() {
                   </div>
 
                   <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
                       Exchange Rate
                     </h3>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
                         <p className=" tw-font-bold	">PRO</p>
                       </div>
@@ -1284,10 +1278,10 @@ function App() {
                   </div>
 
                   <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold tw-text-3xl tw-text-center">
+                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
                       Transaction Limits
                     </h3>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12">
+                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
                         <p className=" tw-font-bold	">PRO</p>
                       </div>
