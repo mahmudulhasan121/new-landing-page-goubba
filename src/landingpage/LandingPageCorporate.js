@@ -10357,7 +10357,7 @@ function App() {
                                     tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                     tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10"
           >
-            <p className=" tw-font-semibold tw-text-white tw-uppercase">
+            <p className=" tw-font-semibold tw-text-white">
               <Trans>join</Trans>
             </p>
             <svg
@@ -10431,13 +10431,13 @@ function App() {
                 </svg>
               </a>
               <a
-                href="https://corporate.goubba.com/register"
+                href="/corporate-membership"
                 onClick={scrollToTop}
                 className="tw-group  tw-text-lg tw-whitespace-nowrap
                                             tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
                                             tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10"
               >
-                <p className=" tw-font-semibold tw-text-white tw-uppercase">
+                <p className=" tw-font-semibold tw-text-white">
                   <Trans>check_more</Trans>
                 </p>
                 <svg
@@ -10496,7 +10496,7 @@ function App() {
                   className="tw-group  tw-text-lg tw-whitespace-nowrap
                                                 tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-bg-amber-500 tw-rounded-md  "
                 >
-                  <p className=" tw-font-semibold tw-text-black tw-uppercase">
+                  <p className=" tw-font-semibold tw-text-black">
                     <Trans>coming_soon</Trans>
                   </p>
                 </div>
@@ -10980,7 +10980,7 @@ function App() {
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-z-20 lg:tw-leading-[60px] tw-mt-4 md:tw-mt-0"
             >
-              Your questions, answered
+              <Trans>questions_answers</Trans>
             </p>
             <a
               href="https://corporate.goubba.com/register"

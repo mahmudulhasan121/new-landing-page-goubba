@@ -1044,7 +1044,7 @@ function App() {
             <div className="tw-flex tw-order-first tw-mt-8 lg:tw-mt-0 tw-justify-center tw-items-center tw-order-3 lg:tw-order-1 ">
               <div>
                 <p className="lg:tw-block tw-text-2xl lg:tw-text-5xl tw-text-center lg:tw-text-left tw-text-3x4 tw-font-medium tw-mb-10 lg:tw-w-2/3">
-                  Unlock Goubba PRO, Tons of exclusive Discounts and offers.
+                  <Trans>huge_flexibility</Trans>
                 </p>
                 <div className="tw-flex tw-justify-center lg:tw-justify-start">
                   <a href="https://goubba.com/login" className="">
@@ -1063,28 +1063,40 @@ function App() {
                 <div className="tw-bg-white tw-drop-shadow-lg tw-rounded-xl tw-p-2 sm:tw-px-12 sm:tw-py-8 tw-m-4 tw-h-[700px] scroll tw-overflow-x-hidden tw-overflow-scroll tw-scroll-smooth">
                   <div className="tw-mt-20 ">
                     <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center tw-mt-8">
-                      Features of Goubba PRO
+                      <Trans>features_pro</Trans>
                     </h3>
                     <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-6 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold">PRO</p>
+                        <p className=" tw-font-bold">
+                          <Trans>pro</Trans>
+                        </p>
                       </div>
                       <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                        <p className="tw-text-gray-500 tw-font-bold	">
+                          <Trans>free</Trans>
+                        </p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Unlock Partner Discounts</p>
+                        <p className="tw-py-2">
+                          <Trans>unlock_partner_discounts</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>Yes</p>
+                        <p>
+                          <Trans>yes</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>No</p>
+                        <p>
+                          <Trans>no</Trans>
+                        </p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Deposit Bonus</p>
+                        <p className="tw-py-2">
+                          <Trans>deposit_bonus</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>5%</p>
@@ -1094,7 +1106,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Exchange Rate Discount</p>
+                        <p className="tw-py-2">
+                          <Trans>exchange_rate</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>30%</p>
@@ -1107,21 +1121,27 @@ function App() {
 
                   <div className=" tw-mt-20">
                     <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
-                      Payment Fees
+                      <Trans>payment_fees</Trans>
                     </h3>
                     <p className="tw-font-medium sm:tw-text-lg tw-text-xs tw-mt-8">
-                      Deposit Fees using:
+                      <Trans>deposit_fees</Trans>
                     </p>
                     <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
+                        <p className=" tw-font-bold	">
+                          <Trans>pro</Trans>
+                        </p>
                       </div>
                       <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                        <p className="tw-text-gray-500 tw-font-bold	">
+                          <Trans>free</Trans>
+                        </p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">CIB/Edahabia</p>
+                        <p className="tw-py-2">
+                          <Trans>cib_edahabia</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>3%</p>
@@ -1131,7 +1151,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Credit/Debit card</p>
+                        <p className="tw-py-2">
+                          <Trans>credit_debit_card</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>4%</p>
@@ -1141,54 +1163,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Bank Transfer</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>100DA</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>250DA</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
-                      Payment Fees
-                    </h3>
-                    <p className="tw-font-medium sm:tw-text-lg tw-text-xs tw-mt-8">
-                      Deposit Fees using:
-                    </p>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
-                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
-                      </div>
-                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
-                      </div>
-
-                      <div>
-                        <p className="tw-py-2">CIB/Edahabia</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>3%</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>10%</p>
-                      </div>
-
-                      <div>
-                        <p className="tw-py-2">Credit/Debit card</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>4%</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>10%</p>
-                      </div>
-
-                      <div>
-                        <p className="tw-py-2">Bank Transfer</p>
+                        <p className="tw-py-2">
+                          <Trans>bank_transfer</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>100DA</p>
@@ -1201,18 +1178,24 @@ function App() {
 
                   <div className=" tw-mt-20">
                     <p className="tw-font-medium sm:tw-text-3xl tw-text-sm tw-mt-8">
-                      Purchasing Fees Using
+                      <Trans>purchasing_fees_using</Trans>
                     </p>
                     <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-4 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
+                        <p className=" tw-font-bold	">
+                          <Trans>pro</Trans>
+                        </p>
                       </div>
                       <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                        <p className="tw-text-gray-500 tw-font-bold	">
+                          <Trans>free</Trans>
+                        </p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">CIB/Edahabia</p>
+                        <p className="tw-py-2">
+                          <Trans>cib_edahabia</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>0%</p>
@@ -1222,7 +1205,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Credit/Debit card</p>
+                        <p className="tw-py-2">
+                          <Trans>credit_debit_card</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>3%</p>
@@ -1232,7 +1217,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Bank Transfer</p>
+                        <p className="tw-py-2">
+                          <Trans>bank_transfer</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>4%</p>
@@ -1245,52 +1232,24 @@ function App() {
 
                   <div className=" tw-mt-20">
                     <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
-                      Exchange Rate
+                      <Trans>transaction_limit</Trans>
                     </h3>
                     <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12 sm:tw-text-base tw-text-xs">
                       <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
+                        <p className=" tw-font-bold	">
+                          <Trans>pro</Trans>
+                        </p>
                       </div>
                       <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
+                        <p className="tw-text-gray-500 tw-font-bold	">
+                          <Trans>free</Trans>
+                        </p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">1$ to DA</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>150DA</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>220DA</p>
-                      </div>
-
-                      <div>
-                        <p className="tw-py-2">1€ to DA</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>150DA</p>
-                      </div>
-                      <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
-                        <p>220DA</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className=" tw-mt-20">
-                    <h3 className="tw-font-bold sm:tw-text-3xl tw-text-sm tw-text-center">
-                      Transaction Limits
-                    </h3>
-                    <div className="tw-grid tw-grid-cols-3 tw-gap-x-2 tw-mt-12 sm:tw-text-base tw-text-xs">
-                      <div className="tw-col-start-2 tw-col-end-3 tw-bg-[#FFD949] tw-flex tw-justify-center tw-items-center tw-rounded-t-lg">
-                        <p className=" tw-font-bold	">PRO</p>
-                      </div>
-                      <div className="tw-bg-gray-200 tw-flex tw-justify-center tw-items-center tw-p-2 tw-rounded-t-lg">
-                        <p className="tw-text-gray-500 tw-font-bold	">FREE</p>
-                      </div>
-
-                      <div>
-                        <p className="tw-py-2">Deposit Transaction Limit</p>
+                        <p className="tw-py-2">
+                          <Trans>deposit_transaction_limit</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>100,000DA</p>
@@ -1300,7 +1259,9 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Deposit Limit/Month</p>
+                        <p className="tw-py-2">
+                          <Trans>deposit_limit_month</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>500,000DA</p>
@@ -1310,27 +1271,37 @@ function App() {
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Transfer Limit/Day</p>
+                        <p className="tw-py-2">
+                          <Trans>deposit_limit_day</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>Unlimited</p>
+                        <p>
+                          <Trans>unlimited</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
                         <p>10,000DA</p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Daily Spending Limit</p>
+                        <p className="tw-py-2">
+                          <Trans>daily_spending_limit</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
-                        <p>Unlimited</p>
+                        <p>
+                          <Trans>unlimited</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-gray-100 tw-py-2">
                         <p>10,000DA</p>
                       </div>
 
                       <div>
-                        <p className="tw-py-2">Monthly Spending Limit</p>
+                        <p className="tw-py-2">
+                          <Trans>monthly_spending_limit</Trans>
+                        </p>
                       </div>
                       <div className="tw-flex tw-items-center tw-justify-center tw-bg-[#FFF5CD] tw-py-2">
                         <p>300,000DA</p>

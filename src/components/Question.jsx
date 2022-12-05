@@ -28,7 +28,7 @@ function Question({ quest, ans }) {
                 />
               </svg>
               <svg
-                className="tw-absolute tw-top-[0px] tw-rotate-90 tw-duration-500"
+                className="tw-absolute tw-top-[0px] tw-rotate-0 tw-duration-500"
                 width="28"
                 height="5"
                 viewBox="0 0 28 5"
@@ -73,7 +73,7 @@ function Question({ quest, ans }) {
                 />
               </svg>
               <svg
-                className="tw-absolute tw-top-[0px] tw-rotate-0 tw-duration-500"
+                className="tw-absolute tw-top-[0px] tw-rotate-90 tw-duration-500"
                 width="28"
                 height="5"
                 viewBox="0 0 28 5"
