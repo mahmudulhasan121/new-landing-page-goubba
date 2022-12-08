@@ -744,22 +744,36 @@ function App() {
               alt=""
             ></img>
             <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
-            <img
-              src={profootC}
-              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
-              alt=""
-            ></img>
-            <video muted autoPlay loop className="tw-w-[185px]">
-              <source src={becomePartner} type="video/webm" />
-            </video>
+
+            <a
+              href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <div className="tw-w-[184px]">
+                <video muted autoPlay loop width="184">
+                  <source src={becomePartner} type="video/webm" />
+                </video>
+              </div>
+            </a>
           </div>
           <div className="tw-flex xl:tw-hidden tw-items-center tw-gap-2 tw-overflow-x-auto no-scrollbar tw-my-12">
             <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={footlandC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={profootC} className="tw-w-52 tw-rounded-lg" alt=""></img>
             <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
+            <a
+              href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <div className="tw-w-[184px]">
+                <video muted autoPlay loop width="184">
+                  <source src={becomePartner} type="video/webm" />
+                </video>
+              </div>
+            </a>
           </div>
           <div className="tw-flex tw-justify-center ">
             <a

@@ -9809,7 +9809,7 @@ function App() {
     <div className="tw-bg-[#13030D] lg:tw-pt-8 tw-w-full">
       <div className="tw-h-20"></div>
       {/* hero section */}
-      <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-8 ">
+      <div className=" md:tw-pt-0 md:tw-p-0  tw-rounded-xl md:tw-mx-10 ">
         <div
           className="tw-bg-[#13030D] corporate-shadow  tw-flex tw-justify-center  lg:tw-rounded-xl tw-pt-16 tw-pb-20
                     tw-h-[85vh]"
@@ -9878,7 +9878,7 @@ function App() {
         className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                             tw-my-24 md:tw-px-24 tw-mb-12 "
       >
-        <div className="tw-flex tw-items-center tw-w-11/12 tw-mx-auto tw-order-3 md:tw-order-1">
+        <div className="tw-flex tw-items-center tw-w-11/12 tw-mx-auto tw-order-1 md:tw-order-1">
           <div className="tw-space-y-12">
             <p
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -9933,7 +9933,7 @@ function App() {
         className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 
                             tw-my-24  tw-mb-12 "
       >
-        <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1">
+        <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-1 md:tw-order-1">
           <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24">
             <p
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -10203,7 +10203,7 @@ function App() {
         </div>
       </div>
       {/* explore limitless */}
-      <div className=" tw-grid md:tw-grid-cols-2 tw-text-white tw-bg-[#0C0108] tw-mx-4 tw-mt-20 tw-rounded-lg tw-px-8 tw-py-8">
+      <div className="tw-rounded-xl tw-grid md:tw-grid-cols-2 tw-text-white tw-bg-[#0C0108] tw-mx-2 md:tw-mx-10 tw-mt-20 tw-rounded-lg tw-px-8 tw-py-8">
         <div className=" md:tw-w-2/3 tw-mx-6 tw-flex tw-flex-col tw-justify-center">
           <h2
             className=" tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -10223,9 +10223,9 @@ function App() {
         </div>
       </div>
       {/* epmloyees/customers/partners */}
-      <div className="tw-bg-[#0C0108]">
+      <div className="tw-bg-[#0C0108] tw-rounded-xl tw-mx-2 md:tw-mx-10">
         <div
-          className="tw-flex md:tw-flex-none md:tw-grid  tw-gap-3 tw-grid-cols-3 tw-text-white  tw-mx-4 tw-mt-10 tw-rounded-lg tw-px-8 tw-py-8
+          className="tw-flex md:tw-flex-none md:tw-grid   tw-gap-3 tw-grid-cols-3 tw-text-white  tw-mt-10 tw-rounded-lg tw-px-8 tw-py-8
                     tw-overflow-x-auto "
         >
           <div className=" tw-mx-6 ">
@@ -10973,47 +10973,15 @@ function App() {
       </div>
 
       {/* Questions */}
-      <div className="tw-py-16 md:tw-py-24">
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 md:tw-w-11/12 tw-mx-auto">
+      <div className="tw-bg-[#180310] tw-pt-10 tw-pb-8 tw-px-4 md:tw-px-0 md:tw-pt-24">
+        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 md:tw-px-8 tw-mx-auto">
           <div className="tw-flex tw-items-center md:tw-items-start md:tw-flex-col tw-items-start">
             <p
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
-                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-z-20 lg:tw-leading-[60px] tw-mt-4 md:tw-mt-0"
+                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-mb-8 lg:tw-pr-12 tw-z-20 lg:tw-leading-[60px] tw-mt-4 md:tw-mt-0"
             >
               <Trans>questions_answers</Trans>
             </p>
-            <a
-              href="https://corporate.goubba.com/register"
-              className="tw-group tw-mt-5 tw-text-lg tw-whitespace-nowrap
-                                    tw-flex tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 tw-rounded-md  
-                                    tw-bg-gray-300 tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-md tw-bg-opacity-10"
-            >
-              <p className="tw-font-semibold tw-text-white tw-uppercase">
-                <Trans>more</Trans>
-              </p>
-              <svg
-                className=" group-hover:tw-translate-x-3 tw-duration-300 tw-transition tw-w-8"
-                viewBox="0 0 36 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {" "}
-                <rect
-                  opacity="0.3"
-                  x="7.5"
-                  y="19.5"
-                  width="3"
-                  height="21"
-                  rx="1"
-                  transform="rotate(-90 7.5 19.5)"
-                  fill="white"
-                />{" "}
-                <path
-                  d="M16.9393 25.9393C16.3536 26.5251 16.3536 27.4749 16.9393 28.0607C17.5251 28.6464 18.4749 28.6464 19.0607 28.0607L28.0607 19.0607C28.6285 18.4928 28.6484 17.5784 28.1057 16.9864L19.8557 7.98641C19.2959 7.37574 18.3471 7.33448 17.7364 7.89427C17.1257 8.45406 17.0845 9.40291 17.6443 10.0136L24.9238 17.9549L16.9393 25.9393Z"
-                  fill="white"
-                />{" "}
-              </svg>
-            </a>
           </div>
           <div className="tw-text-white md:tw-col-span-2">
             <Question

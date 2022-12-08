@@ -7,9 +7,9 @@ function Question({ quest, ans }) {
   return (
     <div>
       {toggle ? (
-        <div className="tw-min-h-60 lg:tw-h-36 tw-transition-all tw-duration-500">
+        <div className=" tw-transition-all tw-duration-500">
           <div
-            className="tw-w-full tw-flex tw-mt-2 tw-bg-[#340927] tw-rounded-t-lg tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer "
+            className="tw-w-full tw-flex tw-mt-2 tw-bg-[#340927] tw-rounded-t-xl tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer "
             onClick={() => setToggle(false)}
           >
             <div className="tw-relative tw-bg-red-500">
@@ -52,9 +52,9 @@ function Question({ quest, ans }) {
           </div>
         </div>
       ) : (
-        <div className="tw-h-20 tw-transition-all tw-duration-500">
+        <div className="tw-transition-all tw-duration-500">
           <div
-            className="tw-flex tw-mt-2 tw-bg-[#13020D] tw-w-full tw-rounded-t-lg tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer"
+            className="tw-flex tw-mt-2 tw-bg-[#13020D] tw-w-full tw-rounded-xl tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer"
             onClick={() => setToggle(true)}
           >
             <div className="tw-relative">
