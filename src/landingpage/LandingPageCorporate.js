@@ -10571,7 +10571,7 @@ function App() {
         </div>
       </div>
       {/* wallet */}
-      <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-bg-[#25051B] tw-pb-12">
+      <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-pb-12">
         <div className="tw-flex tw-justify-center md:tw-justify-start ">
           <img
             className="tw-hidden md:tw-flex"
@@ -10682,7 +10682,7 @@ function App() {
         </div>
       </div>
       {/* full-stack */}
-      <div className="tw-py-16 md:tw-py-24">
+      <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24">
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 md:tw-w-11/12 tw-mx-auto">
           <div className="tw-my-10 md:tw-my-0 md:tw-flex tw-items-center md:tw-w-11/12 tw-overflow-x-auto md:tw-overflow-x-hidden">
             <div
@@ -10973,8 +10973,8 @@ function App() {
       </div>
 
       {/* Questions */}
-      <div className="tw-bg-[#180310] tw-pt-10 tw-pb-8 tw-px-4 md:tw-px-0 md:tw-pt-24">
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 md:tw-px-8 tw-mx-auto">
+      <div className="tw-pt-10 tw-pb-8 tw-mx-2 md:tw-mx-10 tw-px-2 md:tw-px-0 md:tw-pt-24">
+        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 tw-px-0 md:tw-px-8 tw-mx-auto">
           <div className="tw-flex tw-items-center md:tw-items-start md:tw-flex-col tw-items-start">
             <p
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
