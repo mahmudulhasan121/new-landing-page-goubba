@@ -6146,7 +6146,7 @@ function App() {
     <div className="tw-bg-[#4A0A36] lg:tw-px-8 lg:tw-py-8 tw-w-full">
       <div className="tw-h-20"></div>
       <div className=" md:tw-pt-0 md:tw-p-0 tw-w-full md:tw-mx-auto tw-rounded-xl ">
-        <div className="retropurple-background tw-min-h-[800px]  tw-flex tw-justify-center tw-items-center  lg:tw-rounded-t-xl tw-py-12">
+        <div className="retropurple-background tw-min-h-[80vh]  tw-flex tw-justify-center tw-items-center  lg:tw-rounded-t-xl tw-py-12">
           <div>
             {landDetect == "en" ? (
               <Lottie animationData={textEn} loop={true} className="tw-mx-4" />
@@ -6155,7 +6155,7 @@ function App() {
             ) : (
               <Lottie animationData={textEn} loop={true} className="tw-mx-4" />
             )}
-            <div className="tw-flex tw-justify-center tw-mt-12 md:tw-mt-24">
+            <div className="tw-flex tw-justify-center tw-mt-6">
               <a
                 href="https://partner.goubba.com"
                 className=" tw-group tw-bg-white tw-bg-opacity-30 tw-backdrop-blur-lg  
