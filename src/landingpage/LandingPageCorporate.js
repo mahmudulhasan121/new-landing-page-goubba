@@ -10390,9 +10390,9 @@ function App() {
       {/* huge */}
       <div
         className="tw-grid tw-grid-flow-row md:tw-grid-cols-5
-                            tw-my-24 tw-bg-[#25051B] tw-h-[100vh]"
+                            tw-mt-24 tw-bg-[#25051B] tw-h-[100vh]"
       >
-        <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1 md:tw-col-span-3">
+        <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-2 md:tw-order-1 md:tw-col-span-3">
           <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24">
             <h1
               className="tw-text-white tw-font-medium tw-text-center md:tw-text-left 
@@ -10415,7 +10415,6 @@ function App() {
                   fill="white"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  {" "}
                   <rect
                     opacity="0.3"
                     x="6.25"
@@ -10429,7 +10428,7 @@ function App() {
                   <path
                     d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z"
                     fill="white"
-                  />{" "}
+                  />
                 </svg>
               </a>
               <a
@@ -10468,12 +10467,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="tw-order-2 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
+        <div className="tw-order-1 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
           <img src="https://adminv2.goubba.com/image?path=react-web/assets/pro member.webp"></img>
         </div>
       </div>
       {/* events */}
-      <div className="tw-text-3xl  tw-my-24 md:tw-w-11/12 tw-mx-auto">
+      <div className="tw-text-3xl tw-flex tw-flex-col tw-justify-center md:tw-items-center md:tw-w-11/12 tw-mx-auto tw-h-[100vh]">
         <p className="md:tw-hidden tw-mb-12 tw-text-white tw-font-medium tw-text-center md:tw-text-left ">
           <Trans>schedue_send</Trans>
         </p>
@@ -10485,7 +10484,7 @@ function App() {
               alt=""
             ></img>
           </div>
-          <div className=" tw-mx-4 lg:tw-mx-12">
+          <div className=" tw-mx-4 lg:tw-mx-12 tw-flex tw-flex-col tw-justify-center">
             <div className="tw-space-y-6 tw-mx-auto ">
               <p
                 className="tw-hidden md:tw-block tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-break-words 
@@ -10573,7 +10572,7 @@ function App() {
         </div>
       </div>
       {/* wallet */}
-      <div className="tw-h-[100vh] tw-flex tw-flex-col tw-justify-center tw-items-center">
+      <div className="tw-h-[100vh] tw-min-h-[700px] tw-py-24 md:tw-py-0 tw-flex tw-flex-col tw-justify-center tw-items-center">
         <p
           className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                             tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]"
