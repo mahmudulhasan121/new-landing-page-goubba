@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Question from "../components/Question";
+import { faq } from "../data/faq";
+import Faq from "../components/organisms/Faq";
 const animation1 = {
   v: "5.8.1",
   fr: 60,
@@ -10388,7 +10390,7 @@ function App() {
       {/* huge */}
       <div
         className="tw-grid tw-grid-flow-row md:tw-grid-cols-5
-                            tw-my-24 tw-bg-[#25051B] tw-py-16"
+                            tw-my-24 tw-bg-[#25051B] tw-h-[100vh]"
       >
         <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto md:tw-w-11/12 tw-order-3 md:tw-order-1 md:tw-col-span-3">
           <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24">
@@ -10401,7 +10403,7 @@ function App() {
             <div className="tw-flex tw-justify-center md:tw-justify-start">
               <a
                 href="https://goubba.com/cards"
-                className="tw-group twflex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                className="tw-group tw-flex tw-hidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
                                             tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 "
               >
                 <p className="tw-font-semibold tw-text-white">
@@ -10466,7 +10468,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="tw-order-2 tw-ml-10 tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
+        <div className="tw-order-2 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
           <img src="https://adminv2.goubba.com/image?path=react-web/assets/pro member.webp"></img>
         </div>
       </div>
@@ -10506,7 +10508,7 @@ function App() {
         </div>
       </div>
       {/* send and track */}
-      <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24 tw-my-24  tw-mb-12 ">
+      <div className="tw-bg-[#25051B] tw-h-[100vh] tw-flex tw-flex-col tw-justify-center tw-items-center">
         <p
           className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left 
                             tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]"
@@ -10571,7 +10573,75 @@ function App() {
         </div>
       </div>
       {/* wallet */}
-      <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 tw-pb-12">
+      <div className="tw-h-[100vh] tw-flex tw-flex-col tw-justify-center tw-items-center">
+        <p
+          className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left 
+                            tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]"
+        >
+          <Trans>unused_rewards</Trans>
+        </p>
+        <div
+          className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 md:tw-w-11/12 tw-mx-auto
+                                tw-my-12"
+        >
+          <div className="tw-flex tw-items-center tw-mx-4 md:tw-mx-auto  tw-order-3 md:tw-order-2">
+            <div className="tw-space-y-12 tw-mx-4 lg:tw-mx-24 tw-w-full">
+              <p
+                className="tw-hidden md:tw-flex tw-text-white tw-font-medium tw-text-center md:tw-text-left 
+                                        tw-text-3xl md:tw-text-3xl lg:tw-text-5xl 2xl:tw-text-7xl tw-z-20 lg:tw-leading-[60px] 2xl:tw-leading-[80px]"
+              >
+                <Trans>unused_rewards</Trans>
+              </p>
+              <div className="tw-flex tw-w-full tw-justify-center md:tw-justify-start">
+                <a
+                  href="https://partner.goubba.com"
+                  className="tw-group 
+                                        tw-flex twhidden tw-justify-center tw-items-center tw-px-8 tw-py-2 tw-gap-4 
+                                        tw-bg-gray-400 tw-rounded-md tw-bg-clip-padding tw-backdrop-filter tw-backdrop-blur-sm tw-bg-opacity-10 "
+                >
+                  <p className="tw-font-semibold tw-text-white">
+                    <Trans>start_now</Trans>
+                  </p>
+                  <svg
+                    className="tw-w-8 group-hover:tw-translate-x-2 tw-duration-800 tw-transition"
+                    viewBox="0 0 30 31"
+                    fill="white"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      opacity="0.3"
+                      x="6.25"
+                      y="16.75"
+                      width="2.5"
+                      height="17.5"
+                      rx="1"
+                      transform="rotate(-90 6.25 16.75)"
+                      fill="white"
+                    />
+                    <path
+                      d="M14.1161 22.1161C13.628 22.6043 13.628 23.3957 14.1161 23.8839C14.6043 24.372 15.3957 24.372 15.8839 23.8839L23.3839 16.3839C23.8571 15.9107 23.8737 15.1487 23.4214 14.6553L16.5464 7.15534C16.08 6.64644 15.2892 6.61207 14.7803 7.07856C14.2714 7.54505 14.2371 8.33576 14.7036 8.84466L20.7698 15.4624L14.1161 22.1161Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="tw-flex tw-justify-center lg:tw-justify-end tw-order-1">
+            <img
+              className="tw-hidden md:tw-flex"
+              src="https://adminv2.goubba.com/image?path=react-web/assets/Frame 37065webp.webp"
+              alt=""
+            ></img>
+            <img
+              className="md:tw-hidden"
+              src="https://adminv2.goubba.com/image?path=react-web/assets/corporatefourmobile.png"
+              alt=""
+            ></img>
+          </div>
+        </div>
+      </div>
+      {/* <div className="tw-h-[100vh] tw-flex tw-flex-col md:tw-flex-row tw-justify-center tw-items-center">
         <div className="tw-flex tw-justify-center md:tw-justify-start ">
           <img
             className="tw-hidden md:tw-flex"
@@ -10680,7 +10750,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* full-stack */}
       <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24">
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 md:tw-w-11/12 tw-mx-auto">
@@ -10973,32 +11043,7 @@ function App() {
       </div>
 
       {/* Questions */}
-      <div className="tw-pt-10 tw-pb-8 tw-mx-2 md:tw-mx-10 tw-px-2 md:tw-px-0 md:tw-pt-24">
-        <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-3 tw-px-0 md:tw-px-8 tw-mx-auto">
-          <div className="tw-flex tw-items-center md:tw-items-start md:tw-flex-col tw-items-start">
-            <p
-              className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
-                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-mb-8 lg:tw-pr-12 tw-z-20 lg:tw-leading-[60px] tw-mt-4 md:tw-mt-0"
-            >
-              <Trans>questions_answers</Trans>
-            </p>
-          </div>
-          <div className="tw-text-white md:tw-col-span-2">
-            <Question
-              quest={<Trans>refund_question</Trans>}
-              ans={<Trans>refund_question_txt</Trans>}
-            />
-            <Question
-              quest={<Trans>digitalized_question</Trans>}
-              ans={<Trans>digitalized_question_txt</Trans>}
-            />
-            <Question
-              quest={<Trans>expiration_question</Trans>}
-              ans={<Trans>expiration_question_txt</Trans>}
-            />
-          </div>
-        </div>
-      </div>
+      <Faq />
     </div>
   );
 }
