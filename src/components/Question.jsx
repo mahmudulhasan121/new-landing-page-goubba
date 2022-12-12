@@ -16,7 +16,7 @@ function Question({ id, quest, ans, isOpen, handleChange }) {
             checked={isOpen}
           />
 
-          <label htmlFor={id}>
+          <label htmlFor={id} className="tw-w-full">
             <div className="tw-w-full tw-flex tw-mt-2 tw-bg-[#340927] tw-rounded-t-xl tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer ">
               <div className="tw-relative">
                 <svg
@@ -68,7 +68,7 @@ function Question({ id, quest, ans, isOpen, handleChange }) {
             value={id}
             onChange={handleChange}
           />
-          <label htmlFor={id}>
+          <label htmlFor={id} className="tw-w-full">
             <div className="tw-flex tw-mt-2 tw-bg-[#13020D] tw-w-full tw-rounded-xl tw-items-center tw-gap-3 tw-text-lg tw-font-medium tw-p-4 tw-cursor-pointer">
               <div className="tw-relative">
                 <svg
