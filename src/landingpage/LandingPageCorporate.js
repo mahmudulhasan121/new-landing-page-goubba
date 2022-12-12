@@ -10213,7 +10213,7 @@ function App() {
           >
             <Trans>explore_possibilities</Trans>
           </h2>
-          <p className=" tw-hidden md:tw-flex md:tw-text-3xl tw-my-6">
+          <p className="tw-hidden md:tw-flex md:tw-text-3xl tw-my-6">
             <Trans>explore_possibilities_txt</Trans>
           </p>
         </div>
@@ -10400,6 +10400,9 @@ function App() {
             >
               <Trans>huge_flexibility</Trans>
             </h1>
+            <div className="md:tw-hidden tw-order-2 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
+              <img src="https://adminv2.goubba.com/image?path=react-web/assets/pro member.webp"></img>
+            </div>
             <div className="tw-flex tw-justify-center md:tw-justify-start">
               <a
                 href="https://goubba.com/cards"
@@ -10467,7 +10470,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="tw-order-1 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
+        <div className="tw-hidden md:tw-flex tw-order-1 tw-ml-10 md:tw-mb-10 md:tw-mb-0 tw-flex tw-items-center md:tw-col-span-2 md:tw-mr-12">
           <img src="https://adminv2.goubba.com/image?path=react-web/assets/pro member.webp"></img>
         </div>
       </div>
@@ -10753,7 +10756,16 @@ function App() {
       {/* full-stack */}
       <div className="tw-bg-[#25051B] tw-py-16 md:tw-py-24">
         <div className="tw-grid tw-grid-flow-row md:tw-grid-cols-2 md:tw-w-11/12 tw-mx-auto">
-          <div className="tw-my-10 md:tw-my-0 md:tw-flex tw-items-center md:tw-w-11/12 tw-overflow-x-auto md:tw-overflow-x-hidden">
+          <h1
+            className="md:tw-hidden tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
+                                    tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-z-20 lg:tw-leading-[60px]"
+          >
+            <Trans>fullstack_solution</Trans>
+          </h1>
+          <p className="md:tw-hidden tw-text-white tw-text-2xl tw-my-6 tw-mx-6 tw-text-center">
+            <Trans>fullstack_solution_txt</Trans>
+          </p>
+          <div className=" tw-my-10 md:tw-my-0 md:tw-flex tw-items-center md:tw-w-11/12 tw-overflow-x-auto md:tw-overflow-x-hidden">
             <div
               className=" tw-flex md:tw-flex-none md:tw-grid md:tw-grid-cols-2 tw-text-white tw-gap-6
                             tw-w-full tw-mx-3"
@@ -10985,24 +10997,27 @@ function App() {
           </div>
           <div className=" tw-text-white">
             <h1
-              className="tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
+              className=" tw-hidden md:tw-block tw-text-white tw-font-medium tw-text-center md:tw-text-left tw-mx-4 md:tw-mx-0
                                     tw-text-3xl md:tw-text-3xl lg:tw-text-5xl tw-z-20 lg:tw-leading-[60px]"
             >
               <Trans>fullstack_solution</Trans>
             </h1>
-            <p className=" tw-hidden md:tw-flex tw-text-2xl tw-my-6">
+            <p className="tw-hidden md:tw-block md:tw-flex tw-text-2xl tw-my-6">
               <Trans>fullstack_solution_txt</Trans>
             </p>
             <div className=" tw-m-6 md:tw-m-0">
               <img
-                className=""
+                className="tw-hidden md:tw-block"
                 src="https://adminv2.goubba.com/image?path=react-web/assets/fully stack.webp"
               ></img>
             </div>
 
-            <p className=" md:tw-hidden tw-text-2xl tw-my-6 tw-mx-6 tw-text-center">
-              <Trans>fullstack_solution_txt</Trans>
-            </p>
+            <div className=" tw-m-6 md:tw-m-0">
+              <img
+                className="md:tw-hidden"
+                src="https://adminv2.goubba.com/image?path=react-web/assets/fully stack.webp"
+              ></img>
+            </div>
           </div>
         </div>
         <div className=" tw-flex tw-justify-center tw-mt-12">
