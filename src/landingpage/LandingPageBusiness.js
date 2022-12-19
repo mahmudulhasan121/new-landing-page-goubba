@@ -6143,7 +6143,7 @@ function App() {
   const { i18n } = useTranslation();
   const landDetect = i18n.language;
   return (
-    <div className="tw-bg-[#4A0A36] lg:tw-px-8 tw-w-full">
+    <div className="tw-bg-[#4A0A36] lg:tw-pb-8 lg:tw-px-8 tw-w-full">
       <div className="tw-h-20 lg:tw-h-24"></div>
       <div className=" md:tw-pt-0 md:tw-p-0 tw-w-full md:tw-mx-auto tw-rounded-xl ">
         <div className="retropurple-background tw-h-[80vh] tw-min-h-[500px]  tw-flex tw-justify-center tw-items-center lg:tw-items-center lg:tw-rounded-t-xl md:tw-pb-36">
@@ -6324,13 +6324,13 @@ function App() {
         </div>
       </div>
 
-      <div className="retropurple-background tw-h-[80vh] tw-flex tw-justify-center tw-items-center lg:tw-my-16 tw-py-24 md:tw-py-44 tw-mx-auto lg:tw-rounded-xl ">
+      <div className="retropurple-background tw-h-[80vh] tw-flex tw-justify-center tw-items-center tw-py-24 md:tw-py-44 tw-mx-auto lg:tw-rounded-xl ">
         <div>
           <h1 className="tw-text-[#700F50] tw-font-bold md:tw-leading-[80px] tw-leading-10 tw-text-4xl md:tw-text-[96px] tw-text-center">
             <Trans>join_as_partner</Trans>
           </h1>
           <div>
-            <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24">
+            <div className="tw-flex tw-justify-center tw-mt-12 lg:tw-mt-24 ">
               <a
                 href="https://partner.goubba.com"
                 className="tw-group tw-bg-white tw-bg-opacity-20 backdrop-blur-lg    
