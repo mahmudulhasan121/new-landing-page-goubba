@@ -726,24 +726,36 @@ function App() {
           </div>
         </div>
 
-        <div className="tw-my-12 lg:tw-mt-28 lg:tw-mb-0 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto">
-          <h2 className="tw-text-[#021E27] tw-text-2xl tw-w-2/3 lg:tw-w-full lg:tw-text-[48px] tw-font-medium tw-mb-6">
+        <div className="tw-my-12 lg:tw-mt-28 lg:tw-mb-0 tw-w-11/12 lg:tw-w-9/12 tw-mx-auto tw-flex tw-items-center tw-flex-col">
+          <h2 className="tw-text-[#021E27] tw-text-2xl tw-text-center tw-w-2/3 lg:tw-w-full lg:tw-text-[48px] tw-font-medium tw-mb-6">
             <Trans>list_of</Trans>
           </h2>
           <div className="tw-hidden xl:tw-flex tw-items-center tw-justify-center tw-my-12 lg:tw-mb-6 tw-gap-2 ">
-            <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img
+              src={technoC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
             <img
               src={scechersC}
               className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
               alt=""
             ></img>
-            <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
+            <img
+              src={cazanimoC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
             <img
               src={footlandC}
               className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
               alt=""
             ></img>
-            <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
+            <img
+              src={camperC}
+              className="tw-w-52  tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
 
             <a
               href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34"
@@ -758,11 +770,11 @@ function App() {
             </a>
           </div>
           <div className="tw-flex xl:tw-hidden tw-items-center tw-gap-2 tw-overflow-x-auto no-scrollbar tw-my-12">
-            <img src={technoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={scechersC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={cazanimoC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={footlandC} className="tw-w-52 tw-rounded-lg" alt=""></img>
-            <img src={camperC} className="tw-w-52  tw-rounded-lg" alt=""></img>
+            <img
+              src={technoC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
             <a
               href="https://crm.goubba.com/forms/f/2f660211-216a-4249-902f-e3f6b8182c34"
               target="_blank"
@@ -774,6 +786,26 @@ function App() {
                 </video>
               </div>
             </a>
+            <img
+              src={scechersC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
+            <img
+              src={cazanimoC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
+            <img
+              src={footlandC}
+              className="tw-w-52 tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
+            <img
+              src={camperC}
+              className="tw-w-52  tw-rounded-lg tw-drop-shadow-lg"
+              alt=""
+            ></img>
           </div>
           <div className="tw-flex tw-justify-center ">
             <a
